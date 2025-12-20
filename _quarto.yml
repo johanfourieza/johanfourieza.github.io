@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - site_libs
+
+website:
+  title: ""
+  navbar:
+    title: false
+    alignment: center
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: students.qmd
+        text: Students
+      - href: https://www.ourlongwalk.com
+        text: Blog
+        target: _blank
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
+
