@@ -2,20 +2,13 @@
 title: "'The future belongs to those who believe in a better tomorrow'"
 ---
 
-::: {.columns}
-::: {.column width="31%"}
-![](images/Johan_Fourie.jpg)
-:::
+![](images/Johan_Fourie.jpg){style="float:left; width:260px; margin:0 2rem 1.5rem 0;" fig-alt="Portrait of Johan Fourie"}
 
-::: {.column width="69%" style="margin-left: 2rem; margin-right: -2rem;"}
 I am Professor of Economics and Chair of Economics, History and Policy at Stellenbosch University, where I also direct LEAP, [the Laboratory for the Economics of Africa’s Past](https://leapstellenbosch.org.za/). I teach economic history to undergraduate and graduate students, and regularly publish on the subject academically, through journal articles and book chapters, as well as popularly, as a columnist, blogger, and podcast host.
 
 My book, [*Our Long Walk to Economic Freedom*](https://www.cambridge.org/core/books/our-long-walk-to-economic-freedom/0985F9390A3B26B40DE0AC6BC1111414) (CUP), offers an accessible and engaging introduction to economic history from an African perspective. Its closing line – ‘The future belongs to those who believe in a better tomorrow’ – captures my conviction that economic history is fundamentally optimistic: we have the agency to build a more prosperous, equitable society.
 
-:::
-:::
-
-I see myself as a knowledge broker – or, to use the language of economic history, an idea merchant – who believes that effective science communication matters deeply. Stories not only help us understand the world around us, they actively shape it.
+I see myself as a knowledge broker, who believes that effective science communication matters deeply. Stories not only help us understand the world around us, they actively shape it.
 
 My blog, [ourlongwalk.com](http://www.ourlongwalk.com), now followed by more than 5,000 subscribers, features my columns (News24, Currency, LitNet, Rapport) and essays. I also co-host the *Our Long Walk* podcast, available on all major platforms.
 
