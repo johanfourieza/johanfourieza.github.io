@@ -57,3 +57,20 @@ pre code {
 .navbar-brand {
   color: #693e23 !important;
 }
+
+ul {
+  list-style-type: square;
+}
+
+figure {
+  margin-bottom: 2rem;   /* space after the whole figure */
+}
+
+figure img {
+  margin-bottom: 0.25rem; /* space between image and caption */
+}
+
+figure figcaption {
+  margin-top: 0.25rem;    /* space above caption */
+  margin-bottom: 1rem;  /* space below caption */
+}

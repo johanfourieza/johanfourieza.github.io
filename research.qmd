@@ -1,3 +1,51 @@
 ---
-title: "'The future belongs to those who believe in a better tomorrow'"
+title: "'An attempt to study the inventory of alternatives'"
+bibliography: references.bib
+nocite: |
+  @*
 ---
+
+## Latest working papers
+
+-   The Case for Applied Economic History (with Chris Colvin)
+-   Running Towards: Labour market incentives for runaway slaves in the British Cape Colony, 1830–1838 (with Karl Bergemann and Gabriel Brown)
+-   Counter-Elite Mobilization and Settler Colonialism: The Structure of Contestation in the Cape Colony, 1779 (with Jonathan Schoots)
+
+## Overview
+
+I did not choose economic history; it chose me. It began, improbably, with a paper on ship traffic at the Cape and a Lisbon conference audience of three. There I met Jan Luiten van Zanden, the author of the quote above, and that conversation sent me to Utrecht University to do a PhD in Economic History. I completed it in 2012, using probate inventories and the Cape tax censuses to study the nature, causes, and distribution of wealth in the eighteenth-century Cape Colony.
+
+That early work left me with a bias that still shapes everything I do: if you want to understand how societies change, you need evidence that is granular enough to surprise you. Quantitative records can do that. They can also puncture comfortable myths. In my case, the probate inventories and tax censuses made it hard to sustain the old story of a uniformly poor settler society.
+
+The Cape of Good Hope Panel project is a direct descendant of that realisation. It is an ambitious effort to transcribe the full series of the *opgaafrolle* and to turn them into a household panel that can be followed over time, and, when matched to genealogies, across generations. The aim is not just a bigger spreadsheet. It is a new research infrastructure for South African history – one that can support questions we could not ask before, or could only ask impressionistically.
+
+What have we learned so far? Two things can be true at once. The Cape was, on average, a wealthy society by the standards of its time, and it was also a severely unequal one. My work using probate inventories and tax censuses shows that many settler farmers were well-off, even in comparison to some of the wealthiest societies of the period. But the same sources also reveal how sharply that prosperity was distributed, within and between groups. And once you can measure wealth at the household level, the questions become harder, and better: how did elites maintain their advantage; which factors made mobility possible; what did “opportunity” mean in a society built on unfree labour.
+
+![The closing conference of the Biography project in 2022](images/Biography.jpg){style="display:block; width:100%; margin:0;" fig-alt="At the Biography closing conference in 2022"}
+
+The richness of the Cape records also makes it possible to widen the lens beyond the usual protagonists. Some of my work has tried to recover histories of people who are often absent from conventional archives, precisely because their lives were not written down in the places historians tend to look. It is not archival cosplay. It is an attempt to make the evidentiary base of South African history more representative, and therefore more useful.
+
+Because of this interest in Africa’s past, I was pulled early into the African Economic History Network, founded in 2011. That community has shaped my research in two ways. First, it has kept me honest about parochialism. South Africa is endlessly interesting, but it is not the whole story. Second, it pushed me to think about who gets to write economic history, and which skills and incentives determine who participates. In my own writing I have argued that the “data revolution” in African economic history is real, but unevenly distributed, and that building capacity on the continent is part of the scholarly job.
+
+More recently, my attention has shifted from building datasets and answering historical questions to thinking harder about how economic history can matter for the present. With Chris Colvin, I define applied economic history as the systematic, context-sensitive use of historical reasoning to illuminate contemporary policy problems – not by offering ready-made lessons, but by disciplining the analogies and narratives that policymakers and publics already use. The move is subtle but important: instead of beginning with a historical episode and asking why it happened, an applied approach starts with a current problem and works backwards, testing which parallels illuminate and which mislead.
+
+This is also where my role as Chair in Economics, History and Policy comes in. My research uses extensive historical records and quantitative analysis to investigate the drivers of societal change in South African history, with an eye on what that can contribute to economic theory and policy-making now. The past does not provide a blueprint. It does provide an inventory of alternatives, and a way to argue about trade-offs with more humility and more evidence than the usual policy advice allows.
+
+## Recent grants and awards
+
+|      Year | Grant / award                                                                                  | Grant number     | Funder / body                              | Role     |
+|--------------:|---------------|---------------|---------------|---------------|
+|      2025 | Chancellor's Award: Social Impact                                                              | \-               | Stellenbosch Unviersity                    | \-       |
+| 2025-2027 | The Cape of Good Health? Death, disease and development disparities in the Cape Province, 1912 | CPRR240403211840 | South African National Research Foundation | PI       |
+|      2025 | Our Long Walk to Economic Freedom graphic novel                                                | #8644            | Emergent Ventures                          | PI       |
+|      2024 | Interdisciplinary Research Prize                                                               | \-               | Stellenbosch University                    | Director |
+|      2024 | Top Researcher Award                                                                           | \-               | Stellenbosch University                    | \-       |
+| 2021–2026 | Cape of Good Hope Panel project                                                                | M20-0041         | Riksbankens Jubileumsfond                  | Co-PI    |
+| 2018–2022 | Biography of an Uncharted People project                                                                | -         | Mellon Foundation                  | PI    |
+
+## Selected publications
+
+[Google Scholar](https://scholar.google.com/citations?user=DL4f8DQAAAAJ&hl=en&authuser=1&oi=ao) has a complete list of my publications.
+
+::: {#refs}
+:::

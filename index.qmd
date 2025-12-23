@@ -2,7 +2,7 @@
 title: "'The future belongs to those who believe in a better tomorrow'"
 ---
 
-![](images/Johan_Fourie.jpg){style="float:left; width:260px; margin:0 2rem 1.5rem 0;" fig-alt="Portrait of Johan Fourie"}
+![](images/Johan_Fourie.jpg){style="float:left; width:275px; margin:0 2rem 1rem 0;" fig-alt="Portrait of Johan Fourie"}
 
 I am Professor of Economics and Chair of Economics, History and Policy at Stellenbosch University, where I also direct LEAP, [the Laboratory for the Economics of Africa’s Past](https://leapstellenbosch.org.za/). I teach economic history to undergraduate and graduate students, and regularly publish on the subject academically, through journal articles and book chapters, as well as popularly, as a columnist, blogger, and podcast host.
 
