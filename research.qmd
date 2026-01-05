@@ -1,8 +1,5 @@
 ---
 title: "'An attempt to study the inventory of alternatives'"
-bibliography: references.bib
-nocite: |
-  @*
 ---
 
 ## Latest working papers
@@ -13,7 +10,7 @@ nocite: |
 
 ## Overview
 
-I did not choose economic history; it chose me. It began, improbably, with a paper on ship traffic at the Cape and a Lisbon conference audience of three. There I met Jan Luiten van Zanden, the author of the quote above, and that conversation sent me to Utrecht University to do a PhD in Economic History. I completed it in 2012, using probate inventories and the Cape tax censuses to study the nature, causes, and distribution of wealth in the eighteenth-century Cape Colony.
+I did not choose economic history; it chose me. It began, improbably, with a paper on ship traffic at the Cape and a Lisbon conference audience of three. There I met the economic historian Jan Luiten van Zanden and that conversation sent me to Utrecht University to do a PhD in Economic History. I completed it in 2012, using probate inventories and the Cape tax censuses to study the nature, causes, and distribution of wealth in the eighteenth-century Cape Colony.
 
 That early work left me with a bias that still shapes everything I do: if you want to understand how societies change, you need evidence that is granular enough to surprise you. Quantitative records can do that. They can also puncture comfortable myths. In my case, the probate inventories and tax censuses made it hard to sustain the old story of a uniformly poor settler society.
 
@@ -21,7 +18,7 @@ The Cape of Good Hope Panel project is a direct descendant of that realisation. 
 
 What have we learned so far? Two things can be true at once. The Cape was, on average, a wealthy society by the standards of its time, and it was also a severely unequal one. My work using probate inventories and tax censuses shows that many settler farmers were well-off, even in comparison to some of the wealthiest societies of the period. But the same sources also reveal how sharply that prosperity was distributed, within and between groups. And once you can measure wealth at the household level, the questions become harder, and better: how did elites maintain their advantage; which factors made mobility possible; what did “opportunity” mean in a society built on unfree labour.
 
-![The closing conference of the Biography project in 2022](images/Biography.jpg){style="display:block; width:100%; margin:0;" fig-alt="At the Biography closing conference in 2022"}
+![The closing conference of the Biography project in 2022](images/Biography.jpg){style="display:block; width:100%; margin:0;" fig-alt="At the Biography closing conference in November 2022"}
 
 The richness of the Cape records also makes it possible to widen the lens beyond the usual protagonists. Some of my work has tried to recover histories of people who are often absent from conventional archives, precisely because their lives were not written down in the places historians tend to look. It is not archival cosplay. It is an attempt to make the evidentiary base of South African history more representative, and therefore more useful.
 
@@ -47,5 +44,19 @@ This is also where my role as Chair in Economics, History and Policy comes in. M
 
 [Google Scholar](https://scholar.google.com/citations?user=DL4f8DQAAAAJ&hl=en&authuser=1&oi=ao) has a complete list of my publications.
 
-::: {#refs}
-:::
+-   Fourie, Johan. 2025. “Inequality in the Cape Colony, 1685–1844.” South African Journal of Science 121 (11-12): 71–79.
+-   Fourie, Johan, Erik Green, Auke Rijpma, and Dieter Von Fintel. 2025. “Income Mobility Before Industrialization: Evidence from South Africa’s Cape Colony.” Social Science History 49 (1): 22–51.
+-   Fourie, Johan, Erik Green, Christiaan Burger, Chris de Wit, Kate Ekama, Jan Greyling, Hans Heese, Jan-Hendrik Pretorius, Robert Ross, and Dieter von Fintel. 2025. “‘Waar Is Beter Dorp in Zuid Africa Dan Stellenbos?’: What the Stellenbosch-Drakenstein Tax Censuses Reveal.” South African Historical Journal 76 (4): 420–46.
+-   Fourie, Johan, and Johannes Norling. 2025. “Household Spending During the 1918 Influenza Pandemic.” Journal of Interdisciplinary History 55 (3): 369–413.
+-   Maravall, Laura, Jörg Baten, and Johan Fourie. 2023. “Leader Selection and Why It Matters: Education and the Endogeneity of Favouritism in 11 African Countries.” Review of Development Economics 27 (3): 1562–1604.
+-   Fourie, Johan, and Frank Garmon Jr. 2023. “The Settlers’ Fortunes: Comparing Tax Censuses in the Cape Colony and Early American Republic.” The Economic History Review 76 (2): 525–50.
+-   Martins, Igor, Jeanne Cilliers, and Johan Fourie. 2023. “Legacies of Loss: The Health Outcomes of Slaveholder Compensation in the British Cape Colony.” Explorations in Economic History 89: 101506.
+-   Fourie, Johan. 2022. Our Long Walk to Economic Freedom: Lessons from 100,000 Years of Human History. Cambridge University Press.
+-   Marco-Gracia, Francisco J, and Johan Fourie. 2022. “The Missing Boys: Understanding the Unbalanced Sex Ratio in South Africa, 1894–2011.” Economic History of Developing Regions 37 (2): 128–46.
+-   De Kadt, Daniel, Johan Fourie, Jan Greyling, Elie Murard, and Johannes Norling. 2021. “Correlates and Consequences of the 1918 Influenza in South Africa.” South African Journal of Economics 89 (2): 173–95.
+-   Ekama, Kate, Johan Fourie, Hans Heese, and Lisa-Cheree Martin. 2021. “When Cape Slavery Ended: Introducing a New Slave Emancipation Dataset.” Explorations in Economic History 81: 101390.
+-   Fourie, Johan, and Jonathan Jayes. 2021. “Health Inequality and the 1918 Influenza in South Africa.” World Development 141: 105407.
+-   Von Fintel, Dieter, and Johan Fourie. 2019. “The Great Divergence in South Africa: Population and Wealth Dynamics over Two Centuries.” Journal of Comparative Economics 47 (4): 759–73.
+-   Mpeta, Bokang, Johan Fourie, and Kris Inwood. 2018. “Black Living Standards in South Africa Before Democracy: New Evidence from Height.” South African Journal of Science 114 (1-2): 1–8.
+-   Herranz-Loncán, Alfonso, and Johan Fourie. 2018. “‘For the Public Benefit’? Railways in the British Cape Colony.” European Review of Economic History 22 (1): 73–100.
+-   Fourie, Johan. 2016. “The Data Revolution in African Economic History.” Journal of Interdisciplinary History 47 (2): 193–212.
