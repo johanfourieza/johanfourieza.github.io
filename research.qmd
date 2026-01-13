@@ -4,7 +4,7 @@ title: "'An attempt to study the inventory of alternatives'"
 
 ## Latest working papers
 
--   The Case for Applied Economic History (with Chris Colvin)
+-   Histories that matter: The case for applied economic history (with Chris Colvin) \| [QUB Working Paper](https://www.quceh.org.uk/working-papers-2026.html)
 -   Running Towards: Labour market incentives for runaway slaves in the British Cape Colony, 1830–1838 (with Karl Bergemann and Gabriel Brown)
 -   Counter-Elite Mobilization and Settler Colonialism: The Structure of Contestation in the Cape Colony, 1779 (with Jonathan Schoots)
 
@@ -18,7 +18,7 @@ The Cape of Good Hope Panel project is a direct descendant of that realisation. 
 
 What have we learned so far? Two things can be true at once. The Cape was, on average, a wealthy society by the standards of its time, and it was also a severely unequal one. My work using probate inventories and tax censuses shows that many settler farmers were well-off, even in comparison to some of the wealthiest societies of the period. But the same sources also reveal how sharply that prosperity was distributed, within and between groups. And once you can measure wealth at the household level, the questions become harder, and better: how did elites maintain their advantage; which factors made mobility possible; what did “opportunity” mean in a society built on unfree labour.
 
-![The closing conference of the Biography project in 2022](images/Biography.jpg){style="display:block; width:100%; margin:0;" fig-alt="At the Biography closing conference in November 2022"}
+![The closing conference of the Biography project in 2022](images/Biography.jpg){style="display:block; width:100%; height:auto; margin:0;" fig-alt="At the Biography closing conference in November 2022"}
 
 The richness of the Cape records also makes it possible to widen the lens beyond the usual protagonists. Some of my work has tried to recover histories of people who are often absent from conventional archives, precisely because their lives were not written down in the places historians tend to look. It is not archival cosplay. It is an attempt to make the evidentiary base of South African history more representative, and therefore more useful.
 
@@ -30,15 +30,17 @@ This is also where my role as Chair in Economics, History and Policy comes in. M
 
 ## Recent grants and awards
 
-|      Year | Grant / award                                                                                  | Grant number     | Funder / body                              | Role     |
-|--------------:|---------------|---------------|---------------|---------------|
-|      2025 | Chancellor's Award: Social Impact                                                              | \-               | Stellenbosch Unviersity                    | \-       |
-| 2025-2027 | The Cape of Good Health? Death, disease and development disparities in the Cape Province, 1912 | CPRR240403211840 | South African National Research Foundation | PI       |
-|      2025 | Our Long Walk to Economic Freedom graphic novel                                                | #8644            | Emergent Ventures                          | PI       |
-|      2024 | Interdisciplinary Research Prize                                                               | \-               | Stellenbosch University                    | Director |
-|      2024 | Top Researcher Award                                                                           | \-               | Stellenbosch University                    | \-       |
-| 2021–2026 | Cape of Good Hope Panel project                                                                | M20-0041         | Riksbankens Jubileumsfond                  | Co-PI    |
-| 2018–2022 | Biography of an Uncharted People project                                                                | -         | Mellon Foundation                  | PI    |
+| Year | Grant / award | Grant number | Funder / body | Role |
+|---:|----|----|----|----|
+| 2025 | Chancellor's Award: Social Impact | \- | Stellenbosch Unviersity | \- |
+| 2025-2027 | The Cape of Good Health? Death, disease and development disparities in the Cape Province, 1912 | CPRR240403211840 | South African National Research Foundation | PI |
+| 2025 | Our Long Walk to Economic Freedom graphic novel | #8644 | Emergent Ventures | PI |
+| 2024 | Interdisciplinary Research Prize | \- | Stellenbosch University | Director |
+| 2024 | Top Researcher Award | \- | Stellenbosch University | \- |
+| 2021–2026 | Cape of Good Hope Panel project | M20-0041 | Riksbankens Jubileumsfond | Co-PI |
+| 2018–2022 | Biography of an Uncharted People project | \- | Mellon Foundation | PI |
+
+![LEAP receives the Interdisciplinary Research Prize from Vice-Rector Prof Sibusiso Moyo in October 2024. From left to right: Prof Moyo, me, Kate Ekama, Calumet Links, Lisa-Cheree Martin and Munashe Chideya.](images/ResearchAwards-312.jpg){style="display:block; width:100%; height:auto; margin:0;" fig-alt="Vice-Rector Interdisciplinary Research Prize"}
 
 ## Selected publications
 

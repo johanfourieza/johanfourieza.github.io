@@ -20,30 +20,30 @@ Supervising students has been one of the great privileges of my academic life. B
 
 ## PhDs
 
-| Student            | Year completed | Nationality (ISO) | Co-supervisor(s)                   | Dissertation title                                                                                                         | Where they are now                                      |
-|------------|-----------:|:----------:|------------|------------|------------|
-| Jeanne Cilliers    |           2016 |        ZA         | –                                  | *A demographic history of settler South Africa*                                                                            | Department of Economic History, Lund University         |
-| Christie Swanepoel |           2017 |        ZA         | –                                  | *The private credit market of the Cape Colony, 1673–1834: wealth, property rights, and social networks*                    | Department of Economics, University of the Western Cape |
-| Abel Gwaindepi     |           2018 |        ZW         | Krige Siebrits; Leigh Gardner      | *State building in the colonial era: public revenue, expenditure and borrowing patterns in the Cape Colony, 1820–1910*     | University of Copenhagen, Centre for African Studies    |
-| Farai Nyika        |           2021 |        ZW         | –                                  | *Early effects and legacies of Cape Colony legislation on black disenfranchisement, education and migration*               | School of Business, MANCOSA                             |
-| Calumet Links      |           2021 |        ZA         | Dieter von Fintel; Erik Green      | *The economic impact of the Khoe on the north-eastern frontier of the Cape Colony*                                         | Department of Economics, Stellenbosch University        |
-| Lloyd Maphosa      |           2021 |        ZW         | Anton Ehlers; Edward Kerby         | *A historical analysis of joint stock companies in the Cape Colony between 1892 and 1902*                                  | Queen’s Business School, Queen’s University Belfast     |
-| Amy Rommelspacher  |           2022 |        ZA         | Vivian Bickford-Smith; Kris Inwood | *Work, wedlock and widows: comparing the lives of coloured and white women in Cape Town, 1900–1960*                        | DRC Archives, Stellenbosch                              |
-| Karl Bergemann     |           2024 |        ZA         | Kate Ekama; Laura Mitchell         | *The runaways: a study of enslaved, apprenticed and indentured labour flight at the Cape in the emancipation era, 1830–42* | Department of History, Utrecht University               |
-| Munashe Chideya    |           2024 |        ZW         | Edward Kerby                       | *Private joint-stock companies and government relations in the Cape Colony, 1892–1902*                                     | Department of Economics, Stellenbosch University        |
-| Lisa-Cheree Martin |           2025 |        ZA         | –                                  | *Life after slavery: investigations into self-selection and social mobility*                                               | Department of Economics, Stellenbosch University        |
-| Tim Ngalande       |           2026 |        MW         | –                                  | *Growth, Productivity, Labour Misallocation, and the Paradox of Apartheid in 20th Century South Africa*                    | UCT J-PAL                                               |
+| Student | Year completed | Nationality (ISO) | Co-supervisor(s) | Dissertation title | Where they are now |
+|----|---:|:--:|----|----|----|
+| Jeanne Cilliers | 2016 | ZA | – | *A demographic history of settler South Africa* | Department of Economic History, Lund University |
+| Christie Swanepoel | 2017 | ZA | – | *The private credit market of the Cape Colony, 1673–1834: wealth, property rights, and social networks* | Department of Economics, University of the Western Cape |
+| Abel Gwaindepi | 2018 | ZW | Krige Siebrits; Leigh Gardner | *State building in the colonial era: public revenue, expenditure and borrowing patterns in the Cape Colony, 1820–1910* | University of Copenhagen, Centre for African Studies |
+| Farai Nyika | 2021 | ZW | – | *Early effects and legacies of Cape Colony legislation on black disenfranchisement, education and migration* | School of Business, MANCOSA |
+| Calumet Links | 2021 | ZA | Dieter von Fintel; Erik Green | *The economic impact of the Khoe on the north-eastern frontier of the Cape Colony* | Department of Economics, Stellenbosch University |
+| Lloyd Maphosa | 2021 | ZW | Anton Ehlers; Edward Kerby | *A historical analysis of joint stock companies in the Cape Colony between 1892 and 1902* | Queen’s Business School, Queen’s University Belfast |
+| Amy Rommelspacher | 2022 | ZA | Vivian Bickford-Smith; Kris Inwood | *Work, wedlock and widows: comparing the lives of coloured and white women in Cape Town, 1900–1960* | DRC Archives, Stellenbosch |
+| Karl Bergemann | 2024 | ZA | Kate Ekama; Laura Mitchell | *The runaways: a study of enslaved, apprenticed and indentured labour flight at the Cape in the emancipation era, 1830–42* | Department of History, Utrecht University |
+| Munashe Chideya | 2024 | ZW | Edward Kerby | *Private joint-stock companies and government relations in the Cape Colony, 1892–1902* | Department of Economics, Stellenbosch University |
+| Lisa-Cheree Martin | 2025 | ZA | – | *Life after slavery: investigations into self-selection and social mobility* | Department of Economics, Stellenbosch University |
+| Tim Ngalande | 2026 | MW | – | *Growth, Productivity, Labour Misallocation, and the Paradox of Apartheid in 20th Century South Africa* | UCT J-PAL |
 
 ## Postdocs
 
-| Name             | Period    | University recruited from | University placed to                              |
-|------------------|------------------|------------------|------------------|
-| Francisco Gracia | 2018–2019 | University of Zaragoza    | University of Zaragoza                            |
-| Young-ook Jang   | 2019      | LSE                       | Korea Institute for International Economic Policy |
-| [Kate Ekama](https://kateekama.com/)       | 2019–2025 | Leiden University         | Stellenbosch University                           |
-| [Elie Murard](https://sites.google.com/site/eliemurardinfo/home?authuser=0)   | 2019–2020 | University of Cape Town                 | University of Alicante                                  |
-| [Kara Dimitruk](https://www.karadimitruk.com/)    | 2019–2022 | UC Irvine                 | Swarthmore College                                  |
-| Leone Walters    | 2021–2023 | University of Pretoria    | University of Cape Town                           |
-| Jonathan Schoots | 2022–2024 | University of Chicago     | Lund University                                   |
-| Este Kotze       | 2023–2024 | Stellenbosch University   | Stellenbosch University                           |
-| [Gabriel Brown](https://sites.google.com/view/gabriel-brown/home)    | 2024–2026 | UBC                       | –                                                 |
+| Name | Period | University recruited from | University placed to |
+|----|----|----|----|
+| Francisco Gracia | 2018–2019 | University of Zaragoza | University of Zaragoza |
+| Young-ook Jang | 2019 | LSE | Korea Institute for International Economic Policy |
+| [Kate Ekama](https://kateekama.com/) | 2019–2025 | Leiden University | Stellenbosch University |
+| [Elie Murard](https://sites.google.com/site/eliemurardinfo/home?authuser=0) | 2019–2020 | University of Cape Town | University of Alicante |
+| [Kara Dimitruk](https://www.karadimitruk.com/) | 2019–2022 | UC Irvine | Swarthmore College |
+| Leone Walters | 2021–2023 | University of Pretoria | University of Cape Town |
+| Jonathan Schoots | 2022–2024 | University of Chicago | Lund University |
+| Este Kotze | 2023–2024 | Stellenbosch University | Stellenbosch University |
+| [Gabriel Brown](https://sites.google.com/view/gabriel-brown/home) | 2024–2026 | UBC | – |
