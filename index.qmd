@@ -22,13 +22,15 @@ My greatest ambition is to be cited in a Nobel lecture – ideally by one of my 
 
 <style>
 .index-footer-icons {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
 }
 
 .index-footer-icons a {
-  margin: 0 0.4rem;
   color: #666;
   font-size: 0.9rem;
 }
