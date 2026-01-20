@@ -8,9 +8,24 @@ I think of teaching as two related tasks: giving students the core theories and 
 
 At the undergraduate level, I am responsible for the first semester of Economics 281.
 
+![](images/Cover_2ndEdition.jpg){style="float:left; width:300px; margin:0 2rem 1rem 0;" fig-alt="OLWTEF cover"}
 For almost a decade, I taught this course from slides. With the luxury of time during Covid, however, I converted the slides into chapters. The book was ultimately published in 2021 as Our Long Walk to Economic Freedom, first locally in South Africa by Tafelberg (a commercial publisher) and then, in the following year and with an additional chapter and some revisions, by Cambridge University Press. A revised version was published in 2025.
 
-The more intimate class setting (fewer than 80 students) makes this a much more interactive course. This is also reflected in the student evaluations:
+The book has received critical acclaim from leading economic historians:
+
+> This is the first book to bring Africa in from the margins and place it centrally into the big narratives of world economic history. The subject will never be the same again.
+–	James Robinson, University of Chicago and 2024 Nobel laureate
+
+> Johan Fourie’s commitment to understanding the historical roots of prosperity and ensuring its wide distribution in the future makes this one of the most humane economic histories I have read.
+–	Anne McCants, MIT
+
+> In a brilliant tour de force, Johan Fourie turns history on its head and tells the story of the world economy from the perspective of Africa. A must read.
+– Jan Luiten van Zanden, Utrecht University
+
+> Johan Fourie demonstrates that recent research in economic history can be both enlightening and fun.
+–	Joel Mokyr, Northwestern University and 2025 Nobel laureate
+
+The more intimate class setting for Economics 281, with fewer than 100 students, makes this a much more interactive course. This is also reflected in the student evaluations:
 
 > “Economics 281 was my favourite module. It opened the world for me.”
 
