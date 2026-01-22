@@ -19,7 +19,6 @@ website:
         text: Teaching
       - href: public.qmd
         text: Public
-        target: _blank
 
 format:
   html:
