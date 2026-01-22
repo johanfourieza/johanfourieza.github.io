@@ -17,8 +17,8 @@ website:
         text: Students
       - href: teaching.qmd
         text: Teaching
-      - href: https://www.ourlongwalk.com
-        text: Blog
+      - href: public.qmd
+        text: Public
         target: _blank
 
 format:

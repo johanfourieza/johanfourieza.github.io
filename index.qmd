@@ -19,6 +19,8 @@ I see myself as a knowledge broker, who believes that effective science communic
 My blog, [ourlongwalk.com](http://www.ourlongwalk.com), now followed by more than 5,000 subscribers, features my columns (News24, Currency, LitNet, Rapport) and essays. I also co-host the *Our Long Walk* podcast, available on all major platforms.
 
 My greatest ambition is to be cited in a Nobel lecture – ideally by one of my students.
+
+```{=html}
 <style>
 .index-footer-icons {
   display: flex;
@@ -39,12 +41,8 @@ My greatest ambition is to be cited in a Nobel lecture – ideally by one of my 
   text-decoration: none;
 }
 </style>
-<div class="index-footer-icons">
-  <a href="mailto:johanf@sun.ac.za" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-  <a href="https://orcid.org/0000-0002-7341-017X" aria-label="ORCID"><i class="ai ai-orcid"></i></a>
-  <a href="https://github.com/johanfourieza" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-  <a href="https://x.com/johanfourieza" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
-  <a href="hhttps://www.linkedin.com/in/johan-fourie-72b2204/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-  <a href="https://www.instagram.com/johanfourieza" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-  <a href="https://johanfourie.substack.com" aria-label="Substack"><i class="fa-solid fa-newspaper"></i></a>
-</div>
+```
+
+::: index-footer-icons
+<a href="mailto:johanf@sun.ac.za" aria-label="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://orcid.org/0000-0002-7341-017X" aria-label="ORCID"><i class="ai ai-orcid"></i></a> <a href="https://github.com/johanfourieza" aria-label="GitHub"><i class="fa-brands fa-github"></i></a> <a href="https://x.com/johanfourieza" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a> <a href="hhttps://www.linkedin.com/in/johan-fourie-72b2204/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a> <a href="https://www.instagram.com/johanfourieza" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a> <a href="https://johanfourie.substack.com" aria-label="Substack"><i class="fa-solid fa-newspaper"></i></a>
+:::

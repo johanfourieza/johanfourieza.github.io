@@ -5,8 +5,6 @@ title: "'An attempt to study the inventory of alternatives'"
 ## Latest working papers
 
 -   Histories that matter: The case for applied economic history (with Chris Colvin) \| [QUB Working Paper](https://www.quceh.org.uk/working-papers-2026.html)
--   Running Towards: Labour market incentives for runaway slaves in the British Cape Colony, 1830–1838 (with Karl Bergemann and Gabriel Brown)
--   Counter-Elite Mobilization and Settler Colonialism: The Structure of Contestation in the Cape Colony, 1779 (with Jonathan Schoots)
 
 ## Overview
 
@@ -22,22 +20,31 @@ What have we learned so far? Two things can be true at once. The Cape was, on av
 
 The richness of the Cape records also makes it possible to widen the lens beyond the usual protagonists. Some of my work has tried to recover histories of people who are often absent from conventional archives, precisely because their lives were not written down in the places historians tend to look. It is not archival cosplay. It is an attempt to make the evidentiary base of South African history more representative, and therefore more useful.
 
-Because of this interest in Africa’s past, I was pulled early into the African Economic History Network, founded in 2011. That community has shaped my research in two ways. First, it has kept me honest about parochialism. South Africa is endlessly interesting, but it is not the whole story. Second, it pushed me to think about who gets to write economic history, and which skills and incentives determine who participates. In my own writing I have argued that the “data revolution” in African economic history is real, but unevenly distributed, and that building capacity on the continent is part of the scholarly job.
+Because of this interest in Africa’s past, I was pulled early into the African Economic History Network, founded in 2011. That community has shaped my research in two ways. First, it has kept me honest about parochialism. South Africa is endlessly interesting, but it is not the whole story. Second, it pushed me to think about who gets to write economic history, and which skills and incentives determine who participates. In my own writing I have argued that the “data revolution” in African economic history is real, but unevenly distributed, and that building capacity on the continent is part of the scholarly job. I reflected on these themes in my inaugural lecture in May 2022, using my own genealogy as a way of thinking about South Africa’s past through the lens of economic history.
+
+{{< video https://www.youtube.com/watch?v=pBE-SmTIVmw >}}
 
 More recently, my attention has shifted from building datasets and answering historical questions to thinking harder about how economic history can matter for the present. With Chris Colvin, I define applied economic history as the systematic, context-sensitive use of historical reasoning to illuminate contemporary policy problems – not by offering ready-made lessons, but by disciplining the analogies and narratives that policymakers and the public already use. Instead of beginning with a historical episode and asking why it happened, an applied approach starts with a current problem and works backwards, testing which parallels illuminate and which mislead.
 
 This is also where my role as Chair in Economics, History and Policy comes in. My research uses extensive historical records and quantitative analysis to investigate the drivers of societal change in South African history, with an eye on what that can contribute to economic theory and policy-making now. The past does not provide a blueprint. It does provide an inventory of alternatives, and a way to argue about trade-offs with more humility and more evidence than the usual policy advice allows.
 
+## Ongoing projects
+
+-   Running Towards: Labour market incentives for runaway slaves in the British Cape Colony, 1830–1838 (with Karl Bergemann and Gabriel Brown)
+-   Counter-Elite Mobilization and Settler Colonialism: The Structure of Contestation in the Cape Colony, 1779 (with Jonathan Schoots)
+-   Infrastructure, Inequality and Infant Mortality: Evidence from a South African town, 1895–1930 (with Kelsey Lemon and Jan-Hendrik Pretorius)
+-   The Cost of Apartheid: Labour Market Discrimination in Twentieth-Century South Africa (with Timothy Ngalande)
+
 ## Recent grants and awards
 
 | Year | Grant / award | Grant number | Funder / body | Role |
-|---:|----|----|----|----|
+|--------------:|---------------|---------------|---------------|---------------|
 | 2025 | Chancellor's Award: Social Impact | \- | Stellenbosch Unviersity | \- |
 | 2025-2027 | The Cape of Good Health? Death, disease and development disparities in the Cape Province, 1912 | CPRR240403211840 | South African National Research Foundation | PI |
 | 2025 | Our Long Walk to Economic Freedom graphic novel | #8644 | Emergent Ventures | PI |
 | 2024 | Interdisciplinary Research Prize | \- | Stellenbosch University | Director |
 | 2024 | Top Researcher Award | \- | Stellenbosch University | \- |
-| 2021–2026 | Cape of Good Hope Panel project | M20-0041 | Riksbankens Jubileumsfond | Co-PI |
+| 2021–2026 | [Cape of Good Hope Panel project](https://www.capepanel.org/) | M20-0041 | Riksbankens Jubileumsfond | Co-PI |
 | 2018–2022 | Biography of an Uncharted People project | \- | Mellon Foundation | PI |
 
 ![LEAP receives the Interdisciplinary Research Prize from Vice-Rector Prof Sibusiso Moyo in October 2024. From left to right: Prof Moyo, me, Kate Ekama, Calumet Links, Lisa-Cheree Martin and Munashe Chideya.](images/ResearchAwards-312.jpg){style="display:block; width:100%; height:auto; margin:0;" fig-alt="Vice-Rector Interdisciplinary Research Prize"}
@@ -46,7 +53,7 @@ This is also where my role as Chair in Economics, History and Policy comes in. M
 
 [Google Scholar](https://scholar.google.com/citations?user=DL4f8DQAAAAJ&hl=en&authuser=1&oi=ao) has a complete list of my publications.
 
--   Fourie, Johan. 2025. “Inequality in the Cape Colony, 1685–1844.” South African Journal of Science 121 (11-12): 71–79. [Paper](https://www.scielo.org.za/scielo.php?pid=S0038-23532025000600020&script=sci_arttext&tlng=en) | [Code](code/Fourie_2025_CapeInequality.R)
+-   Fourie, Johan. 2025. “Inequality in the Cape Colony, 1685–1844.” South African Journal of Science 121 (11-12): 71–79. [Paper](https://www.scielo.org.za/scielo.php?pid=S0038-23532025000600020&script=sci_arttext&tlng=en) \| [Code](code/Fourie_2025_CapeInequality.R)
 -   Fourie, Johan, Erik Green, Auke Rijpma, and Dieter Von Fintel. 2025. “Income Mobility Before Industrialization: Evidence from South Africa’s Cape Colony.” Social Science History 49 (1): 22–51. [Paper](https://www.cambridge.org/core/journals/social-science-history/article/income-mobility-before-industrialization-evidence-from-south-africas-cape-colony/60A6816FC7347FA20B01E73358195BB9)
 -   Fourie, Johan, Erik Green, Christiaan Burger, Chris de Wit, Kate Ekama, Jan Greyling, Hans Heese, Jan-Hendrik Pretorius, Robert Ross, and Dieter von Fintel. 2025. “‘Waar Is Beter Dorp in Zuid Africa Dan Stellenbos?’: What the Stellenbosch-Drakenstein Tax Censuses Reveal.” South African Historical Journal 76 (4): 420–46. [Paper](https://www.tandfonline.com/doi/full/10.1080/02582473.2025.2500410)
 -   Fourie, Johan, and Johannes Norling. 2025. “Household Spending During the 1918 Influenza Pandemic.” Journal of Interdisciplinary History 55 (3): 369–413. [Paper](https://direct.mit.edu/jinh/article/55/3/369/130682)
