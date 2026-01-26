@@ -2,10 +2,15 @@
 title: "'An attempt to study the inventory of alternatives'"
 ---
 
-## Latest working papers
+## Working papers and current projects
 
 -   Histories that matter: The case for applied economic history (with Chris Colvin) \| [QUB Working Paper](https://www.quceh.org.uk/working-papers-2026.html)
 -   Beyond GDP: the case of real-time barometer of economic activity in South Africa (with Helanya Fourie) \| [UNUWIDER Working Paper](https://www.wider.unu.edu/publication/beyond-gdp-case-real-time-barometer-economic-activity-south-africa)
+-   Running Towards: Labour market incentives for runaway slaves in the British Cape Colony, 1830–1838 (with Karl Bergemann and Gabriel Brown)
+-   Counter-Elite Mobilization and Settler Colonialism: The Structure of Contestation in the Cape Colony, 1779 (with Jonathan Schoots)
+-   Infrastructure, Inequality and Infant Mortality: Evidence from a South African town, 1895–1930 (with Kelsey Lemon and Jan-Hendrik Pretorius)
+-   The Cost of Apartheid: Labour Market Discrimination in Twentieth-Century South Africa (with Timothy Ngalande)
+-   Power and Patronage: Political Influence and Private Enterprise in the Cape Colony, 1892--1902 (with Edward Kerby and Munashe Chideya)
 
 ## Overview
 
@@ -26,13 +31,6 @@ Because of this interest in Africa’s past, I was pulled early into the African
 More recently, my attention has shifted from building datasets and answering historical questions to thinking harder about how economic history can matter for the present. With Chris Colvin, I define applied economic history as the systematic, context-sensitive use of historical reasoning to illuminate contemporary policy problems – not by offering ready-made lessons, but by disciplining the analogies and narratives that policymakers and the public already use. Instead of beginning with a historical episode and asking why it happened, an applied approach starts with a current problem and works backwards, testing which parallels illuminate and which mislead.
 
 This is also where my role as Chair in Economics, History and Policy comes in. My research uses extensive historical records and quantitative analysis to investigate the drivers of societal change in South African history, with an eye on what that can contribute to economic theory and policy-making now. The past does not provide a blueprint. It does provide an inventory of alternatives, and a way to argue about trade-offs with more humility and more evidence than the usual policy advice allows.
-
-## Ongoing projects
-
--   Running Towards: Labour market incentives for runaway slaves in the British Cape Colony, 1830–1838 (with Karl Bergemann and Gabriel Brown)
--   Counter-Elite Mobilization and Settler Colonialism: The Structure of Contestation in the Cape Colony, 1779 (with Jonathan Schoots)
--   Infrastructure, Inequality and Infant Mortality: Evidence from a South African town, 1895–1930 (with Kelsey Lemon and Jan-Hendrik Pretorius)
--   The Cost of Apartheid: Labour Market Discrimination in Twentieth-Century South Africa (with Timothy Ngalande)
 
 ## Recent grants and awards
 
