@@ -1,9 +1,26 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!about_disabled.qmd"
+  resources:
+    - CNAME
 
 website:
   title: ""
+  site-url: "https://johanfourieza.github.io"
+  favicon: images/icon.png
+  google-analytics: "G-TQJEXD9NM3"
+  open-graph:
+    image: images/Johan_Fourie.jpg
+    description: "Johan Fourie – Professor of Economics at Stellenbosch University"
+  twitter-card:
+    image: images/Johan_Fourie.jpg
+    creator: "@johanfourieza"
+    card-style: summary
+  page-footer:
+    center: "&copy; Johan Fourie"
   navbar:
     title: false
     alignment: center
@@ -22,11 +39,10 @@ website:
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
+    back-to-top: true
+    date-modified: last-modified
 
 editor: visual
-

@@ -20,29 +20,6 @@ My blog, [ourlongwalk.com](http://www.ourlongwalk.com), now followed by more tha
 
 My greatest ambition is to be cited in a Nobel lecture – ideally by one of my students.
 
-```{=html}
-<style>
-.index-footer-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.8rem;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
-}
-
-.index-footer-icons a {
-  color: #666;
-  font-size: 0.9rem;
-}
-
-.index-footer-icons a:hover {
-  color: #000;
-  text-decoration: none;
-}
-</style>
-```
-
 ::: index-footer-icons
-<a href="mailto:johanf@sun.ac.za" aria-label="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://orcid.org/0000-0002-7341-017X" aria-label="ORCID"><i class="ai ai-orcid"></i></a> <a href="https://github.com/johanfourieza" aria-label="GitHub"><i class="fa-brands fa-github"></i></a> <a href="https://x.com/johanfourieza" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a> <a href="hhttps://www.linkedin.com/in/johan-fourie-72b2204/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a> <a href="https://www.instagram.com/johanfourieza" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a> <a href="https://johanfourie.substack.com" aria-label="Substack"><i class="fa-solid fa-newspaper"></i></a>
+<a href="mailto:johanf@sun.ac.za" aria-label="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://orcid.org/0000-0002-7341-017X" aria-label="ORCID"><i class="ai ai-orcid"></i></a> <a href="https://github.com/johanfourieza" aria-label="GitHub"><i class="fa-brands fa-github"></i></a> <a href="https://x.com/johanfourieza" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a> <a href="https://www.linkedin.com/in/johan-fourie-72b2204/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a> <a href="https://www.instagram.com/johanfourieza" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a> <a href="https://johanfourie.substack.com" aria-label="Substack"><i class="fa-solid fa-newspaper"></i></a>
 :::
