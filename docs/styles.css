@@ -178,7 +178,12 @@ figure figcaption, .figure-caption {
   transform: translateY(-1px);
 }
 
-/* --- Footer modified date --- */
+/* --- Footer styling --- */
+.footer, .nav-footer {
+  background-color: #f7f5f2 !important;
+  border-top: 1px solid rgba(105, 62, 35, 0.08) !important;
+}
+
 .footer-modified {
   font-size: 0.8rem;
   color: #999;
