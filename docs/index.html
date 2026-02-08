@@ -175,29 +175,34 @@ gtag('config', 'G-TQJEXD9NM3', { 'anonymize_ip': true});
 <h2 class="substack-heading anchored">Latest from <a href="https://www.ourlongwalk.com">Our Long Walk</a></h2>
 <div id="substack-posts" class="substack-grid"></div>
 <script>
-fetch("https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.ourlongwalk.com%2Ffeed&count=3")
-  .then(r => r.json())
-  .then(data => {
-    const el = document.getElementById("substack-posts");
-    if (!data.items || !data.items.length) return;
-    data.items.slice(0, 3).forEach(item => {
-      const img = item.enclosure && item.enclosure.link ? item.enclosure.link
-        : item.thumbnail ? item.thumbnail : "";
-      const card = document.createElement("a");
-      card.href = item.link;
+fetch("https://api.allorigins.win/raw?url=" + encodeURIComponent("https://www.ourlongwalk.com/feed"))
+  .then(r => r.text())
+  .then(xml => {
+    var doc = new DOMParser().parseFromString(xml, "text/xml");
+    var items = doc.querySelectorAll("item");
+    var el = document.getElementById("substack-posts");
+    for (var i = 0; i < 3 && i < items.length; i++) {
+      var item = items[i];
+      var title = item.querySelector("title").textContent;
+      var link = item.querySelector("link").textContent;
+      var desc = item.querySelector("description") ? item.querySelector("description").textContent : "";
+      var enc = item.querySelector("enclosure");
+      var img = enc ? enc.getAttribute("url") : "";
+      var card = document.createElement("a");
+      card.href = link;
       card.className = "substack-card";
       card.target = "_blank";
       card.rel = "noopener";
       card.innerHTML =
         (img ? '<img src="' + img + '" alt="">' : "") +
         '<div class="substack-card-body">' +
-          '<p class="substack-card-title">' + item.title + '</p>' +
-          '<p class="substack-card-desc">' + item.description + '</p>' +
+          '<p class="substack-card-title">' + title + '</p>' +
+          '<p class="substack-card-desc">' + desc + '</p>' +
         '</div>';
       el.appendChild(card);
-    });
+    }
   })
-  .catch(() => {});
+  .catch(function() {});
 </script>
 <div class="index-footer-icons">
 <p><a href="mailto:johanf@sun.ac.za" aria-label="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://orcid.org/0000-0002-7341-017X" aria-label="ORCID"><i class="ai ai-orcid"></i></a> <a href="https://github.com/johanfourieza" aria-label="GitHub"><i class="fa-brands fa-github"></i></a> <a href="https://x.com/johanfourieza" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a> <a href="https://www.linkedin.com/in/johan-fourie-72b2204/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a> <a href="https://www.instagram.com/johanfourieza" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a> <a href="https://johanfourie.substack.com" aria-label="Substack"><i class="fa-solid fa-newspaper"></i></a></p>
