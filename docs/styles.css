@@ -155,6 +155,69 @@ figure figcaption, .figure-caption {
   color: #777;
 }
 
+/* --- Substack latest posts --- */
+.substack-heading {
+  margin-top: 3rem;
+  font-size: 1rem;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.substack-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+.substack-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none !important;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid rgba(105, 62, 35, 0.1);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.substack-card:hover {
+  box-shadow: 0 2px 8px rgba(105, 62, 35, 0.12);
+  transform: translateY(-2px);
+  text-decoration: none !important;
+}
+
+.substack-card img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.substack-card-body {
+  padding: 0.6rem 0.75rem;
+}
+
+.substack-card-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #693e23;
+  line-height: 1.35;
+  margin: 0 0 0.3rem 0;
+}
+
+.substack-card-desc {
+  font-size: 0.78rem;
+  color: #666;
+  line-height: 1.4;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .substack-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* --- 2.9 Social icons (moved from inline index.qmd) --- */
 .index-footer-icons {
   display: flex;
