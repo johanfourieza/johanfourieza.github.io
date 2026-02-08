@@ -178,6 +178,13 @@ figure figcaption, .figure-caption {
   transform: translateY(-1px);
 }
 
+/* --- Footer modified date --- */
+.footer-modified {
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 0.25rem;
+}
+
 /* --- 2.10 Keyboard focus states (accessibility) --- */
 a:focus-visible,
 button:focus-visible,

@@ -791,6 +791,20 @@ gtag('config', 'G-TQJEXD9NM3', { 'anonymize_ip': true});
     </div>
   </div>
 </footer>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var d = document.querySelector(".date-modified");
+  var f = document.querySelector(".nav-footer-center");
+  if (d && f) {
+    var s = document.createElement("p");
+    s.className = "footer-modified";
+    s.textContent = "Modified " + d.textContent;
+    f.appendChild(s);
+    var meta = document.querySelector(".quarto-title-meta");
+    if (meta) meta.style.display = "none";
+  }
+});
+</script>
 
 
 
