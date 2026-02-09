@@ -8,11 +8,17 @@ format:
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
 ---
 
-![](images/Johan_Fourie.jpg){style="float:left; width:275px; margin:0 2rem 1rem 0;" fig-alt="Portrait of Johan Fourie"}
+:::: {.profile-sidebar}
+![](images/Johan_Fourie.jpg){fig-alt="Portrait of Johan Fourie"}
 
-I am Professor of Economics and Chair of Economics, History and Policy at Stellenbosch University, where I also direct LEAP, [the Laboratory for the Economics of Africa’s Past](https://leapstellenbosch.org.za/). I teach economic history to undergraduate and graduate students, and regularly publish on the subject academically, through journal articles and book chapters, as well as popularly, as a columnist, blogger, and podcast host.
+::: index-sidebar-icons
+<a href="mailto:johanf@sun.ac.za" aria-label="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://orcid.org/0000-0002-7341-017X" aria-label="ORCID"><i class="ai ai-orcid"></i></a> <a href="https://github.com/johanfourieza" aria-label="GitHub"><i class="fa-brands fa-github"></i></a> <a href="https://x.com/johanfourieza" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a> <a href="https://www.linkedin.com/in/johan-fourie-72b2204/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a> <a href="https://www.instagram.com/johanfourieza" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a> <a href="https://johanfourie.substack.com" aria-label="Substack"><i class="fa-solid fa-newspaper"></i></a>
+:::
+::::
 
-My book, [*Our Long Walk to Economic Freedom*](https://www.cambridge.org/core/books/our-long-walk-to-economic-freedom/0985F9390A3B26B40DE0AC6BC1111414) (CUP), offers an accessible and engaging introduction to economic history from an African perspective. Its closing line – ‘The future belongs to those who believe in a better tomorrow’ – captures my conviction that economic history is fundamentally optimistic: we have the agency to build a more prosperous society.
+I am Professor of Economics and Chair of Economics, History and Policy at Stellenbosch University, where I also direct LEAP, [the Laboratory for the Economics of Africa's Past](https://leapstellenbosch.org.za/). I teach economic history to undergraduate and graduate students, and regularly publish on the subject academically, through journal articles and book chapters, as well as popularly, as a columnist, blogger, and podcast host.
+
+My book, [*Our Long Walk to Economic Freedom*](https://www.cambridge.org/core/books/our-long-walk-to-economic-freedom/0985F9390A3B26B40DE0AC6BC1111414) (CUP), offers an accessible and engaging introduction to economic history from an African perspective. Its closing line – 'The future belongs to those who believe in a better tomorrow' – captures my conviction that economic history is fundamentally optimistic: we have the agency to build a more prosperous society.
 
 I see myself as a knowledge broker, who believes that effective science communication matters deeply. Stories not only help us understand the world around us, they actively shape it.
 
@@ -20,7 +26,115 @@ My blog, [ourlongwalk.com](http://www.ourlongwalk.com), now followed by more tha
 
 My greatest ambition is to be cited in a Nobel lecture – ideally by one of my students.
 
+::: {.substack-section}
 
-::: index-footer-icons
-<a href="mailto:johanf@sun.ac.za" aria-label="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://orcid.org/0000-0002-7341-017X" aria-label="ORCID"><i class="ai ai-orcid"></i></a> <a href="https://github.com/johanfourieza" aria-label="GitHub"><i class="fa-brands fa-github"></i></a> <a href="https://x.com/johanfourieza" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a> <a href="https://www.linkedin.com/in/johan-fourie-72b2204/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a> <a href="https://www.instagram.com/johanfourieza" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a> <a href="https://johanfourie.substack.com" aria-label="Substack"><i class="fa-solid fa-newspaper"></i></a>
+## Latest from [Our Long Walk](https://www.ourlongwalk.com) {.substack-heading}
+
+::: {#substack-feed .substack-grid}
 :::
+
+:::
+
+```{=html}
+<script>
+(function() {
+  const FEED_URL = "https://www.ourlongwalk.com/feed";
+  const NUM_POSTS = 3;
+
+  function parseItemsFromXml(xml) {
+    const doc = new DOMParser().parseFromString(xml, "text/xml");
+    const items = doc.querySelectorAll("item");
+    const posts = [];
+    for (const item of items) {
+      if (posts.length >= NUM_POSTS) break;
+      const enc = item.querySelector("enclosure");
+      // skip podcast episodes
+      if (enc && enc.getAttribute("type") && enc.getAttribute("type").startsWith("audio")) continue;
+      posts.push({
+        title: (item.querySelector("title")?.textContent || "").trim(),
+        description: (item.querySelector("description")?.textContent || "").trim(),
+        link: (item.querySelector("link")?.textContent || "").trim(),
+        image: enc ? enc.getAttribute("url") : null
+      });
+    }
+    return posts;
+  }
+
+  async function fetchFeed() {
+    const proxies = [
+      { url: "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(FEED_URL), type: "json" },
+      { url: "https://api.allorigins.win/raw?url=" + encodeURIComponent(FEED_URL), type: "xml" },
+      { url: "https://corsproxy.io/?" + encodeURIComponent(FEED_URL), type: "xml" }
+    ];
+    for (const proxy of proxies) {
+      try {
+        const resp = await fetch(proxy.url, { signal: AbortSignal.timeout(8000) });
+        if (!resp.ok) continue;
+        if (proxy.type === "json") {
+          const data = await resp.json();
+          if (!data.items || !data.items.length) continue;
+          return data.items
+            .filter(function(it) { return !it.enclosure || !it.enclosure.type || !it.enclosure.type.startsWith("audio"); })
+            .slice(0, NUM_POSTS)
+            .map(function(it) {
+              return {
+                title: it.title || "",
+                description: it.description || "",
+                link: it.link || "",
+                image: (it.enclosure && it.enclosure.link) || it.thumbnail || null
+              };
+            });
+        } else {
+          const xml = await resp.text();
+          if (!xml || xml.length < 100) continue;
+          const items = parseItemsFromXml(xml);
+          if (items.length > 0) return items;
+        }
+      } catch (e) { continue; }
+    }
+    return null;
+  }
+
+  function stripHtml(str) {
+    var tmp = document.createElement("div");
+    tmp.innerHTML = str;
+    return tmp.textContent || tmp.innerText || "";
+  }
+
+  function renderPosts(posts) {
+    var grid = document.getElementById("substack-feed");
+    if (!grid) return;
+    grid.innerHTML = "";
+    posts.forEach(function(post) {
+      var desc = stripHtml(post.description);
+      if (desc.length > 120) desc = desc.substring(0, 117) + "…";
+      var card = document.createElement("a");
+      card.href = post.link;
+      card.className = "substack-card";
+      card.target = "_blank";
+      card.rel = "noopener";
+      card.innerHTML =
+        (post.image ? '<img src="' + post.image + '" alt="" loading="lazy">' : '') +
+        '<div class="substack-card-body">' +
+          '<p class="substack-card-title">' + post.title + '</p>' +
+          '<p class="substack-card-desc">' + desc + '</p>' +
+        '</div>';
+      grid.appendChild(card);
+    });
+  }
+
+  function showFallback() {
+    var grid = document.getElementById("substack-feed");
+    if (!grid) return;
+    grid.innerHTML = '<p style="font-size:0.9rem;color:#666;">Visit <a href="https://www.ourlongwalk.com">ourlongwalk.com</a> for the latest posts.</p>';
+  }
+
+  fetchFeed().then(function(posts) {
+    if (posts && posts.length) renderPosts(posts);
+    else showFallback();
+  }).catch(function() {
+    showFallback();
+  });
+})();
+</script>
+```

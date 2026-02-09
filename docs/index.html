@@ -135,8 +135,14 @@ gtag('config', 'G-TQJEXD9NM3', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#latest-from-our-long-walk" id="toc-latest-from-our-long-walk" class="nav-link active" data-scroll-target="#latest-from-our-long-walk">Latest from Our Long Walk</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -155,7 +161,7 @@ gtag('config', 'G-TQJEXD9NM3', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">February 8, 2026</p>
+      <p class="date-modified">February 9, 2026</p>
     </div>
   </div>
     
@@ -166,15 +172,124 @@ gtag('config', 'G-TQJEXD9NM3', { 'anonymize_ip': true});
 </header>
 
 
-<p><img src="images/Johan_Fourie.jpg" class="img-fluid" style="float:left; width:275px; margin:0 2rem 1rem 0;" alt="Portrait of Johan Fourie"></p>
+<div class="profile-sidebar">
+<p><img src="images/Johan_Fourie.jpg" class="img-fluid" alt="Portrait of Johan Fourie"></p>
+<div class="index-sidebar-icons">
+<p><a href="mailto:johanf@sun.ac.za" aria-label="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://orcid.org/0000-0002-7341-017X" aria-label="ORCID"><i class="ai ai-orcid"></i></a> <a href="https://github.com/johanfourieza" aria-label="GitHub"><i class="fa-brands fa-github"></i></a> <a href="https://x.com/johanfourieza" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a> <a href="https://www.linkedin.com/in/johan-fourie-72b2204/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a> <a href="https://www.instagram.com/johanfourieza" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a> <a href="https://johanfourie.substack.com" aria-label="Substack"><i class="fa-solid fa-newspaper"></i></a></p>
+</div>
+</div>
 <p>I am Professor of Economics and Chair of Economics, History and Policy at Stellenbosch University, where I also direct LEAP, <a href="https://leapstellenbosch.org.za/">the Laboratory for the Economics of Africa’s Past</a>. I teach economic history to undergraduate and graduate students, and regularly publish on the subject academically, through journal articles and book chapters, as well as popularly, as a columnist, blogger, and podcast host.</p>
 <p>My book, <a href="https://www.cambridge.org/core/books/our-long-walk-to-economic-freedom/0985F9390A3B26B40DE0AC6BC1111414"><em>Our Long Walk to Economic Freedom</em></a> (CUP), offers an accessible and engaging introduction to economic history from an African perspective. Its closing line – ‘The future belongs to those who believe in a better tomorrow’ – captures my conviction that economic history is fundamentally optimistic: we have the agency to build a more prosperous society.</p>
 <p>I see myself as a knowledge broker, who believes that effective science communication matters deeply. Stories not only help us understand the world around us, they actively shape it.</p>
 <p>My blog, <a href="http://www.ourlongwalk.com">ourlongwalk.com</a>, now followed by more than 5,000 subscribers, features my columns (News24, Currency, LitNet, Rapport) and essays. I also co-host the <em>Our Long Walk</em> podcast, available on all major platforms.</p>
 <p>My greatest ambition is to be cited in a Nobel lecture – ideally by one of my students.</p>
-<div class="index-footer-icons">
-<p><a href="mailto:johanf@sun.ac.za" aria-label="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://orcid.org/0000-0002-7341-017X" aria-label="ORCID"><i class="ai ai-orcid"></i></a> <a href="https://github.com/johanfourieza" aria-label="GitHub"><i class="fa-brands fa-github"></i></a> <a href="https://x.com/johanfourieza" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a> <a href="https://www.linkedin.com/in/johan-fourie-72b2204/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a> <a href="https://www.instagram.com/johanfourieza" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a> <a href="https://johanfourie.substack.com" aria-label="Substack"><i class="fa-solid fa-newspaper"></i></a></p>
+<section id="latest-from-our-long-walk" class="level2 substack-heading substack-section">
+<h2 class="substack-heading anchored" data-anchor-id="latest-from-our-long-walk">Latest from <a href="https://www.ourlongwalk.com">Our Long Walk</a></h2>
+<div id="substack-feed" class="substack-grid">
+
 </div>
+</section>
+<script>
+(function() {
+  const FEED_URL = "https://www.ourlongwalk.com/feed";
+  const NUM_POSTS = 3;
+
+  function parseItemsFromXml(xml) {
+    const doc = new DOMParser().parseFromString(xml, "text/xml");
+    const items = doc.querySelectorAll("item");
+    const posts = [];
+    for (const item of items) {
+      if (posts.length >= NUM_POSTS) break;
+      const enc = item.querySelector("enclosure");
+      // skip podcast episodes
+      if (enc && enc.getAttribute("type") && enc.getAttribute("type").startsWith("audio")) continue;
+      posts.push({
+        title: (item.querySelector("title")?.textContent || "").trim(),
+        description: (item.querySelector("description")?.textContent || "").trim(),
+        link: (item.querySelector("link")?.textContent || "").trim(),
+        image: enc ? enc.getAttribute("url") : null
+      });
+    }
+    return posts;
+  }
+
+  async function fetchFeed() {
+    const proxies = [
+      { url: "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(FEED_URL), type: "json" },
+      { url: "https://api.allorigins.win/raw?url=" + encodeURIComponent(FEED_URL), type: "xml" },
+      { url: "https://corsproxy.io/?" + encodeURIComponent(FEED_URL), type: "xml" }
+    ];
+    for (const proxy of proxies) {
+      try {
+        const resp = await fetch(proxy.url, { signal: AbortSignal.timeout(8000) });
+        if (!resp.ok) continue;
+        if (proxy.type === "json") {
+          const data = await resp.json();
+          if (!data.items || !data.items.length) continue;
+          return data.items
+            .filter(function(it) { return !it.enclosure || !it.enclosure.type || !it.enclosure.type.startsWith("audio"); })
+            .slice(0, NUM_POSTS)
+            .map(function(it) {
+              return {
+                title: it.title || "",
+                description: it.description || "",
+                link: it.link || "",
+                image: (it.enclosure && it.enclosure.link) || it.thumbnail || null
+              };
+            });
+        } else {
+          const xml = await resp.text();
+          if (!xml || xml.length < 100) continue;
+          const items = parseItemsFromXml(xml);
+          if (items.length > 0) return items;
+        }
+      } catch (e) { continue; }
+    }
+    return null;
+  }
+
+  function stripHtml(str) {
+    var tmp = document.createElement("div");
+    tmp.innerHTML = str;
+    return tmp.textContent || tmp.innerText || "";
+  }
+
+  function renderPosts(posts) {
+    var grid = document.getElementById("substack-feed");
+    if (!grid) return;
+    grid.innerHTML = "";
+    posts.forEach(function(post) {
+      var desc = stripHtml(post.description);
+      if (desc.length > 120) desc = desc.substring(0, 117) + "…";
+      var card = document.createElement("a");
+      card.href = post.link;
+      card.className = "substack-card";
+      card.target = "_blank";
+      card.rel = "noopener";
+      card.innerHTML =
+        (post.image ? '<img src="' + post.image + '" alt="" loading="lazy">' : '') +
+        '<div class="substack-card-body">' +
+          '<p class="substack-card-title">' + post.title + '</p>' +
+          '<p class="substack-card-desc">' + desc + '</p>' +
+        '</div>';
+      grid.appendChild(card);
+    });
+  }
+
+  function showFallback() {
+    var grid = document.getElementById("substack-feed");
+    if (!grid) return;
+    grid.innerHTML = '<p style="font-size:0.9rem;color:#666;">Visit <a href="https://www.ourlongwalk.com">ourlongwalk.com</a> for the latest posts.</p>';
+  }
+
+  fetchFeed().then(function(posts) {
+    if (posts && posts.length) renderPosts(posts);
+    else showFallback();
+  }).catch(function() {
+    showFallback();
+  });
+})();
+</script>
 
 
 
