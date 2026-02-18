@@ -1,0 +1,274 @@
+---
+title: "Bookshop"
+toc: false
+---
+
+I've always dreamed of owning a bookshop. (It almost became a reality during Covid, but then I realised how rich I had to be to subsidise others' reading!) My bookshop won't be just any bookshop, though. It will be a 'Gallery of Books'. The books on display will be carefully curated. We'll have exhibitions, where scholars can curate their own collection. Only hardcovers will be sold, all wrapped beautifully and all for astronomical prices.
+
+Until that dream turns into reality, though, I'll have to be satisfied with an online gallery. All the books below link to Amazon (they have the widest distribution) and, should you make a purchase, I will earn a small affiliate income, which inevitably will be spent on, well, buying more books!
+
+```{=html}
+<div class="gallery-section" role="region" aria-label="Book gallery">
+  <div class="gallery-rail"></div>
+  <button class="gallery-nav gallery-nav-left" aria-label="Scroll left" onclick="scrollGallery(-1)">&#8249;</button>
+  <div class="gallery-track" id="gallery-track">
+    <noscript><p style="text-align:center;padding:2rem;color:#6b5a46;">Please enable JavaScript to browse the gallery.</p></noscript>
+  </div>
+  <button class="gallery-nav gallery-nav-right" aria-label="Scroll right" onclick="scrollGallery(1)">&#8250;</button>
+  <div class="gallery-baseboard"></div>
+</div>
+
+<div class="gallery-modal-overlay" id="gallery-modal-overlay">
+  <div class="gallery-modal" role="dialog" aria-modal="true">
+    <button class="gallery-modal-close" onclick="closeModal()" aria-label="Close">&times;</button>
+    <div class="gallery-modal-body">
+      <div class="gallery-modal-cover" id="modal-cover"></div>
+      <div class="gallery-modal-info">
+        <h3 id="modal-title"></h3>
+        <p class="gallery-modal-author" id="modal-author"></p>
+        <p class="gallery-modal-notes" id="modal-notes"></p>
+        <a class="gallery-buy-btn" id="modal-buy" href="#" target="_blank" rel="noopener">Purchase on Amazon</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ══════════════════════════════════════════════════════════════
+   BOOK DATA  –  To add a book, copy one of the objects below
+   and fill in title, author, url (Amazon link), and notes.
+   Cover images are extracted automatically from the Amazon URL.
+   You can optionally set "cover" to a local image path to
+   override the automatic Amazon cover.
+   ══════════════════════════════════════════════════════════════ */
+var BOOKS = [
+  {
+    title:  "Our Long Walk to Economic Freedom",
+    author: "Johan Fourie",
+    url:    "https://amzn.to/4qDyAPJ",
+    asin:   "1009228463",
+    notes:  "My book! Deserves a central place on every bookshelf. ;)"
+  },
+  {
+    title:  "Violent Saviors",
+    author: "William Easterly",
+    url:    "https://amzn.to/3Oxkdz3",
+    asin:   "1541675754",
+    notes:  "Interviewed Bill about this book on the podcast. Important book. And funny."
+  },
+  {
+    title:  "Vermeer\u2019s Hat",
+    author: "Timothy Brook",
+    url:    "https://amzn.to/4aqAPkQ",
+    asin:   "1596915994",
+    notes:  "I read this many years ago, and still one of my favourites."
+  },
+  {
+    title:  "Africonomics",
+    author: "Bronwen Everill",
+    url:    "https://amzn.to/40g3S4t",
+    asin:   "1620979756",
+    notes:  "Why attempts at Western intervention in Africa often fail."
+  },
+  {
+    title:  "A Theory of Everyone",
+    author: "Michael Muthukrishna",
+    url:    "https://amzn.to/40kNijO",
+    asin:   "026204837X",
+    notes:  "A bold, ambitious book."
+  },
+  {
+    title:  "Everything Is Tuberculosis",
+    author: "John Green",
+    url:    "https://amzn.to/46a5u3k",
+    asin:   "0525556575",
+    notes:  "John writes like a dream, even if the topic is as tough as TB."
+  },
+  {
+    title:  "The Price of Time",
+    author: "Edward Chancellor",
+    url:    "https://amzn.to/4rkEer9",
+    asin:   "0802160069",
+    notes:  "How to think about our most valuable commodity."
+  },
+  {
+    title:  "Life Is Hard",
+    author: "Kieran Setiya",
+    url:    "https://amzn.to/4kI3zZL",
+    asin:   "0593538226",
+    notes:  "I found this book through Kieran\u2019s Substack. Every chapter is great."
+  },
+  {
+    title:  "Ancient Africa",
+    author: "Christopher Ehret",
+    url:    "https://amzn.to/4kI3BAR",
+    asin:   "0691244863",
+    notes:  "Want to know more about the history of Africa? Start here."
+  }
+];
+
+/* ── Amazon cover URL from ASIN ───────────────────────────── */
+function amazonCover(asin) {
+  return "https://m.media-amazon.com/images/P/" + asin + ".jpg";
+}
+
+/* ── Resolve cover: local override → Amazon ASIN ──────────── */
+function resolveCover(book) {
+  if (book.cover) return book.cover;
+  if (book.asin)  return amazonCover(book.asin);
+  return null;
+}
+
+/* ── Build a single painting ──────────────────────────────── */
+function createPainting(book, coverUrl, index) {
+  var painting = document.createElement("div");
+  painting.className = "gallery-painting";
+  painting.style.animationDelay = Math.min(index * 0.15 + 0.1, 1.5) + "s";
+  painting.setAttribute("tabindex", "0");
+  painting.setAttribute("role", "button");
+  painting.setAttribute("aria-label", book.title + " by " + book.author);
+
+  var frame = document.createElement("div");
+  frame.className = "gallery-frame";
+
+  var mat = document.createElement("div");
+  mat.className = "gallery-mat";
+
+  if (coverUrl) {
+    var img = document.createElement("img");
+    img.className = "gallery-cover";
+    img.src = coverUrl;
+    img.alt = book.title;
+    img.loading = "lazy";
+    mat.appendChild(img);
+  } else {
+    var fb = document.createElement("div");
+    fb.className = "gallery-cover-fallback";
+    fb.innerHTML = '<span class="cover-title">' + book.title + "</span>" +
+                   '<span class="cover-author">' + book.author + "</span>";
+    mat.appendChild(fb);
+  }
+
+  frame.appendChild(mat);
+  painting.appendChild(frame);
+
+  var placard = document.createElement("div");
+  placard.className = "gallery-placard";
+  placard.innerHTML = '<span class="placard-title">' + book.title + "</span>" +
+                      '<span class="placard-author">' + book.author + "</span>" +
+                      '<span class="placard-hint">click to read more</span>';
+  painting.appendChild(placard);
+
+  function open() { openModal(book, coverUrl); }
+  painting.addEventListener("click", open);
+  painting.addEventListener("keydown", function(e) {
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); }
+  });
+
+  return painting;
+}
+
+/* ── Modal ────────────────────────────────────────────────── */
+var lastFocused = null;
+
+function openModal(book, coverUrl) {
+  lastFocused = document.activeElement;
+  var overlay = document.getElementById("gallery-modal-overlay");
+  var cover   = document.getElementById("modal-cover");
+  cover.innerHTML = "";
+
+  if (coverUrl) {
+    var img = document.createElement("img");
+    img.src = coverUrl;
+    img.alt = book.title;
+    cover.appendChild(img);
+  } else {
+    var fb = document.createElement("div");
+    fb.className = "gallery-cover-fallback gallery-cover-modal";
+    fb.innerHTML = '<span class="cover-title">' + book.title + "</span>" +
+                   '<span class="cover-author">' + book.author + "</span>";
+    cover.appendChild(fb);
+  }
+
+  document.getElementById("modal-title").textContent  = book.title;
+  document.getElementById("modal-author").textContent = book.author;
+  document.getElementById("modal-notes").textContent  = book.notes || "";
+  document.getElementById("modal-buy").href = book.url;
+
+  overlay.classList.add("active");
+  document.body.style.overflow = "hidden";
+  document.querySelector(".gallery-modal-close").focus();
+}
+
+function closeModal() {
+  document.getElementById("gallery-modal-overlay").classList.remove("active");
+  document.body.style.overflow = "";
+  if (lastFocused) lastFocused.focus();
+}
+
+/* ── Gallery navigation ───────────────────────────────────── */
+function scrollGallery(dir) {
+  var track = document.getElementById("gallery-track");
+  track.scrollBy({ left: dir * 320, behavior: "smooth" });
+}
+
+function updateArrows() {
+  var track = document.getElementById("gallery-track");
+  var left  = document.querySelector(".gallery-nav-left");
+  var right = document.querySelector(".gallery-nav-right");
+  if (!track || !left || !right) return;
+
+  var noScroll = track.scrollWidth <= track.clientWidth + 5;
+  left.style.display  = noScroll ? "none" : "";
+  right.style.display = noScroll ? "none" : "";
+  left.disabled  = track.scrollLeft <= 5;
+  right.disabled = track.scrollLeft >= track.scrollWidth - track.clientWidth - 5;
+}
+
+/* ── Initialise ───────────────────────────────────────────── */
+function initGallery() {
+  var track = document.getElementById("gallery-track");
+  if (!track) return;
+
+  /* Prevent horizontal scrollbar from full-bleed section */
+  document.documentElement.style.overflowX = "hidden";
+
+  BOOKS.forEach(function(book, i) {
+    var coverUrl = resolveCover(book);
+    track.appendChild(createPainting(book, coverUrl, i));
+  });
+
+  updateArrows();
+  track.addEventListener("scroll", updateArrows);
+  window.addEventListener("resize", function() {
+    updateArrows();
+    if (track.scrollWidth <= track.clientWidth + 5) {
+      track.classList.add("gallery-centered");
+    } else {
+      track.classList.remove("gallery-centered");
+    }
+  });
+
+  /* Centre paintings when they don't fill the track */
+  if (track.scrollWidth <= track.clientWidth + 5) {
+    track.classList.add("gallery-centered");
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  initGallery();
+
+  document.getElementById("gallery-modal-overlay")
+    .addEventListener("click", function(e) {
+      if (e.target === this) closeModal();
+    });
+
+  document.addEventListener("keydown", function(e) {
+    var overlay = document.getElementById("gallery-modal-overlay");
+    if (e.key === "Escape" && overlay.classList.contains("active")) {
+      closeModal();
+    }
+  });
+});
+</script>
+```

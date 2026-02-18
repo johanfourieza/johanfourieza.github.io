@@ -36,6 +36,8 @@ website:
         text: Teaching
       - href: public.qmd
         text: Public
+      - href: bookshop.qmd
+        text: Bookshop
 
 format:
   html:
