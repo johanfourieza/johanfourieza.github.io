@@ -104,6 +104,69 @@ var BOOKS = [
     url:    "https://amzn.to/4kI3BAR",
     asin:   "0691244863",
     notes:  "Want to know more about the history of Africa? Start here."
+  },
+  {
+    title:  "As Gods Among Men",
+    author: "Guido Alfani",
+    url:    "https://amzn.to/4rnlpnc",
+    asin:   "0691215731",
+    notes:  "Why are we rich?' is a more important question than 'Why are we poor?'"
+  },
+  {
+    title:  "The Divine Economy",
+    author: "Paul Seabright",
+    url:    "https://amzn.to/4rrw40m",
+    asin:   "069113300X",
+    notes:  "Everything you need to know about how economics shapes religion."
+  },
+  {
+    title:  "Paleoeconomics",
+    author: "Ola Olsson",
+    url:    "https://amzn.to/4tIEGBg",
+    asin:   "3031527836",
+    notes:  "Not the easiest of reads, but opened an entirely new world for me."
+  },
+  {
+    title:  "The Infinite Alphabet",
+    author: "César Hidalgo",
+    url:    "https://amzn.to/4kF0NnQ",
+    asin:   "B0FBJ5KQ2P",
+    notes:  "Knowledge is how we build a better world."
+  },
+  {
+    title:  "Meaningful Economics",
+    author: "Bart Wilson",
+    url:    "https://amzn.to/46ZlyFc",
+    asin:   "B0DP375BCD",
+    notes:  "One of the most challenging and fascinating books I've read."
+  },
+  {
+    title:  "Leave Me Alone and I'll Make You Rich",
+    author: "Deirdre McCloskey and Art Carden",
+    url:    "https://amzn.to/4tG03my",
+    asin:   "0226823989",
+    notes:  "Read it not only for the writing, but for the ideas too."
+  },
+  {
+    title:  "The Boundless Sea",
+    author: "David Abulafia",
+    url:    "https://amzn.to/4aCZYav",
+    asin:   "0241956277",
+    notes:  "Some books should never end. This is one of them."
+  },
+  {
+    title:  "The Narrow Corridor",
+    author: "Daron Acemoglu and James Robinson",
+    url:    "https://amzn.to/3ZNrD3I",
+    asin:   "0735224404",
+    notes:  "Much less celebrated but, in my opinion, much better than Why Nations Fail."
+  },
+  {
+    title:  "A Culture of Growth",
+    author: "Joel Mokyr",
+    url:    "https://amzn.to/4kNV8w8",
+    asin:   "0691180962",
+    notes:  "Economic growth is hard. This book explains why."
   }
 ];
 
