@@ -1,5 +1,5 @@
 ---
-title: "Bookshop"
+title: "'It wasn't that she was just selling books. It was that she was helping people become who they were going to turn out to be.'"
 toc: false
 ---
 
