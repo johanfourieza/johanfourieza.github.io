@@ -57,7 +57,7 @@ var BOOKS = [
     notes:  "Interviewed Bill about this book on the podcast. Important book. And funny."
   },
   {
-    title:  "Vermeer\u2019s Hat",
+    title:  "Vermeer's Hat",
     author: "Timothy Brook",
     url:    "https://amzn.to/4aqAPkQ",
     asin:   "1596915994",
@@ -96,7 +96,7 @@ var BOOKS = [
     author: "Kieran Setiya",
     url:    "https://amzn.to/4kI3zZL",
     asin:   "0593538226",
-    notes:  "I found this book through Kieran\u2019s Substack. Every chapter is great."
+    notes:  "I found this book through Kieran's Substack. Every chapter is great."
   },
   {
     title:  "Ancient Africa",
