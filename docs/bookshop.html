@@ -393,6 +393,12 @@ function initGallery() {
   /* Prevent horizontal scrollbar from full-bleed section */
   document.documentElement.style.overflowX = "hidden";
 
+  /* Shuffle book order on each visit */
+  for (var j = BOOKS.length - 1; j > 0; j--) {
+    var k = Math.floor(Math.random() * (j + 1));
+    var tmp = BOOKS[j]; BOOKS[j] = BOOKS[k]; BOOKS[k] = tmp;
+  }
+
   BOOKS.forEach(function(book, i) {
     var coverUrl = resolveCover(book);
     track.appendChild(createPainting(book, coverUrl, i));
