@@ -1,0 +1,18 @@
+---
+title: "'Technology pulls itself up by the bootstraps by giving scientific researchers vastly more powerful tools to work with'"
+toc: false
+---
+
+For millennia, humans have sought tools to make ourselves more productive. That is no different today, as Joel Mokyr, the 2025 Nobel Prize winner, suggested in a [2018 paper](https://doi.org/10.1016/j.eeh.2018.03.003). Artificial intelligence – Claude Code, Codex, and there'll probably be many other alternatives soon – has accelerated this to a new level. In the process of using Claude Code, I've developed several tools that might be useful for others. They can be downloaded for free from my [GitHub page](https://github.com/johanfourieza/econtools).
+
+## EconGuru
+
+A simulated peer review system for economics working papers. EconGuru creates a panel of expert referee personas – each with a distinct subspecialisation, personality, and fictitious university affiliation – who write detailed reports on your paper, targeting the journal of your choice. The editor synthesises their feedback into a prioritised briefing. You choose which changes to implement, and the tool revises your LaTeX files accordingly. Iterates through rounds until publication-ready. Grounded in the refereeing principles of Berk, Harvey, and Hirshleifer (2017).
+
+## TannieDi
+
+A LaTeX-to-Word round-trip tool for language editing. Many economics papers are written in LaTeX, but professional copy-editors typically work in Word. TannieDi automates the conversion: *pack* converts your LaTeX project into a clean Word manuscript (with figures and tables in a separate file), and *unpack* applies the editor's tracked changes back into your original .tex files – preserving all LaTeX formatting, equations, and cross-references. Named after Di Kilpert, a language editor who has copy-edited many LEAP papers.
+
+## Download
+
+The tools are available at [github.com/johanfourieza/econtools](https://github.com/johanfourieza/econtools). To install a tool in [Claude Code](https://claude.ai/download), download the relevant `skill.md` file and place it in your `.claude/skills/{toolname}/` directory (e.g., `.claude/skills/econguru/skill.md`). Each tool's folder contains instructions for use.
