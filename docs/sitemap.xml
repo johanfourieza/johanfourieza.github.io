@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://johanfourieza.github.io/teaching.html</loc>
-    <lastmod>2026-03-06T18:31:19.602Z</lastmod>
-  </url>
-  <url>
-    <loc>https://johanfourieza.github.io/research.html</loc>
-    <lastmod>2026-03-06T18:36:54.044Z</lastmod>
-  </url>
-  <url>
-    <loc>https://johanfourieza.github.io/index.html</loc>
-    <lastmod>2026-03-06T18:31:19.600Z</lastmod>
+    <loc>https://johanfourieza.github.io/econtools.html</loc>
+    <lastmod>2026-03-07T18:45:19.135Z</lastmod>
   </url>
   <url>
     <loc>https://johanfourieza.github.io/bookshop.html</loc>
-    <lastmod>2026-03-06T20:03:31.771Z</lastmod>
+    <lastmod>2026-03-07T18:45:07.069Z</lastmod>
   </url>
   <url>
-    <loc>https://johanfourieza.github.io/econtools.html</loc>
-    <lastmod>2026-03-06T18:31:33.268Z</lastmod>
-  </url>
-  <url>
-    <loc>https://johanfourieza.github.io/public.html</loc>
-    <lastmod>2026-03-06T18:31:19.600Z</lastmod>
+    <loc>https://johanfourieza.github.io/research.html</loc>
+    <lastmod>2026-03-07T18:45:07.076Z</lastmod>
   </url>
   <url>
     <loc>https://johanfourieza.github.io/students.html</loc>
-    <lastmod>2026-03-06T18:31:19.601Z</lastmod>
+    <lastmod>2026-03-05T12:24:37.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johanfourieza.github.io/index.html</loc>
+    <lastmod>2026-03-05T12:25:48.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johanfourieza.github.io/public.html</loc>
+    <lastmod>2026-03-05T12:31:55.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johanfourieza.github.io/teaching.html</loc>
+    <lastmod>2026-03-05T12:31:53.000Z</lastmod>
   </url>
 </urlset>

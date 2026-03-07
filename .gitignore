@@ -1,5 +1,8 @@
 /.quarto/
 .Rproj.user
+.claude/
 images/_originals/
+Johan_podcast_dataset.xlsx
+*.xlsx.bak
 
 **/*.quarto_ipynb
