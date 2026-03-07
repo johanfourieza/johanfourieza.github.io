@@ -7,7 +7,7 @@ For millennia, humans have sought tools to make ourselves more productive. That 
 
 ## EconGuru
 
-A simulated peer review system for economics working papers. EconGuru creates a panel of expert referee personas – each with a distinct subspecialisation, personality, and fictitious university affiliation – who write detailed reports on your paper, targeting the journal of your choice. The editor synthesises their feedback into a prioritised briefing. You choose which changes to implement, and the tool revises your LaTeX files accordingly. Iterates through rounds until publication-ready. Grounded in the refereeing principles of Berk, Harvey, and Hirshleifer (2017).
+A simulated peer review system for economics working papers. EconGuru creates a panel of independent referee agents – each with a distinct subspecialisation, personality, and fictitious university affiliation – who review your paper in isolation, with strict information barriers mirroring real peer review. Referees cannot see each other's reports or the editorial deliberations. An editor synthesises their feedback into a prioritised briefing, weighting senior referees' judgement more heavily. You choose which changes to implement, and the tool revises your LaTeX files accordingly. Referees persist in a local library that grows over time: you rate their reports after each round, building a roster of hundreds of specialists with track records and seniority scores. Use `/econguru analytics` for a dashboard of your library. Grounded in the refereeing principles of Berk, Harvey, and Hirshleifer (2017).
 
 ## TannieDi
 
