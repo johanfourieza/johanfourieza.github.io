@@ -37,7 +37,7 @@ website:
       - href: public.qmd
         text: Public
       - href: econtools.qmd
-        text: EconTools
+        text: Tools
       - href: bookshop.qmd
         text: Bookshop
 
