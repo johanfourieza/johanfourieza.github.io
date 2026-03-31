@@ -13,10 +13,6 @@ A simulated peer review system for economics working papers. EconGuru creates a 
 
 A LaTeX-to-Word round-trip tool for language editing. Many economics papers are written in LaTeX, but professional copy-editors typically work in Word. TannieDi automates the conversion: *pack* converts your LaTeX project into a clean Word manuscript (with figures and tables in a separate file), and *unpack* applies the editor's tracked changes back into your original .tex files – preserving all LaTeX formatting, equations, and cross-references. Named after Di Kilpert, a language editor who has copy-edited many LEAP papers.
 
-## Kabbo
-
-A workflow tracker and productivity advisor for Claude Code, named after [//Kabbo](https://www.capetownmuseum.org.za/they-built-this-city/kabbo) (/Han≠kass'o, 1815–1876), the /Xam visionary whose narrative wisdom was preserved in the Bleek and Lloyd archive. Kabbo logs your session activity – tasks, tools, projects, token intensity – and analyses patterns over time using economic frameworks: comparative advantage for task allocation, marginal cost curves for token spending, Markowitz diversification for project portfolios. It recommends skills to build, agents to deploy, and workflows to automate. Run `/kabbo quick` for four headline numbers, `/kabbo analytics` for a full dashboard, or `/kabbo deep` for a monthly executive briefing. Every session closes with a line from a /Xam narrative.
-
 ## Download
 
 The tools are available at [github.com/johanfourieza/econtools](https://github.com/johanfourieza/econtools). To install a tool in [Claude Code](https://claude.ai/download), download the relevant `skill.md` file and place it in your `.claude/skills/{toolname}/` directory (e.g., `.claude/skills/econguru/skill.md`). Each tool's folder contains instructions for use.
