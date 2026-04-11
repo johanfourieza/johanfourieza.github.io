@@ -56,7 +56,9 @@ The podcast bug bit me in 2024, when historical sociologist Jonathan Schoots, no
 
 Aside from presenting my research at academic conferences, I’m often invited to speak about the economic topics I write about. I enjoy these invitations because they pull the ideas out of the page and into a room, where people can interrupt, challenge, and bring their own experiences to the discussion. It is also a useful discipline. When you have to explain an argument to a mixed audience, you quickly learn which parts are doing real work and which parts are just habits of academic writing.
 
-![An alumni talk in New York, July 2018](images/Talk1.jpg){style="display:block; width:100%; height:auto; margin:0;" fig-alt="An alumni talk in New York, July 2018"}
+{{< video https://www.youtube.com/watch?v=g9oqVLKuFH8&t=81s >}}
+
+*A public interview with Tyler Cowen at Stellenbosch University, 13 March 2026*
 
 The talks range widely. Sometimes it is to colleagues within Stellenbosch University. Sometimes it is at Stellenbosch alumni events across the globe, in places like Amsterdam, Paris, New York, Boston, Brussels, and Belfast. Often it is to corporates, farmer meetings, history societies, or book clubs across South Africa. In November 2025, I was fortunate to travel with the PSG team to give a series of keynotes across the country, including Cape Town, Gqeberha, Durban, Johannesburg, Polokwane, Pretoria, and Bloemfontein.
 
