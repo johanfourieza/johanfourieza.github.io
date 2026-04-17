@@ -6,6 +6,7 @@ project:
     - "!about_disabled.qmd"
   resources:
     - CNAME
+    - files/**
 
 website:
   title: ""
