@@ -15,10 +15,6 @@ Diebolt is a simulated peer review system for economics working papers. It creat
 
 EHRstyle applies the *Economic History Review* house style to a LaTeX manuscript prepared for submission to the *Review*. It encodes the full Notes for Contributors – anonymity, double-spacing, word budget, UK `-ize` spelling, the Oxford comma, the journal's specific capitalisation conventions (e.g. lower-case *global financial crisis*), and the peculiar date and number rules – and ships a bespoke biblatex style that produces EHR footnote references with short-title form, *ibid.* / *idem* handling, surname-first bibliography, *"2nd ser."* and roman-volume treatment for pre-1992 *EHR* citations, and automatic exclusion of working papers from the consolidated bibliography. Drop-in templates for the anonymous title page and cover letter are included.
 
-### Janluiten
-
-Janluiten is a lifelong sounding board for research ideas, modelled on Jan Luiten van Zanden – Professor of Global Economic History at Utrecht and a scholar famous for an intuition that kept him a few years ahead of his field, from environmental economics to gender to inequality. The skill helps you decide whether the idea on your desk is the right one to spend your next year on: it listens first, then asks. The deliverables are mentorship on three questions – *what* to work on, *with whom*, and *why* – with one axiom underneath it all: interest is the best predictor of success.
-
 ### LEAPstyle
 
 LEAPstyle applies the LEAP Economics house style to any academic output – LaTeX working papers, beamer slide decks, R graphs, or writing and editing. It handles preambles, the LEAP colour palette, the ggplot2 graph theme, and a comprehensive set of writing guidelines that match how LEAP publishes. Built for [LEAP](https://leapstellenbosch.org) (Laboratory for the Economics of Africa's Past) faculty and students who want their essays, papers, and presentations to carry a consistent visual and written identity. Lives in a separate repository from the other skills.
@@ -33,4 +29,4 @@ Tyler converts a folder of academic PDFs into a token-efficient markdown wiki fo
 
 ## Download
 
-The general-purpose skills (Diebolt, EHRstyle, Janluiten, TannieDi, Tyler) are available at [github.com/johanfourieza/econtools](https://github.com/johanfourieza/econtools). The LEAP house-style skill lives separately at [github.com/johanfourieza/leap](https://github.com/johanfourieza/leap). To install a skill in [Claude Code](https://claude.ai/download), download the relevant `skill.md` (or `SKILL.md`) file and place it in your `.claude/skills/{skillname}/` directory (e.g., `.claude/skills/diebolt/skill.md`). Each skill's folder contains any additional files it needs to run.
+The general-purpose skills (Diebolt, EHRstyle, TannieDi, Tyler) are available at [github.com/johanfourieza/econtools](https://github.com/johanfourieza/econtools). The LEAP house-style skill lives separately at [github.com/johanfourieza/leap](https://github.com/johanfourieza/leap). To install a skill in [Claude Code](https://claude.ai/download), download the relevant `skill.md` (or `SKILL.md`) file and place it in your `.claude/skills/{skillname}/` directory (e.g., `.claude/skills/diebolt/skill.md`). Each skill's folder contains any additional files it needs to run.
