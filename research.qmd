@@ -2,6 +2,12 @@
 title: "'An attempt to study the inventory of alternatives'"
 ---
 
+## Hot off the press
+
+-   Bergemann, Karl, Gabriel Brown, and Johan Fourie. 2026. "Running Towards: Labour Market Incentives for Runaway Slaves in the British Cape Colony, 1830–1838." *Asia-Pacific Economic History Review*. [Paper](https://onlinelibrary.wiley.com/doi/10.1111/aehr.70034)
+
+## Research overview
+
 I did not choose economic history; it chose me. It began, improbably, with a paper on ship traffic at the Cape and a Lisbon conference audience of three. There I met the economic historian Jan Luiten van Zanden and that conversation sent me to Utrecht University to do a PhD in Economic History. I completed it in 2012, using probate inventories and the Cape tax censuses to study the nature, causes, and distribution of wealth in the eighteenth-century Cape Colony.
 
 That early work left me with a bias that still shapes everything I do: if you want to understand how societies change, you need evidence that is granular enough to surprise you. Quantitative records can do that. They can also puncture comfortable myths. In my case, the probate inventories and tax censuses made it hard to sustain the old story of a uniformly poor settler society.
@@ -22,19 +28,27 @@ This is also where my role as Chair in Economics, History and Policy comes in. M
 
 ## Working papers and current projects
 
--   Running Towards: Labour market incentives for runaway slaves in the British Cape Colony, 1830–1838 (with Karl Bergemann and Gabriel Brown) \| Accepted (*Asia-Pacific Economic History Review*) \| [Stellenbosch Working Paper](https://www.ekon.sun.ac.za/wpapers/2026/wp032026)
--   Invisible Handedness: The Myth of Left-Right Batting Partnerships (with Krige Siebrits) \| Submitted \| [Stellenbosch Working Paper](https://www.ekon.sun.ac.za/wpapers/2026/wp052026)
+**Accepted**
+
+-   Prices and Living Standards: Evidence from the Cape Colony Auction Rolls (with Leoné Walters and Jonathan Schoots) \| Accepted (*Cliometrica*)
+
+**Revise and resubmit**
+
+-   From Renaissance to Relevance: Towards an Applied African Economic History \| R&R
+
+**Submitted**
+
+-   The New Economics of Cape Slavery \| Submitted
+-   Histories that matter: The case for applied economic history (with Chris Colvin) \| Submitted \| [QUB Working Paper](https://www.quceh.org.uk/working-papers-2026.html)
+-   Demographic Pressure, Emancipation and Selection into the Great Trek (with Calumet Links) \| Submitted
+-   Selective Sanitation and Racial Health Inequality (with Kelsey Lemon and Jan-Hendrik Pretorius) \| Submitted \| [Stellenbosch Working Paper](https://www.ekon.sun.ac.za/wpapers/2026/wp012026)
 -   Between Public Duty and Private Profit: Government Officials and Real Estate Investments in the Cape Colony, 1897--1902 (with Munashe Chideya) \| Submitted \| [Stellenbosch Working Paper](https://www.ekon.sun.ac.za/wpapers/2026/wp022026)
--   From Renaissance to Relevance: Towards an Applied African Economic History \| Submitted
--   Histories that matter: The case for applied economic history (with Chris Colvin) \| [QUB Working Paper](https://www.quceh.org.uk/working-papers-2026.html)
--   Beyond GDP: the case of real-time barometer of economic activity in South Africa (with Helanya Fourie) \| [UNUWIDER Working Paper](https://www.wider.unu.edu/publication/beyond-gdp-case-real-time-barometer-economic-activity-south-africa)
--   Selective sanitation and racial health inequality (with Kelsey Lemon and Jan-Hendrik Pretorius) \| [Stellenbosch Working Paper](https://www.ekon.sun.ac.za/wpapers/2026/wp012026)
--   Counter-Elite Mobilization and Settler Colonialism: The Structure of Contestation in the Cape Colony, 1779 (with Jonathan Schoots)
--   The Cost of Apartheid: Labour Market Discrimination in Twentieth-Century South Africa (with Timothy Ngalande)
--   Power and Patronage: Political Influence and Private Enterprise in the Cape Colony, 1892--1902 (with Edward Kerby and Munashe Chideya)
--   Prices and living standards: Evidence from Cape Colony auction rolls (with Leoné Walters and Jonathan Schoots)
--   Biplots and Historical classification: Measuring household economic systems at the Cape Colony (with Dieter von Fintel)
--   The New Economics of Cape Slavery
+-   Integrating the Enemy: Ethnic Sorting and Retention in the South African Constabulary, 1900–1908 (with Kris Inwood and Martine Mariotti) \| Submitted
+
+**Other current projects**
+
+-   Uprooted: Migration, Coercion, and the Roots of Social Connectedness
+-   Selective Persistence: Colonial Education, State Intervention and the Durability of School Quality in South Africa (with Sarah Ferber)
 
 ## Recent grants and awards
 
@@ -54,6 +68,7 @@ This is also where my role as Chair in Economics, History and Policy comes in. M
 
 [Google Scholar](https://scholar.google.com/citations?user=DL4f8DQAAAAJ&hl=en&authuser=1&oi=ao) has a complete list of my publications.
 
+-   Bergemann, Karl, Gabriel Brown, and Johan Fourie. 2026. “Running Towards: Labour Market Incentives for Runaway Slaves in the British Cape Colony, 1830–1838.” *Asia-Pacific Economic History Review*. [Paper](https://onlinelibrary.wiley.com/doi/10.1111/aehr.70034)
 -   Fourie, Johan. 2025. “Inequality in the Cape Colony, 1685–1844.” South African Journal of Science 121 (11-12): 71–79. [Paper](https://www.scielo.org.za/scielo.php?pid=S0038-23532025000600020&script=sci_arttext&tlng=en) \| [Code](code/Fourie_2025_CapeInequality.R) \| [Updated Working Paper](https://www.ekon.sun.ac.za/wpapers/2026/wp042026)
 -   Fourie, Johan, Erik Green, Auke Rijpma, and Dieter Von Fintel. 2025. “Income Mobility Before Industrialization: Evidence from South Africa’s Cape Colony.” Social Science History 49 (1): 22–51. [Paper](https://www.cambridge.org/core/journals/social-science-history/article/income-mobility-before-industrialization-evidence-from-south-africas-cape-colony/60A6816FC7347FA20B01E73358195BB9)
 -   Fourie, Johan, Erik Green, Christiaan Burger, Chris de Wit, Kate Ekama, Jan Greyling, Hans Heese, Jan-Hendrik Pretorius, Robert Ross, and Dieter von Fintel. 2025. “‘Waar Is Beter Dorp in Zuid Africa Dan Stellenbos?’: What the Stellenbosch-Drakenstein Tax Censuses Reveal.” South African Historical Journal 76 (4): 420–46. [Paper](https://www.tandfonline.com/doi/full/10.1080/02582473.2025.2500410)
