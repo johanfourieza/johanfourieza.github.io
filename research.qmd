@@ -16,7 +16,7 @@ The Cape of Good Hope Panel project is a direct descendant of that realisation. 
 
 What have we learned so far? Two things can be true at once. The Cape was, on average, a wealthy society by the standards of its time, and it was also a severely unequal one. My work using probate inventories and tax censuses shows that many settler farmers were well-off, even in comparison to some of the wealthiest societies of the period. But the same sources also reveal how sharply that prosperity was distributed, within and between groups. And once you can measure wealth at the household level, the questions become harder, and better: how did elites maintain their advantage; which factors made mobility possible; what did “opportunity” mean in a society built on unfree labour.
 
-![The closing conference of the Biography project in 2022](images/Biography.jpg){style=”display:block; width:100%; height:auto; margin:0;” fig-alt=”At the Biography closing conference in November 2022”}
+![The closing conference of the Biography project in 2022](images/Biography.jpg){style="display:block; width:100%; height:auto; margin:0;" fig-alt="At the Biography closing conference in November 2022"}
 
 The richness of the Cape records also makes it possible to widen the lens beyond the usual protagonists. Some of my work has tried to recover histories of people who are often absent from conventional archives, precisely because their lives were not written down in the places historians tend to look. It is not archival cosplay. It is an attempt to make the evidentiary base of South African history more representative, and therefore more useful.
 
