@@ -1,0 +1,25 @@
+# Per-chapter "Sources & data" metadata for the linking layer (Phase 2).
+#
+# One entry per chapter file. `papers` are @citekeys from ../references.bib
+# (so the link, DOI and full reference come from one place). `data` lists the
+# GitHub repos / datasets / code behind the chapter. During ingestion this file
+# is rendered into the "Sources & data" block at the end of each chapter.
+#
+# Keeping sources here (data, not hand-written HTML) is what makes the book
+# "living": add a paper to references.bib + a line here, rebuild, done.
+
+chapters:
+  - file: 01-introduction.md
+    papers:
+      - fourie2025income          # @citekey in references.bib
+    data:
+      - label: "Replication data & R code"
+        url: "https://github.com/johanfourieza"
+
+  # - file: 02-<slug>.md
+  #   papers:
+  #     - <citekey>
+  #     - <citekey>
+  #   data:
+  #     - label: "Cape Colony tax census, 1663–1834"
+  #       url: "https://github.com/johanfourieza/<repo>"

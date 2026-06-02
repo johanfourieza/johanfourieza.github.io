@@ -1,0 +1,144 @@
+/*-- scss:defaults --*/
+// Our Long Walk to Economic Freedom — book theme
+// Mirrors the johanfourie.com identity (see ../styles.css)
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+$brown:  #693e23;   // headings, accents
+$olive:  #8f8844;   // links
+$cream:  #f7f5f2;   // page background
+$ink:    #1a1a1a;   // body text
+
+$body-bg:    $cream;
+$body-color: $ink;
+$link-color: $olive;
+$font-family-sans-serif: 'Inter', Arial, sans-serif;
+$toc-color: $brown;
+
+/*-- scss:rules --*/
+body {
+  font-size: 0.97rem;
+  line-height: 1.72;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $brown;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  border-bottom: 1px solid rgba(105, 62, 35, 0.12);
+  padding-bottom: 0.35rem;
+}
+
+p { text-wrap: pretty; }
+
+a, a:visited {
+  color: $olive;
+  text-decoration: underline;
+  text-decoration-color: rgba(143, 136, 68, 0.4);
+  text-underline-offset: 2px;
+}
+a:hover {
+  color: $brown;
+  text-decoration-style: double;
+  text-decoration-color: $brown;
+}
+
+// Sidebar (chapter tree) + active chapter
+.sidebar-item .active,
+.sidebar-navigation .active { color: $brown !important; font-weight: 600; }
+
+// Tables — brown header band, like the main site
+table thead th, .table thead th {
+  background-color: $brown;
+  color: $cream;
+  border-color: $brown;
+}
+table tbody tr:hover { background-color: rgba(105, 62, 35, 0.04); }
+
+// Blockquotes
+blockquote {
+  border-left: 3px solid $brown;
+  font-style: italic;
+  color: #4a4a4a;
+}
+
+// Figures + captions
+figure { margin-bottom: 2rem; }
+figure img, .quarto-figure img, img { border-radius: 3px; }
+figcaption, .figure-caption {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #777;
+}
+
+// Book figures (manuscript figures re-inserted during ingestion)
+img.book-figure {
+  display: block;
+  margin: 1.5rem auto 0.4rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+.figure-caption {
+  text-align: center;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #777;
+  max-width: 90%;
+  margin: 0 auto 2rem;
+}
+
+// Margin citations / asides (Phase 2 — Tufte-style source links)
+.column-margin, .aside {
+  font-size: 0.82rem;
+  color: #555;
+}
+
+// "Sources & data" callout block at chapter ends (Phase 2)
+.sources-block {
+  margin-top: 2.5rem;
+  padding: 1rem 1.25rem;
+  background: rgba(105, 62, 35, 0.04);
+  border: 1px solid rgba(105, 62, 35, 0.15);
+  border-left: 4px solid $brown;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+.sources-block h4 {
+  margin-top: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.78rem;
+  color: $brown;
+}
+
+// Read-only licence notice
+.licence-notice {
+  font-size: 0.85rem;
+  color: #6b5a46;
+  border-top: 1px solid rgba(105, 62, 35, 0.15);
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+// Discourage image dragging/saving (cosmetic deterrent only)
+.quarto-figure img, figure img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+/* Print: do not render the book — protect the read-only edition */
+@media print {
+  #quarto-document-content,
+  main.content { display: none !important; }
+  body::after {
+    content: "Our Long Walk to Economic Freedom is free to read online at johanfourie.com/OLWTEF — © Johan Fourie. Not for download or redistribution.";
+    display: block;
+    padding: 3rem;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 12pt;
+    color: #000;
+  }
+}

@@ -37,6 +37,8 @@ website:
         text: Teaching
       - href: public.qmd
         text: Public
+      - href: books.qmd
+        text: Read
       - href: econtools.qmd
         text: Tools
       - href: bookshop.qmd

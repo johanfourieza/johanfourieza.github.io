@@ -1,0 +1,48 @@
+name: Build the living book
+
+# Rebuilds the OLWTEF book whenever its source (or the shared bibliography)
+# changes on main, and commits the rendered docs/OLWTEF/ back so GitHub Pages
+# (served from /docs) picks it up. The book is plain markdown, so no R is needed.
+#
+# The main website is still rendered locally and committed as before; this
+# workflow deliberately touches only the book to keep CI fast and low-risk.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "OLWTEF/**"
+      - "references.bib"
+      - ".github/workflows/publish.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-book
+  cancel-in-progress: true
+
+jobs:
+  render-book:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render OLWTEF book
+        run: quarto render OLWTEF
+
+      - name: Commit rendered book
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/OLWTEF
+          if git diff --staged --quiet; then
+            echo "No changes to publish."
+          else
+            git commit -m "build: render OLWTEF book [skip ci]"
+            git push
+          fi
