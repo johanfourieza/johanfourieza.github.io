@@ -354,9 +354,9 @@ textarea:focus-visible {
 
 .read-card {
   display: flex;
-  gap: 1.25rem;
-  align-items: flex-start;
-  padding: 1.25rem;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 1.5rem;
   border: 1px solid rgba(105, 62, 35, 0.12);
   border-radius: 6px;
   background: #fff;
@@ -367,16 +367,27 @@ textarea:focus-visible {
   transform: translateY(-2px);
 }
 
+/* Neutralise Quarto's figure wrappers so the white box has even padding all round */
+.read-card .quarto-figure { flex: 0 0 auto; margin: 0; }
+.read-card figure.figure,
+.read-card figure.figure > p { margin: 0; }
+.read-card figcaption {
+  margin: 0.4rem 0 0;
+  text-align: center;
+}
+
 .read-card .read-cover {
   width: 135px;
   height: auto;
-  flex: 0 0 auto;
+  display: block;
   border-radius: 3px;
   box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.15);
   margin: 0;
 }
 
-.read-card-body { flex: 1; }
+.read-card-body { flex: 1; margin: 0; }
+.read-card-body > :first-child { margin-top: 0; }
+.read-card-body > :last-child { margin-bottom: 0; }
 .read-card-body h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;

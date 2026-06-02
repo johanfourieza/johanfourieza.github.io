@@ -6,15 +6,17 @@ date-modified: last-modified
 
 ```{=html}
 <div class="edition-banner">
-  <img src="images/ed-english.jpg" alt="English edition (Tafelberg)">
+  <img src="images/ed-1st.jpg" alt="First edition (Tafelberg, 2021)">
+  <img src="images/ed-cambridge.jpg" alt="Cambridge University Press edition (2022)">
   <img src="images/ed-afrikaans.jpg" alt="Afrikaans edition (Skatryk)">
   <img src="images/ed-isixhosa.jpg" alt="isiXhosa edition (Izinhanha)">
-  <img src="images/ed-cambridge.jpg" alt="Cambridge international edition">
+  <img src="images/ed-2nd.jpg" alt="Revised second edition (Tafelberg, 2025)">
 </div>
 ```
 
 ::: {.edition-caption}
-Also in Afrikaans (*Skatryk*), isiXhosa (*Izinhanha*) and a Cambridge international edition.
+From the first edition (2021) to the revised second edition (2025), with the Cambridge
+international edition and the Afrikaans (*Skatryk*) and isiXhosa (*Izinhanha*) translations.
 :::
 
 Welcome to the free online edition of *Our Long Walk to Economic Freedom*. The book
