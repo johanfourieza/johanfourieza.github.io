@@ -40,7 +40,7 @@ second edition, free to read online.
 - **Landing page** carries a banner of all five editions (first edition, Cambridge/CUP,
   Afrikaans *Skatryk*, isiXhosa *Izinhanha*, revised second edition); the footer links back to
   johanfourie.com (there is no separate "About the author" page).
-- **House style — en-dashes only, never em-dashes.** This is a hard rule; it is enforced in the
+- **House style – en-dashes only, never em-dashes.** This is a hard rule; it is enforced in the
   ingest pipeline (`clean_markdown.R` normalises any em-dash to a spaced en-dash). Figure
   captions read `Source: … • Visualised: johanfourie.com`.
 
@@ -100,7 +100,7 @@ The book is published and in the house style. These are the changes we plan to m
 roughly in priority order. The first two are the focus, and some of the plumbing for them is
 already in place.
 
-### 1. Scholarly linking layer — connect the text to the evidence
+### 1. Scholarly linking layer – connect the text to the evidence
 The goal is that a student can jump from any claim in the book straight to the original research
 and the data behind it.
 
@@ -116,7 +116,7 @@ and the data behind it.
 - **"Cite this version" + a Zenodo DOI**, so the living book has citable, archival snapshots and
   each meaningful update can carry its own versioned DOI.
 
-### 2. Class annotation layer — for Economics 281
+### 2. Class annotation layer – for Economics 281
 - Switch on **Hypothes.is** (the configuration is already stubbed in `OLWTEF/_quarto.yml`) with a
   **private class group**, so students can highlight, annotate and discuss in the margins. This
   turns the book into a shared seminar surface rather than a static text.
