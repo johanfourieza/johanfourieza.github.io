@@ -25,8 +25,11 @@ book:
     style: docked
     collapse-level: 1
   page-footer:
-    center: |
+    left: |
       Free to read online &middot; &copy; Johan Fourie &middot; Not for download or redistribution
+    right:
+      - text: "About the author ↗"
+        href: "https://www.johanfourie.com"
   chapters:
     - index.qmd
     - praise.md
@@ -70,7 +73,6 @@ book:
     - 36-will-madiba.md
     - 37-should-no-scholar-ever.md
     - 38-epilogue.md
-    - about-the-author.md
 
 # Shared with the main site — one bibliography, one source of truth.
 bibliography: ../references.bib

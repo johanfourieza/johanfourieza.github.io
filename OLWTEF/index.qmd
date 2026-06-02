@@ -4,8 +4,17 @@ subtitle: "A living, freely readable edition"
 date-modified: last-modified
 ---
 
-::: {.column-margin}
-![](images/cover.jpg){fig-alt="Cover of Our Long Walk to Economic Freedom"}
+```{=html}
+<div class="edition-banner">
+  <img src="images/ed-english.jpg" alt="English edition (Tafelberg)">
+  <img src="images/ed-afrikaans.jpg" alt="Afrikaans edition (Skatryk)">
+  <img src="images/ed-isixhosa.jpg" alt="isiXhosa edition (Izinhanha)">
+  <img src="images/ed-cambridge.jpg" alt="Cambridge international edition">
+</div>
+```
+
+::: {.edition-caption}
+Also in Afrikaans (*Skatryk*), isiXhosa (*Izinhanha*) and a Cambridge international edition.
 :::
 
 Welcome to the free online edition of *Our Long Walk to Economic Freedom*. The book

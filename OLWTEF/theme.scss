@@ -73,6 +73,31 @@ figcaption, .figure-caption {
   color: #777;
 }
 
+// Editions banner on the landing page (covers of all editions, left to right)
+.edition-banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1.1rem;
+  margin: 0.5rem 0 1.5rem;
+}
+.edition-banner img {
+  height: 175px;
+  width: auto;
+  border-radius: 3px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.16);
+}
+.edition-caption {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #6b5a46;
+  margin-bottom: 2rem;
+}
+@media (max-width: 600px) {
+  .edition-banner img { height: 120px; }
+}
+
 // Book figures (manuscript figures re-inserted during ingestion)
 img.book-figure {
   display: block;

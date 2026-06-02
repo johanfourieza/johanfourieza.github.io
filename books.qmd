@@ -11,13 +11,14 @@ instead? Visit the [Bookshop](bookshop.qmd).
 ::: {.read-grid}
 
 ::: {.read-card}
-[![Cover of Our Long Walk to Economic Freedom](images/OLWTEF.jpg){.read-cover fig-alt="Our Long Walk to Economic Freedom cover"}](OLWTEF/)
+[![Cover of Our Long Walk to Economic Freedom](images/Cover_2ndEdition.jpg){.read-cover fig-alt="Our Long Walk to Economic Freedom cover"}](OLWTEF/)
 
 ::: {.read-card-body}
 ### [Our Long Walk to Economic Freedom](OLWTEF/)
 
-An accessible introduction to economic history from an African perspective (Cambridge
-University Press). Free to read online; updated continuously.
+[Tafelberg, 2025]{.read-meta}
+
+An accessible, engaging introduction to economic history from an African perspective. Free to read online and continuously updated.
 
 [Read online →](OLWTEF/){.read-btn}
 :::
