@@ -1,5 +1,5 @@
 # =============================================================================
-# Our Long Walk to Economic Freedom — ALL book figures in the OLW house style
+# Our Long Walk to Economic Freedom – ALL book figures in the OLW house style
 # (/olwstyle), in colour. Canonical figure builder (supersedes regen_figures.R
 # and regen_remaining.R). Restyles the 19 existing R figures and builds the 4
 # that had no R source (3.1, 8.1, 9.1, 12.1). Saves figure-X-Y.jpg into _olw/.
@@ -56,10 +56,10 @@ run <- function(label, expr) {
 }
 
 # =============================================================================
-# PART A — the 19 existing figures, restyled to OLW colour
+# PART A – the 19 existing figures, restyled to OLW colour
 # =============================================================================
 
-## 1.1 — world population by poverty threshold (stacked area)
+## 1.1 – world population by poverty threshold (stacked area)
 run("1.1", {
   pd <- read_excel("Data/poverty.xlsx")
   colnames(pd) <- c("Entity","Code","Year","Above_30","a1","10_to_30","a2","5_to_10","a3",
@@ -84,7 +84,7 @@ run("1.1", {
   sv("figure-1-1.jpg", p)
 })
 
-## 2.1 — genetic diversity vs population density (scatter)
+## 2.1 – genetic diversity vs population density (scatter)
 run("2.1", {
   ag <- read_excel("Data/ashraf and galor.xlsx")
   p <- ggplot(ag, aes(x, y)) +
@@ -98,7 +98,7 @@ run("2.1", {
   sv("figure-2-1.jpg", p)
 })
 
-## 5.1 — Bantu migration map
+## 5.1 – Bantu migration map
 run("5.1", {
   world <- ne_countries(scale = "medium", returnclass = "sf")
   aac  <- read_rds("Data/arrow_areas_coords.rds")
@@ -121,12 +121,12 @@ run("5.1", {
                arrow = arrow(length = unit(0.02,"npc"), type = "closed")) +
     geom_point(data = yaonde, aes(long1, lat1), shape = 19, size = 6, colour = "#693e23") +
     geom_text_repel(data = lab, aes(x, y, label = label), size = 4.4, colour = "#693e23") +
-    labs(x = NULL, y = NULL, caption = CAP("Wikipedia — 'Bantu expansion'")) +
+    labs(x = NULL, y = NULL, caption = CAP("Wikipedia – 'Bantu expansion'")) +
     theme_olw_map()
   sv("figure-5-1.jpg", p)
 })
 
-## 13.1 — printed book production by region
+## 13.1 – printed book production by region
 run("13.1", {
   db <- read_excel("Data/printedbooks.xlsx") %>% pivot_longer(!country, names_to = "period", values_to = "stat")
   labs13 <- db %>% group_by(country) %>% filter(period == "1751-1800") %>% ungroup()
@@ -142,7 +142,7 @@ run("13.1", {
   sv("figure-13-1.jpg", p)
 })
 
-## 14.1 — GDP per capita: Yangzi, European frontier, Cape
+## 14.1 – GDP per capita: Yangzi, European frontier, Cape
 run("14.1", {
   df <- read_excel("Data/Figure_13_1_china_cape.xlsx")
   long <- df %>% pivot_longer(-year) %>% filter(name != "China")
@@ -161,7 +161,7 @@ run("14.1", {
   sv("figure-14-1.jpg", p)
 })
 
-## 17.1 — GDP per capita in England (single line, log)
+## 17.1 – GDP per capita in England (single line, log)
 run("17.1", {
   d <- read_excel("Data/GDPUK.xlsx") %>% as_tibble() %>% transmute(year = Year, gdp = round(GDP))
   p <- ggplot(d, aes(year, gdp)) +
@@ -173,7 +173,7 @@ run("17.1", {
   sv("figure-17-1.jpg", p)
 })
 
-## 18.1 — Cape Colony debt-to-GDP
+## 18.1 – Cape Colony debt-to-GDP
 run("18.1", {
   ad <- read_excel("Data/abel_data.xlsx")
   p <- ggplot(ad, aes(x, y, colour = series)) +
@@ -185,7 +185,7 @@ run("18.1", {
   sv("figure-18-1.jpg", p)
 })
 
-## 19.1 — height of South African black men (SA -> mustard)
+## 19.1 – height of South African black men (SA -> mustard)
 run("19.1", {
   bh <- read_excel("Data/black_heights_new.xlsx") %>% group_by(Year) %>%
     summarise(average = mean(Height, na.rm = TRUE),
@@ -215,7 +215,7 @@ df_mad <- read.csv("Data/maddison_project_database.csv") %>% janitor::clean_name
   rename(country_code = countrycode, country_name = country) %>%
   mutate(year = as.numeric(year))
 
-## 23.1 — US vs USSR GDP per capita (direct-labelled)
+## 23.1 – US vs USSR GDP per capita (direct-labelled)
 run("23.1", {
   d <- df_mad %>% filter(country_name %in% c("United States","Former USSR"),
                          indicator_code == "cgdppc", year >= 1885)
@@ -232,7 +232,7 @@ run("23.1", {
   sv("figure-23-1.jpg", p)
 })
 
-## 23.2 — life expectancy in former communist countries (direct-labelled)
+## 23.2 – life expectancy in former communist countries (direct-labelled)
 run("23.2", {
   le <- read_excel("Data/life-expectancy-communism-our world in data.xlsx") %>% janitor::clean_names() %>%
     filter(year >= 1960, entity %in% c("Czech Republic","Poland","Slovakia","Hungary","Romania","Bulgaria"))
@@ -246,12 +246,12 @@ run("23.2", {
     scale_y_continuous(labels = scales::unit_format(suffix = " yrs", accuracy = 1)) +
     scale_x_continuous(limits = c(1960, 2032), expand = expansion(mult = c(0.02, 0.02))) +
     labs(x = NULL, y = "Life expectancy at birth",
-         caption = CAP("Our World in Data (2024) — dashed line: fall of communism")) +
+         caption = CAP("Our World in Data (2024) – dashed line: fall of communism")) +
     theme_olw()
   sv("figure-23-2.jpg", p)
 })
 
-## 25.1 — Great Leap Forward: draught animals & cowhides (two panels)
+## 25.1 – Great Leap Forward: draught animals & cowhides (two panels)
 run("25.1", {
   g <- read.csv("Data/animals_cowhides.csv") %>% as_tibble() %>% mutate(panel = factor(panel))
   mk <- function(pp, ylab, cap) {
@@ -266,7 +266,7 @@ run("25.1", {
   sv("figure-25-1.jpg", p)
 })
 
-## 26 — GDP per capita 1900 vs 2000 (scatter)
+## 26 – GDP per capita 1900 vs 2000 (scatter)
 run("26.1", {
   pick <- function(a,b,t) df_mad %>% filter(year >= a, year <= b) %>% group_by(country_name) %>%
     filter(year == median(year)) %>% ungroup() %>% mutate(time = t)
@@ -290,7 +290,7 @@ run("26.1", {
   sv("figure-26-1.jpg", p)
 })
 
-## 27.1 — welfare ratios across cities
+## 27.1 – welfare ratios across cities
 run("27.1", {
   fr <- read_csv("Data/Frankema.csv", show_col_types = FALSE) %>% filter(x < 1960)
   labs27 <- fr %>% group_by(city) %>% filter(x == max(x)) %>% ungroup()
@@ -305,7 +305,7 @@ run("27.1", {
   sv("figure-27-1.jpg", p)
 })
 
-## 30.1 — schooling/test scores vs growth (two panels, scatter + trend)
+## 30.1 – schooling/test scores vs growth (two panels, scatter + trend)
 run("30.1", {
   st <- read_excel("Data/schooling_test_scores_1.xlsx")
   mk <- function(pp, xlab, cap, xlim = NULL) {
@@ -324,7 +324,7 @@ run("30.1", {
   sv("figure-30-1.jpg", p)
 })
 
-## 32.1 — volume of global exports (single line, two eras shaded)
+## 32.1 – volume of global exports (single line, two eras shaded)
 run("32.1", {
   wt <- read_csv("Data/world-trade-exports-constant-prices.csv", show_col_types = FALSE)
   p <- ggplot(wt, aes(Year, `World Trade`)) +
@@ -339,7 +339,7 @@ run("32.1", {
   sv("figure-32-1.jpg", p)
 })
 
-## 33.1 — Moore's law (scatter by chip designer, log y)
+## 33.1 – Moore's law (scatter by chip designer, log y)
 run("33.1", {
   tr <- read_rds("Data/df_transistors.rds") %>% mutate(designer = fct_lump(designer, 5)) %>%
     filter(!(date_ofintroduction > 2010 & mos_transistor_count < 10000))
@@ -349,12 +349,12 @@ run("33.1", {
     scale_colour_manual(values = OLW_CYCLE) + scale_shape_manual(values = seq(15, 20)) +
     scale_y_log10(labels = scales::comma_format(big.mark = " ")) +
     labs(x = NULL, y = "Transistor count (log scale)", colour = NULL, shape = NULL,
-         caption = CAP("Wikipedia — 'Transistor count' (2020)")) +
+         caption = CAP("Wikipedia – 'Transistor count' (2020)")) +
     theme_olw() + theme(legend.position = "bottom")
   sv("figure-33-1.jpg", p)
 })
 
-## 35.1 — share of deaths from HIV/AIDS, 2000 (world choropleth)
+## 35.1 – share of deaths from HIV/AIDS, 2000 (world choropleth)
 run("35.1", {
   sda <- read_csv("Data/share-deaths-aids.csv", show_col_types = FALSE) %>%
     rename(share_death = `Deaths - HIV/AIDS - Sex: Both - Age: All Ages (Percent)`) %>%
@@ -373,7 +373,7 @@ run("35.1", {
   sv("figure-35-1.jpg", p)
 })
 
-## 35.2 — share of countries with any 'bad policy'
+## 35.2 – share of countries with any 'bad policy'
 run("35.2", {
   bp <- read_excel("Data/any_bad_policy.xlsx")
   labs35 <- bp %>% group_by(country) %>% filter(x == min(x[x >= 1981 & x < 1990])) %>% ungroup()
@@ -388,7 +388,7 @@ run("35.2", {
   sv("figure-35-2.jpg", p)
 })
 
-## 36.1 — poverty headcount by region (South Africa -> mustard)
+## 36.1 – poverty headcount by region (South Africa -> mustard)
 run("36.1", {
   dp <- readRDS("Data/df_pov.rds") %>% filter(!is.na(stat)) %>%
     filter(indicator_code == "SI.POV.DDAY", year >= 1994, year <= 2016,
@@ -414,10 +414,10 @@ run("36.1", {
 })
 
 # =============================================================================
-# PART B — the 4 new figures, built from scratch in OLW colour
+# PART B – the 4 new figures, built from scratch in OLW colour
 # =============================================================================
 
-## 9.1 — Timeline of Jerusalem's rulers
+## 9.1 – Timeline of Jerusalem's rulers
 run("9.1", {
   jl <- tribble(
     ~ruler, ~start, ~end, ~class,
@@ -465,13 +465,13 @@ run("9.1", {
     scale_colour_manual(values = cls_cols, name = NULL) +
     scale_x_continuous(limits = c(-2700, 2200), breaks = seq(-2000, 2000, 1000),
                        labels = function(b) ifelse(b < 0, paste0(abs(b)," BCE"), ifelse(b == 0, "0", paste0(b," CE")))) +
-    labs(x = NULL, y = NULL, caption = CAP("Wikipedia — 'Timeline of Jerusalem'; dashed lines: Crusades")) +
+    labs(x = NULL, y = NULL, caption = CAP("Wikipedia – 'Timeline of Jerusalem'; dashed lines: Crusades")) +
     theme_olw() +
     theme(legend.position = "bottom", axis.text.y = element_blank(), panel.grid.major.y = element_blank())
   sv("figure-9-1.jpg", p, w = 10, h = 9)
 })
 
-## 12.1 — Top Atlantic slave routes
+## 12.1 – Top Atlantic slave routes
 run("12.1", {
   world <- ne_countries(scale = "medium", returnclass = "sf")
   org <- tribble(
@@ -510,7 +510,7 @@ run("12.1", {
   sv("figure-12-1.jpg", p)
 })
 
-## 3.1 — How individualised norms spread through migration (schematic)
+## 3.1 – How individualised norms spread through migration (schematic)
 run("3.1", {
   ramp <- colorRampPalette(c("#693e23", "#c29500", "#eccba7"))  # collectivism -> individualism
   bar <- function(x0, y0, w = 3.2, h = 0.7, nseg = 40) {
@@ -558,7 +558,7 @@ run("3.1", {
   sv("figure-3-1.jpg", p, w = 10, h = 7)
 })
 
-## 8.1 — Africa's five ecological zones (stylised approximation)
+## 8.1 – Africa's five ecological zones (stylised approximation)
 run("8.1", {
   world <- ne_countries(scale = "medium", returnclass = "sf")
   africa <- world %>% filter(continent == "Africa") %>% st_make_valid() %>% st_union()

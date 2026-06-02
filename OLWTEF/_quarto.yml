@@ -7,7 +7,6 @@ book:
   subtitle: "Reading the African past to understand our prosperity"
   author: "Johan Fourie"
   favicon: images/icon.png
-  cover-image: images/cover.jpg
   site-url: "https://www.johanfourie.com/OLWTEF/"
   google-analytics: "G-TQJEXD9NM3"
   search: true
@@ -16,7 +15,7 @@ book:
   # No repo-actions / repo-url on purpose: no "Edit this page" / "View source" links.
   open-graph:
     image: images/cover.jpg
-    description: "Our Long Walk to Economic Freedom — a living, freely readable edition by Johan Fourie."
+    description: "Our Long Walk to Economic Freedom – a living, freely readable edition by Johan Fourie."
   twitter-card:
     image: images/cover.jpg
     creator: "@johanfourieza"
@@ -74,7 +73,7 @@ book:
     - 37-should-no-scholar-ever.md
     - 38-epilogue.md
 
-# Shared with the main site — one bibliography, one source of truth.
+# Shared with the main site – one bibliography, one source of truth.
 bibliography: ../references.bib
 # Pandoc's default citation style is Chicago author-date. To pin a style,
 # drop a .csl file in this folder and set:  csl: chicago-author-date.csl
@@ -91,7 +90,7 @@ format:
     citations-hover: true
     crossrefs-hover: true
     code-tools: false
-    format-links: false        # hide "Other Formats" — HTML is the only edition
+    format-links: false        # hide "Other Formats" – HTML is the only edition
     include-after-body:
       - readonly.html
     # --- Phase 3: class annotation layer (enable once a class group exists) ---

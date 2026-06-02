@@ -1,5 +1,5 @@
 /*-- scss:defaults --*/
-// Our Long Walk to Economic Freedom — book theme
+// Our Long Walk to Economic Freedom – book theme
 // Mirrors the johanfourie.com identity (see ../styles.css)
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
@@ -49,7 +49,7 @@ a:hover {
 .sidebar-item .active,
 .sidebar-navigation .active { color: $brown !important; font-weight: 600; }
 
-// Tables — brown header band, like the main site
+// Tables – brown header band, like the main site
 table thead th, .table thead th {
   background-color: $brown;
   color: $cream;
@@ -115,7 +115,7 @@ img.book-figure {
   margin: 0 auto 2rem;
 }
 
-// Margin citations / asides (Phase 2 — Tufte-style source links)
+// Margin citations / asides (Phase 2 – Tufte-style source links)
 .column-margin, .aside {
   font-size: 0.82rem;
   color: #555;
@@ -154,12 +154,12 @@ img.book-figure {
   user-select: none;
 }
 
-/* Print: do not render the book — protect the read-only edition */
+/* Print: do not render the book – protect the read-only edition */
 @media print {
   #quarto-document-content,
   main.content { display: none !important; }
   body::after {
-    content: "Our Long Walk to Economic Freedom is free to read online at johanfourie.com/OLWTEF — © Johan Fourie. Not for download or redistribution.";
+    content: "Our Long Walk to Economic Freedom is free to read online at johanfourie.com/OLWTEF – © Johan Fourie. Not for download or redistribution.";
     display: block;
     padding: 3rem;
     font-family: 'Inter', Arial, sans-serif;

@@ -3,20 +3,18 @@ title: "Books to read"
 toc: false
 ---
 
-Some of my books are free to read online, in full. These are **living editions**: I update
-them as new research appears, and I link the text to the original papers, working papers, and
-[datasets](https://github.com/johanfourieza) behind each argument. Looking for a copy to buy
-instead? Visit the [Bookshop](bookshop.qmd).
+My book, *Our Long Walk to Economic Freedom*, is now free to read online, in full. This is a
+**living edition**: I update it as new research appears, and I link the text to the original
+papers, working papers, and [datasets](https://github.com/johanfourieza) behind each argument.
+Looking for a copy to buy instead? Visit the [Bookshop](bookshop.qmd).
 
 ::: {.read-grid}
 
 ::: {.read-card}
-[![Cover of Our Long Walk to Economic Freedom](images/Cover_2ndEdition.jpg){.read-cover fig-alt="Our Long Walk to Economic Freedom cover"}](OLWTEF/)
+[![Tafelberg, 2025](images/Cover_2ndEdition.jpg){.read-cover fig-alt="Our Long Walk to Economic Freedom cover"}](OLWTEF/)
 
 ::: {.read-card-body}
 ### [Our Long Walk to Economic Freedom](OLWTEF/)
-
-[Tafelberg, 2025]{.read-meta}
 
 An accessible, engaging introduction to economic history from an African perspective. Free to read online and continuously updated.
 

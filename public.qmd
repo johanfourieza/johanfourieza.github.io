@@ -29,19 +29,19 @@ The podcast bug bit me in 2024, when historical sociologist Jonathan Schoots, no
 
 | Episode | Guest               | Topic                                                                 | Substack | YouTube |
 |--------:|---------------------|-----------------------------------------------------------------------|----------|---------|
-| S1E0    | —                   | Johan and Jonathan introduce the podcast                               | [Link](https://www.ourlongwalk.com/p/what-is-the-moral-of-your-story) | — |
-| S1E1    | Bronwen Everill     | Are good intentions bad?                                                | [Link](https://www.ourlongwalk.com/p/are-good-intentions-bad) | — |
-| S1E2    | Ken Opalo           | Leadership, legacies, and the politics of change                        | [Link](https://www.ourlongwalk.com/p/can-you-say-sdgs) | — |
-| S1E3    | James Robinson      | What can economists learn from ubuntu?                                 | [Link](https://www.ourlongwalk.com/p/what-can-economists-learn-from-ubuntu) | — |
-| S1E4    | Belinda Archibong   | Why should Washington care about Africa?                               | [Link](https://www.ourlongwalk.com/p/are-we-in-the-long-or-longer-run) | — |
-| S1E5    | Ewout Frankema      | What is Africa's ideal development model?                              | [Link](https://www.ourlongwalk.com/p/what-is-africas-ideal-development) | — |
-| S1E6    | Benjamin Bradlow    | How to build an African city?                                          | [Link](https://www.ourlongwalk.com/p/how-to-build-an-african-city) | — |
-| S1E7    | Nathan Nunn         | Can herding shape morals?                                              | [Link](https://www.ourlongwalk.com/p/can-herding-shape-our-morals) | — |
-| S1E8    | Ola Olsson          | Why did we stop roaming?                                               | [Link](https://www.ourlongwalk.com/p/why-did-we-stop-roaming) | — |
-| S1E9    | Elias Papaioannou   | What if borders were never meant to last?                              | [Link](https://www.ourlongwalk.com/p/what-if-borders-were-never-meant) | — |
-| S1E10   | Richard Reid        | Can war be creative?                                                   | [Link](https://www.ourlongwalk.com/p/can-war-be-creative) | — |
-| S1E11   | Jacob Dlamini       | What did Mandela leave behind?                                        | [Link](https://www.ourlongwalk.com/p/what-did-mandela-leave-behind) | — |
-| S1E12   | —                   | Where did the rain begin to beat us?                                   | [Link](https://www.ourlongwalk.com/p/where-did-the-rain-begin-to-beat) | — |
+| S1E0    | –                   | Johan and Jonathan introduce the podcast                               | [Link](https://www.ourlongwalk.com/p/what-is-the-moral-of-your-story) | – |
+| S1E1    | Bronwen Everill     | Are good intentions bad?                                                | [Link](https://www.ourlongwalk.com/p/are-good-intentions-bad) | – |
+| S1E2    | Ken Opalo           | Leadership, legacies, and the politics of change                        | [Link](https://www.ourlongwalk.com/p/can-you-say-sdgs) | – |
+| S1E3    | James Robinson      | What can economists learn from ubuntu?                                 | [Link](https://www.ourlongwalk.com/p/what-can-economists-learn-from-ubuntu) | – |
+| S1E4    | Belinda Archibong   | Why should Washington care about Africa?                               | [Link](https://www.ourlongwalk.com/p/are-we-in-the-long-or-longer-run) | – |
+| S1E5    | Ewout Frankema      | What is Africa's ideal development model?                              | [Link](https://www.ourlongwalk.com/p/what-is-africas-ideal-development) | – |
+| S1E6    | Benjamin Bradlow    | How to build an African city?                                          | [Link](https://www.ourlongwalk.com/p/how-to-build-an-african-city) | – |
+| S1E7    | Nathan Nunn         | Can herding shape morals?                                              | [Link](https://www.ourlongwalk.com/p/can-herding-shape-our-morals) | – |
+| S1E8    | Ola Olsson          | Why did we stop roaming?                                               | [Link](https://www.ourlongwalk.com/p/why-did-we-stop-roaming) | – |
+| S1E9    | Elias Papaioannou   | What if borders were never meant to last?                              | [Link](https://www.ourlongwalk.com/p/what-if-borders-were-never-meant) | – |
+| S1E10   | Richard Reid        | Can war be creative?                                                   | [Link](https://www.ourlongwalk.com/p/can-war-be-creative) | – |
+| S1E11   | Jacob Dlamini       | What did Mandela leave behind?                                        | [Link](https://www.ourlongwalk.com/p/what-did-mandela-leave-behind) | – |
+| S1E12   | –                   | Where did the rain begin to beat us?                                   | [Link](https://www.ourlongwalk.com/p/where-did-the-rain-begin-to-beat) | – |
 | S2E1    | Tony Hopkins        | Is imperial history overdue a comeback?                                | [Link](https://www.ourlongwalk.com/p/is-imperial-history-overdue-a-comeback) | [Link](https://youtu.be/BZGy83p9lsk) |
 | S2E2    | Olúfẹ́mi Táíwò      | Africa, who are you?                                                   | [Link](https://www.ourlongwalk.com/p/africa-who-are-you) | [Link](https://youtu.be/bX6piiJFBWI) |
 | S2E3    | Paul Seabright      | What can Africa teach us about God?                                    | [Link](https://www.ourlongwalk.com/p/what-can-africa-teach-us-about-god) | [Link](https://youtu.be/0_qSYAEneAQ) |

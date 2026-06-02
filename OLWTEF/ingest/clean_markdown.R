@@ -32,6 +32,11 @@ for (path in files) {
     if (identical(L, before)) break
   }
   L <- gsub(uspace, " ", L)                               # normalise odd spaces
+  # HOUSE RULE: never em-dashes. Convert em-dash (U+2014) and pandoc/inline triple-hyphen
+  # to a spaced en-dash (U+2013). YAML/HR fence lines ("---" alone) are left untouched.
+  L <- gsub("\\s*—\\s*", " – ", L)
+  fence <- grepl("^\\s*-{3,}\\s*$", L)
+  L[!fence] <- gsub("\\s*-{3}\\s*", " – ", L[!fence])
   is_noise <- grepl("^\\s*[0-9]{1,3}\\s*$", L)            # lone page numbers
   dropped <- dropped + sum(is_noise)
   L <- L[!is_noise]

@@ -1,4 +1,4 @@
-# Authoring guide — *Our Long Walk to Economic Freedom* (living edition)
+# Authoring guide – *Our Long Walk to Economic Freedom* (living edition)
 
 This folder is **both** a Quarto book project and an Obsidian vault. Files starting with
 `_` (like this one) are ignored by Quarto but visible in Obsidian.
@@ -21,11 +21,11 @@ quarto preview OLWTEF
 `C:\Program Files\RStudio\resources\app\bin\quarto\bin\quarto.exe`.)
 
 ## Recommended Obsidian community plugins
-- **Citations** (or **Pandoc Reference List**) — point it at `../references.bib` so `@keys`
+- **Citations** (or **Pandoc Reference List**) – point it at `../references.bib` so `@keys`
   autocomplete and resolve while you write.
 
 ## House conventions
 - Figures: `![Caption.](images/name.png){#fig-slug}` and refer back with `@fig-slug`.
 - Margin notes / source asides: wrap in a `::: {.column-margin}` … `:::` block.
 - Chapter end: a `## Sources & data {.sources-block}` heading (generated from `_data.yml`).
-- Do **not** add a `pdf`/`epub` format — the edition is read-online-only by design.
+- Do **not** add a `pdf`/`epub` format – the edition is read-online-only by design.

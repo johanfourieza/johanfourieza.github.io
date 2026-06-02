@@ -376,13 +376,6 @@ textarea:focus-visible {
   margin: 0;
 }
 
-.read-meta {
-  display: block;
-  font-size: 0.78rem;
-  color: #8a7a66;
-  margin: -0.35rem 0 0.6rem;
-}
-
 .read-card-body { flex: 1; }
 .read-card-body h3 {
   margin-top: 0;

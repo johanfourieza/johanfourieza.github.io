@@ -21,7 +21,7 @@ website:
     creator: "@johanfourieza"
     card-style: summary
   page-footer:
-    center: "&copy; Johan Fourie"
+    center: "[&copy; Johan Fourie](https://www.johanfourie.com)"
   navbar:
     title: false
     alignment: center

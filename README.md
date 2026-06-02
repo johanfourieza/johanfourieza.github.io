@@ -1,6 +1,6 @@
 # johanfourie.com
 
-Source for **[johanfourie.com](https://www.johanfourie.com)** — the personal site of
+Source for **[johanfourie.com](https://www.johanfourie.com)** – the personal site of
 Johan Fourie, Professor of Economics at Stellenbosch University. It is a
 [Quarto](https://quarto.org) website published to **GitHub Pages from the `docs/` folder**
 (custom domain via `CNAME`).
@@ -16,7 +16,7 @@ Johan Fourie, Professor of Economics at Stellenbosch University. It is a
 | `public.qmd` | Public | |
 | `books.qmd` | **Read** | Hub linking to the free online books (see below) |
 | `econtools.qmd` | Tools | |
-| `bookshop.qmd` | Bookshop | Affiliate gallery — see [`README_bookshop.md`](README_bookshop.md) |
+| `bookshop.qmd` | Bookshop | Affiliate gallery – see [`README_bookshop.md`](README_bookshop.md) |
 | `OLWTEF/` | **The book** | *Our Long Walk to Economic Freedom*, free online edition |
 
 Shared identity lives in `styles.css` and `_quarto.yml` (brown `#693e23`, olive `#8f8844`,
@@ -24,13 +24,13 @@ cream `#f7f5f2`, Inter). Output is built into `docs/` and committed.
 
 ---
 
-## *Our Long Walk to Economic Freedom* — the living book
+## *Our Long Walk to Economic Freedom* – the living book
 
 `OLWTEF/` is a **Quarto book** (its own `_quarto.yml`, `project: type: book`) that renders to
 `docs/OLWTEF/` and is served at **johanfourie.com/OLWTEF**. It is the full 37-chapter revised
 second edition, free to read online.
 
-- **Read-online-only by design.** HTML is the only format — no PDF/EPUB is generated, so there
+- **Read-online-only by design.** HTML is the only format – no PDF/EPUB is generated, so there
   is nothing to download. `readonly.html` adds light deterrents and `theme.scss` blanks the page
   on print. `index.qmd` carries the licence notice. (HTML text can never be fully locked; the
   real safeguard is offering no downloadable file.)
@@ -50,7 +50,7 @@ OLWTEF/
 ├── 00-introduction.md … 38-epilogue.md   the chapters
 ├── images/                cover, icon, figure-X-Y.jpg (the 23 figures)
 ├── _data.yml              per-chapter sources/datasets (for the future linking layer)
-├── .obsidian/             vault config — this folder doubles as an Obsidian vault
+├── .obsidian/             vault config – this folder doubles as an Obsidian vault
 ├── _authoring.md          day-to-day authoring guide (Quarto-ignored, Obsidian-visible)
 └── ingest/                the reproducible build pipeline (below)
 ```
@@ -58,7 +58,7 @@ OLWTEF/
 ### Authoring workflow (day to day)
 
 1. Open `OLWTEF/` as an **Obsidian vault**; edit the chapter `.md` files.
-2. `git push`. The GitHub Action **rebuilds the book and republishes** — no local render needed.
+2. `git push`. The GitHub Action **rebuilds the book and republishes** – no local render needed.
 3. Local preview if wanted: `quarto preview OLWTEF`.
 
 See `OLWTEF/_authoring.md` for the full guide.
@@ -75,7 +75,7 @@ The manuscript and data live **outside this repo** in `…/4JohanFourie/OLWEF/`
 | `split.R` | split into intro + 37 chapters + epilogue (anchored on the chapter titles; carries each chapter's footnotes; hard-fails unless all 37 are found) |
 | `clean_markdown.R` | strip Word index markers and stray page numbers |
 | `wire_figures.R` | insert each `figure-X-Y` image + caption at its place in the text |
-| `olw_figures.R` | **canonical figure builder** — draws all 23 figures in `/olwstyle` colour from `OLWEF/Data` (+ `rnaturalearth` basemaps) into `images/` |
+| `olw_figures.R` | **canonical figure builder** – draws all 23 figures in `/olwstyle` colour from `OLWEF/Data` (+ `rnaturalearth` basemaps) into `images/` |
 | `regen_figures.R`, `regen_remaining.R` | earlier figure builders, superseded by `olw_figures.R` |
 
 Pipeline order: `convert → split → clean → wire`, with `olw_figures.R` producing the figures.
@@ -104,4 +104,4 @@ Figure captions follow `/olwstyle`: `Source: … • Visualised: johanfourie.com
 ## Using Claude Code
 
 This site is maintained with Claude Code. For example: *"I've revised chapter 12 in the
-OLWTEF vault — rebuild and push the book,"* or *"add a new figure to chapter 20 in /olwstyle."*
+OLWTEF vault – rebuild and push the book,"* or *"add a new figure to chapter 20 in /olwstyle."*
