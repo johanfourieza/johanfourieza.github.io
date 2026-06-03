@@ -558,33 +558,9 @@ run("3.1", {
   sv("figure-3-1.jpg", p, w = 10, h = 7)
 })
 
-## 8.1 – Africa's five ecological zones (stylised approximation)
-run("8.1", {
-  world <- ne_countries(scale = "medium", returnclass = "sf")
-  africa <- world %>% filter(continent == "Africa") %>% st_make_valid() %>% st_union()
-  rect <- function(xmin, xmax, ymin, ymax)
-    st_polygon(list(rbind(c(xmin,ymin),c(xmax,ymin),c(xmax,ymax),c(xmin,ymax),c(xmin,ymin))))
-  band <- function(...) st_sfc(..., crs = 4326)
-  zones <- list(
-    Desert     = band(rect(-18,32,15,33), rect(10,25,-30,-18)),                 # Sahara + Kalahari/Namib
-    Savannah   = band(rect(-18,45,5,15), rect(10,42,-18,-2), rect(13,38,-30,-18)),# Sahel + S savannah
-    Forest     = band(rect(-12,30,-5,7)),                                        # Guinea/Congo equatorial
-    Highlands  = band(rect(33,45,3,15), rect(28,40,-12,0)),                      # Ethiopia + E Africa
-    Temperate  = band(rect(-10,12,33,38), rect(16,28,-35,-30))                   # Mediterranean + Cape
-  )
-  zsf <- do.call(rbind, lapply(names(zones), function(z)
-    st_sf(zone = z, geometry = st_intersection(st_union(zones[[z]]), africa))))
-  zsf$zone <- factor(zsf$zone, levels = c("Desert","Savannah","Forest","Highlands","Temperate"))
-  zcols <- c(Desert="#eccba7", Savannah="#c29500", Forest="#556b2f", Highlands="#693e23", Temperate="#4492a0")
-  p <- ggplot() +
-    geom_sf(data = africa, fill = "#efe7da", colour = NA) +
-    geom_sf(data = zsf, aes(fill = zone), colour = "white", linewidth = 0.1) +
-    geom_sf(data = world %>% filter(continent == "Africa"), fill = NA, colour = "white", linewidth = 0.15) +
-    scale_fill_manual(values = zcols, name = "Ecological zone") +
-    coord_sf(xlim = c(-19, 52), ylim = c(-36, 38)) +
-    labs(caption = CAP("Stylised approximation, after Green (in Fourie 2021)")) +
-    theme_olw_map() + theme(legend.position = "right")
-  sv("figure-8-1.jpg", p)
-})
+## 8.1 – Africa's five ecological zones
+## Built separately from the FAO Global Ecological Zones (2010) shapefile by
+## `build_fig8_1.R`, which writes figure-8-1.jpg straight into OLWTEF/images/.
+## (The earlier stylised-rectangle approximation was removed; do not regenerate it here.)
 
 cat("\n_olw now has:\n  ", paste(sort(list.files(OUTDIR)), collapse = "\n   "), "\n")

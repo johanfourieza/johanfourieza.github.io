@@ -17,3 +17,6 @@ Johan_podcast_dataset.xlsx
 
 # Editor/atomic-write temp files
 *.tmp.*
+
+# Geo-data cache for figure 8.1 (re-downloadable from FAO)
+OLWTEF/ingest/_cache/
