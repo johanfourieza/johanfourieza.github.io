@@ -43,7 +43,7 @@ $chapters = @(
   @{ s=1023; t='Law';                                          a='Marinus Wiechers';      f='13-law.md' },
   @{ s=1067; t='Sport sciences';                               a='Tim Noakes';            f='14-sport-sciences.md' },
   @{ s=1136; t='How do I choose a career?';                    a='Johann Meyer';          f='15-how-to-choose-a-career.md' },
-  @{ s=1223; t="Fishing and dancing? It`u{2019}s a question of balance"; a='Ruda Landman'; f='16-finding-the-right-balance.md' },
+  @{ s=1223; t=("Fishing and dancing? It" + [char]0x2019 + "s a question of balance"); a='Ruda Landman'; f='16-finding-the-right-balance.md' },
   @{ s=1334; t='An investment in your future';                 a='Estian Calitz';         f='17-balancing-your-budget.md' },
   @{ s=1667; t='How to cope with diversity';                   a='Nico Koopman';          f='18-coping-with-diversity.md' },
   @{ s=1812; t='Why you should take the lead';                 a='Joseph Diescho';        f='19-taking-the-lead.md' },

@@ -1,5 +1,5 @@
 ---
-title: "Fishing and dancing? Itu{2019}s a question of balance"
+title: "Fishing and dancing? It’s a question of balance"
 subtitle: "Ruda Landman"
 date-modified: last-modified
 ---
