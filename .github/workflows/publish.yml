@@ -1,17 +1,19 @@
-name: Build the living book
+name: Build the living books
 
-# Rebuilds the OLWTEF book whenever its source (or the shared bibliography)
-# changes on main, and commits the rendered docs/OLWTEF/ back so GitHub Pages
-# (served from /docs) picks it up. The book is plain markdown, so no R is needed.
+# Rebuilds the free online books (OLWTEF, LTAV) whenever their source (or the
+# shared bibliography) changes on main, and commits the rendered docs/ back so
+# GitHub Pages (served from /docs) picks it up. The books are plain markdown,
+# so no R is needed.
 #
 # The main website is still rendered locally and committed as before; this
-# workflow deliberately touches only the book to keep CI fast and low-risk.
+# workflow deliberately touches only the books to keep CI fast and low-risk.
 
 on:
   push:
     branches: [main]
     paths:
       - "OLWTEF/**"
+      - "LTAV/**"
       - "references.bib"
       - ".github/workflows/publish.yml"
   workflow_dispatch:
@@ -35,14 +37,17 @@ jobs:
       - name: Render OLWTEF book
         run: quarto render OLWTEF
 
-      - name: Commit rendered book
+      - name: Render LTAV book
+        run: quarto render LTAV
+
+      - name: Commit rendered books
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/OLWTEF
+          git add docs/OLWTEF docs/LTAV
           if git diff --staged --quiet; then
             echo "No changes to publish."
           else
-            git commit -m "build: render OLWTEF book [skip ci]"
+            git commit -m "build: render living books [skip ci]"
             git push
           fi

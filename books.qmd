@@ -22,6 +22,18 @@ An accessible, engaging introduction to economic history from an African perspec
 :::
 :::
 
+::: {.read-card}
+[![Gabbema Books, 2009](images/ltav-cover.jpg){.read-cover fig-alt="Let's Talk About Varsity cover"}](LTAV/)
+
+::: {.read-card-body}
+### [Let's Talk About Varsity](LTAV/)
+
+A practical, generous guide to university in South Africa, written by leading academics and public figures. Free to read online and to download.
+
+[Read online →](LTAV/){.read-btn}
+:::
+:::
+
 :::
 
 ::: {style="margin-top:2rem;font-size:0.9rem;color:#6b5a46;"}

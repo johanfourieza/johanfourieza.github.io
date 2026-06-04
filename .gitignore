@@ -7,8 +7,12 @@
 OLWTEF/ingest/_work/
 OLWTEF/ingest/_media*/
 OLWTEF/ingest/*.tmp.*
-# Stray single-file renders in the source dir (book HTML belongs in docs/OLWTEF/)
+LTAV/ingest/_work/
+LTAV/ingest/_media*/
+LTAV/ingest/*.tmp.*
+# Stray single-file renders in the source dir (book HTML belongs in docs/<book>/)
 OLWTEF/[0-9]*.html
+LTAV/[0-9]*.html
 images/_originals/
 Johan_podcast_dataset.xlsx
 *.xlsx.bak

@@ -1,0 +1,79 @@
+project:
+  type: book
+  output-dir: ../docs/LTAV
+
+book:
+  title: "Let's Talk About Varsity"
+  subtitle: "A student's guide to university in South Africa"
+  author: "Edited by Johan Fourie and Willem Fourie"
+  favicon: images/icon.png
+  site-url: "https://www.johanfourie.com/LTAV/"
+  google-analytics: "G-TQJEXD9NM3"
+  search: true
+  reader-mode: true
+  page-navigation: true
+  # No repo-actions / repo-url on purpose: no "Edit this page" / "View source" links.
+  open-graph:
+    image: images/cover.jpg
+    description: "Let's Talk About Varsity – a free guide to university in South Africa, edited by Johan Fourie."
+  twitter-card:
+    image: images/cover.jpg
+    creator: "@johanfourieza"
+    card-style: summary
+  sidebar:
+    style: docked
+    collapse-level: 1
+  page-footer:
+    left: |
+      Free to read and download &middot; [&copy; Johan Fourie](https://www.johanfourie.com) and the contributors
+    right:
+      - text: "About the editor ↗"
+        href: "https://www.johanfourie.com"
+  chapters:
+    - index.qmd
+    - preface.md
+    - part: "Getting started"
+      chapters:
+        - 01-why-university.md
+        - 02-what-is-a-university.md
+        - 03-how-did-the-sa-university-develop.md
+    - part: "Making the right choice"
+      chapters:
+        - 04-social-sciences-philosophy-theology.md
+        - 05-languages-and-the-arts.md
+        - 06-education-sciences.md
+        - 07-management-sciences.md
+        - 08-biological-sciences.md
+        - 09-agricultural-sciences.md
+        - 10-physical-sciences.md
+        - 11-engineering-sciences.md
+        - 12-health-sciences.md
+        - 13-law.md
+        - 14-sport-sciences.md
+        - 15-how-to-choose-a-career.md
+    - part: "Making the most of university"
+      chapters:
+        - 16-finding-the-right-balance.md
+        - 17-balancing-your-budget.md
+        - 18-coping-with-diversity.md
+        - 19-taking-the-lead.md
+    - part: "Making your world a better place"
+      chapters:
+        - 20-understanding-our-globalised-world.md
+        - 21-how-you-can-make-a-difference.md
+    - contributors.md
+
+# The original 2009 edition, offered as a free download.
+resources:
+  - lets-talk-about-varsity.pdf
+
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    number-sections: false   # parts/chapters carry their own titles
+    toc: true
+    toc-depth: 2
+    back-to-top: true
+    date-modified: last-modified
+    code-tools: false
+    format-links: false        # HTML is the online edition; the PDF is linked explicitly

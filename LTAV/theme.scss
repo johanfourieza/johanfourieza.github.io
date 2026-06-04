@@ -1,0 +1,124 @@
+/*-- scss:defaults --*/
+// Let's Talk About Varsity – book theme
+// Shares the johanfourie.com identity (see ../styles.css and ../OLWTEF/theme.scss)
+// so the two books read as one reading room.
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+$brown:  #693e23;   // headings, accents
+$olive:  #8f8844;   // links
+$cream:  #f7f5f2;   // page background
+$ink:    #1a1a1a;   // body text
+
+$body-bg:    $cream;
+$body-color: $ink;
+$link-color: $olive;
+$font-family-sans-serif: 'Inter', Arial, sans-serif;
+$toc-color: $brown;
+
+/*-- scss:rules --*/
+body {
+  font-size: 0.97rem;
+  line-height: 1.72;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $brown;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  border-bottom: 1px solid rgba(105, 62, 35, 0.12);
+  padding-bottom: 0.35rem;
+}
+
+p { text-wrap: pretty; }
+
+a, a:visited {
+  color: $olive;
+  text-decoration: underline;
+  text-decoration-color: rgba(143, 136, 68, 0.4);
+  text-underline-offset: 2px;
+}
+a:hover {
+  color: $brown;
+  text-decoration-style: double;
+  text-decoration-color: $brown;
+}
+
+// Contributor byline (chapter subtitle)
+.quarto-title .subtitle, .subtitle.lead {
+  color: #6b5a46;
+  font-style: italic;
+  font-weight: 500;
+}
+
+// Sidebar (chapter tree) + active chapter
+.sidebar-item .active,
+.sidebar-navigation .active { color: $brown !important; font-weight: 600; }
+
+// Tables – brown header band, like the main site
+table thead th, .table thead th {
+  background-color: $brown;
+  color: $cream;
+  border-color: $brown;
+}
+table tbody tr:hover { background-color: rgba(105, 62, 35, 0.04); }
+
+// Blockquotes
+blockquote {
+  border-left: 3px solid $brown;
+  font-style: italic;
+  color: #4a4a4a;
+}
+
+// Figures + captions
+figure { margin-bottom: 2rem; }
+figure img, .quarto-figure img, img { border-radius: 3px; }
+figcaption, .figure-caption {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #777;
+}
+
+// Cover + download panel on the landing page
+.book-cover {
+  float: right;
+  width: 230px;
+  max-width: 42%;
+  margin: 0.2rem 0 1.25rem 1.6rem;
+  border-radius: 3px;
+  box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.18);
+}
+.download-btn {
+  display: inline-block;
+  background: $brown;
+  color: $cream !important;
+  padding: 0.55rem 1.1rem;
+  border-radius: 4px;
+  text-decoration: none !important;
+  font-weight: 600;
+}
+.download-btn:hover { background: #4f2f1a; color: #fff !important; }
+
+// Licence / colophon notice
+.licence-notice {
+  font-size: 0.85rem;
+  color: #6b5a46;
+  border-top: 1px solid rgba(105, 62, 35, 0.15);
+  margin-top: 2rem;
+  padding-top: 1rem;
+  clear: both;
+}
+
+/* Print: append a friendly source line (content is free to read and print) */
+@media print {
+  body::after {
+    content: "Let's Talk About Varsity is free to read and download at johanfourie.com/LTAV.";
+    display: block;
+    margin-top: 2rem;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 10pt;
+    color: #555;
+  }
+}
