@@ -10,7 +10,7 @@ Johan Fourie, Professor of Economics at Stellenbosch University. It is a
 | Source | Page | Notes |
 |---|---|---|
 | `index.qmd` | Home | Bio + live Our Long Walk Substack feed |
-| `research.qmd` | Research | |
+| `research.qmd` | Research | Current projects, then overview, grants, publications. Media mentions go on the relevant paper as `\| [Outlet](url)` (link on the outlet name) |
 | `students.qmd` | Students | |
 | `teaching.qmd` | Teaching | |
 | `public.qmd` | Public | |

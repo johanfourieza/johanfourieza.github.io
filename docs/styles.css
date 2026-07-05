@@ -769,3 +769,93 @@ textarea:focus-visible {
   .gallery-nav-right { right: 0.5rem; }
   .gallery-modal { padding: 1.5rem; }
 }
+
+/* ============================================================
+   Pipeline banner (index.qmd) – South African Economics Pipeline
+   Uses the Pipeline project's own brand: maroon→ink gradient,
+   gold accent, Raleway. Full-width strip above the home-page bio.
+   ============================================================ */
+.pipeline-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  clear: both;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 2rem 0;
+  padding: 1.1rem 1.5rem;
+  border-radius: 6px;
+  border-left: 4px solid #caa258;
+  background:
+    radial-gradient(120% 180% at 88% 50%, rgba(202, 162, 88, 0.16) 0%, rgba(202, 162, 88, 0) 55%),
+    linear-gradient(100deg, #481829 0%, #61223b 45%, #160a10 100%);
+  font-family: 'Raleway', 'Trebuchet MS', system-ui, sans-serif;
+  text-decoration: none !important;
+  box-shadow: 0 1px 4px rgba(22, 10, 16, 0.18);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.pipeline-banner:hover {
+  text-decoration: none !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(22, 10, 16, 0.28);
+}
+
+.pipeline-banner-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.pipeline-eyebrow {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #dcc08a;
+}
+
+.pipeline-title {
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #caa258;
+}
+
+.pipeline-tagline {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.35;
+  color: #f4ede0;
+}
+
+.pipeline-cta {
+  flex: none;
+  white-space: nowrap;
+  align-self: center;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background: #caa258;
+  color: #160a10;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  transition: background 0.2s ease;
+}
+
+.pipeline-banner:hover .pipeline-cta {
+  background: #dcc08a;
+}
+
+@media (max-width: 600px) {
+  .pipeline-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.9rem;
+    padding: 1rem 1.15rem;
+  }
+  .pipeline-title { font-size: 1.08rem; }
+  .pipeline-cta { align-self: stretch; text-align: center; }
+}
