@@ -25,7 +25,7 @@ title: "'An attempt to study the inventory of alternatives'"
 -   Uprooted: Migration, Coercion, and the Roots of Social Connectedness
 -   Invisible Handedness: The Myth of Left–Right Batting Partnerships (with Krige Siebrits) \| [Nature](https://www.nature.com/articles/d44148-026-00177-x)
 -   The Olympic Games as Industrial Policy
--   Messy Research, Certification and the Monetization of Science \| [Working Paper](http://ssrn.com/abstract=7045002)
+-   Messy Research, Certification and the Monetization of Science \| [Working Paper](https://arxiv.org/abs/2607.13844)
 -   Path Dependence in Economic History Publications
 
 **Other current projects**
