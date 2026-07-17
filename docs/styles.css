@@ -859,3 +859,241 @@ textarea:focus-visible {
   .pipeline-title { font-size: 1.08rem; }
   .pipeline-cta { align-self: stretch; text-align: center; }
 }
+
+/* ============================================================
+   Research themes (research.qmd) – theme cards, archival banners,
+   paper rows, status pills, published-work collapsibles
+   ============================================================ */
+
+/* --- Pipeline at a glance strip --- */
+.pipeline-glance {
+  margin: 1.25rem 0 2rem;
+  padding: 0.85rem 1.15rem;
+  background: #fff;
+  border: 1px solid rgba(105, 62, 35, 0.12);
+  border-left: 4px solid #8f8844;
+  border-radius: 6px;
+  font-size: 0.88rem;
+  color: #4a4a4a;
+  line-height: 2;
+}
+.pipeline-glance p { margin: 0; }
+.pipeline-glance strong { color: #693e23; margin-right: 0.35rem; }
+.pipeline-glance .pill { margin: 0 0.15rem; vertical-align: 0.08em; }
+
+/* --- Theme card --- */
+.theme {
+  background: #fff;
+  border: 1px solid rgba(105, 62, 35, 0.12);
+  border-radius: 6px;
+  padding: 1.5rem 1.75rem 1.25rem;
+  margin: 0 0 1.5rem;
+  overflow: hidden;
+}
+
+/* Archival banner image: full-bleed across the card top, brown
+   duotone treatment so seven different sources read as one family.
+   Authored as a ::: {.theme-banner} div wrapping the image. */
+.theme .theme-banner {
+  position: relative;
+  margin: -1.5rem -1.75rem 1.2rem;
+}
+.theme .theme-banner p { margin: 0; }
+.theme .theme-banner img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 150px;
+  object-fit: cover;
+  filter: sepia(0.35) saturate(0.65) contrast(0.95) brightness(1.02);
+}
+.theme .theme-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg,
+    rgba(105, 62, 35, 0.10) 0%,
+    rgba(105, 62, 35, 0.02) 55%,
+    rgba(247, 245, 242, 0.25) 100%);
+  pointer-events: none;
+}
+.theme .theme-banner figcaption,
+.theme .theme-banner .figure-caption {
+  display: none;
+}
+
+.theme h3 {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  font-size: 1.12rem;
+  border-bottom: none;
+}
+.theme h3::before {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 3px;
+  border-radius: 2px;
+  background: #8f8844;
+  margin-bottom: 0.55rem;
+}
+.theme h3 + p {
+  font-size: 0.88rem;
+  color: #6b5a46;
+  margin-bottom: 1.1rem;
+}
+
+/* --- Active paper rows --- */
+.papers > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.papers > ul > li {
+  display: flow-root;
+  padding: 0.6rem 0;
+  border-top: 1px solid rgba(105, 62, 35, 0.08);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+.papers > ul > li:first-child { border-top: none; padding-top: 0.15rem; }
+.papers > ul > li > p { margin: 0; }
+.papers li strong { color: #1a1a1a; font-weight: 600; }
+.with {
+  color: #6b5a46;
+  font-size: 0.85em;
+}
+
+/* --- Status pills --- */
+.pill {
+  display: inline-block;
+  padding: 0.14rem 0.6rem;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+.papers .pill {
+  float: right;
+  margin: 0.15rem 0 0.3rem 0.9rem;
+}
+/* Stage colours – tints of the site palette; all pass WCAG AA */
+.pill-draft     { background: #f1ebe4; color: #693e23; border-color: rgba(105, 62, 35, 0.25); }
+.pill-submitted { background: #efeee0; color: #64602c; border-color: rgba(143, 136, 68, 0.45); }
+.pill-rr        { background: #fbeadb; color: #a44f0c; border-color: rgba(219, 106, 17, 0.30); }
+.pill-accepted  { background: #693e23; color: #f7f5f2; border-color: #693e23; }
+
+/* --- Published-work collapsible --- */
+details.pubs {
+  margin: 0.9rem 0 0.1rem;
+  border-top: 1px solid rgba(105, 62, 35, 0.08);
+}
+details.pubs summary {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.65rem 0.35rem 0.65rem 0.15rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #64602c;
+  border-radius: 4px;
+  list-style: none;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+details.pubs summary::-webkit-details-marker { display: none; }
+details.pubs summary:hover {
+  color: #693e23;
+  background-color: rgba(105, 62, 35, 0.04);
+}
+details.pubs summary::after {
+  content: "";
+  width: 0.45em;
+  height: 0.45em;
+  margin-left: auto;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg);
+  transition: transform 0.2s ease;
+  flex: none;
+}
+details.pubs[open] summary::after {
+  transform: rotate(45deg);
+}
+
+/* Compact citations inside the collapsible */
+details.pubs ul {
+  list-style: none;
+  margin: 0.35rem 0 0.75rem;
+  padding: 0;
+}
+details.pubs li {
+  font-size: 0.84rem;
+  color: #4a4a4a;
+  line-height: 1.6;
+  padding: 0.1rem 0 0.1rem 0.9rem;
+  margin-bottom: 0.55rem;
+  border-left: 2px solid rgba(143, 136, 68, 0.35);
+}
+
+/* Gentle reveal on expand (no JS) */
+details.pubs[open] > *:not(summary) {
+  animation: pubsReveal 0.25s ease;
+}
+@keyframes pubsReveal {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  details.pubs[open] > *:not(summary) { animation: none; }
+}
+
+/* Keyboard focus for summary */
+summary:focus-visible {
+  outline: 2px solid #693e23;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Archive credit line under the themes */
+.archive-credit {
+  font-size: 0.78rem;
+  color: #777;
+  margin: -0.5rem 0 2rem;
+}
+
+/* --- Research responsive --- */
+@media (max-width: 600px) {
+  .theme { padding: 1.15rem 1rem 0.9rem; }
+  .theme .theme-banner { margin: -1.15rem -1rem 1rem; }
+  .theme .theme-banner img { height: 100px; }
+  .papers .pill {
+    float: none;
+    display: block;
+    width: max-content;
+    margin: 0 0 0.35rem;
+  }
+  .papers > ul > li { padding: 0.75rem 0; }
+  details.pubs summary { padding-top: 0.8rem; padding-bottom: 0.8rem; }
+}
+@media (max-width: 480px) {
+  .pipeline-glance { padding: 0.75rem 0.9rem; font-size: 0.84rem; }
+  details.pubs li { padding-left: 0.7rem; }
+}
+
+/* --- Research print tweaks --- */
+@media print {
+  .pill {
+    background: none !important;
+    color: #000 !important;
+    border: 1px solid #000 !important;
+    float: none !important;
+  }
+  .theme { border: none; padding: 0 0 0.5rem; }
+  .theme .theme-banner { display: none; }
+}
