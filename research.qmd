@@ -11,11 +11,12 @@ AUTHORING RULES (for future updates):
 - One paper = one "-" list line, no blank lines between items.
 - Line order: status pill, bold title, [with co-authors]{.with}, then optional
   " · *Journal*" and " · [Working paper](url)" links. The journal (kabbo's
-  "Intended journal" field) is shown ONLY on Revise & resubmit and Accepted
-  rows, never on Draft or Submitted rows.
+  "Intended journal" field) is shown ONLY on R&R and Accepted rows, never
+  on Draft or Submitted rows.
 - No em-dashes anywhere on this page; use commas or en dashes.
 - Pills: [Draft]{.pill .pill-draft} [Submitted]{.pill .pill-submitted}
-  [Revise & resubmit]{.pill .pill-rr} [Accepted]{.pill .pill-accepted}
+  [R&R]{.pill .pill-rr} [Accepted]{.pill .pill-accepted}
+- Kabbo stages revise_resubmit AND resubmitted both display as R&R.
 - When a paper is published: delete its row, add a full citation to the
   theme's <details> list (reverse-chronological), update the (N) count in the
   <summary> and the counts in the pipeline-glance strip.
@@ -30,7 +31,7 @@ AUTHORING RULES (for future updates):
 -->
 
 ::: {.pipeline-glance}
-**28 papers in the pipeline:** [8 drafts]{.pill .pill-draft} [15 submitted]{.pill .pill-submitted} [3 revise & resubmit]{.pill .pill-rr} [2 accepted]{.pill .pill-accepted}
+**28 papers in the pipeline:** [8 drafts]{.pill .pill-draft} [15 submitted]{.pill .pill-submitted} [3 R&R]{.pill .pill-rr} [2 accepted]{.pill .pill-accepted}
 :::
 
 ::: {.theme}
@@ -43,8 +44,8 @@ AUTHORING RULES (for future updates):
 How slavery shaped the Cape economy, and what freedom, when it came, was worth.
 
 ::: {.papers}
--   [Accepted]{.pill .pill-accepted} **The New Economics of Cape Slavery**
--   [Revise & resubmit]{.pill .pill-rr} **Demographic Pressure, Emancipation and Selection into the Great Trek** [with Calumet Links]{.with}
+-   [Accepted]{.pill .pill-accepted} **The New Economics of Cape Slavery** · *South African Journal of Economics*
+-   [R&R]{.pill .pill-rr} **Demographic Pressure, Emancipation and Selection into the Great Trek** [with Calumet Links]{.with} · *European Review of Economic History*
 :::
 
 <details class="pubs">
@@ -185,8 +186,8 @@ Cricket, mega-events and destination brands: what sport and travel reveal about 
 How economic history is made and used: applied history, AI in research, and the economics of science itself.
 
 ::: {.papers}
--   [Revise & resubmit]{.pill .pill-rr} **From Renaissance to Relevance: Towards an Applied African Economic History**
--   [Revise & resubmit]{.pill .pill-rr} **Path Dependence in Economic History Publications**
+-   [R&R]{.pill .pill-rr} **From Renaissance to Relevance: Towards an Applied African Economic History** · *Economic History of Developing Regions*
+-   [R&R]{.pill .pill-rr} **Path Dependence in Economic History Publications** · *Cliometrica*
 -   [Submitted]{.pill .pill-submitted} **Through the Prism of the Past: Principles for Applied Economic History** [with Chris Colvin]{.with} · [Working paper](https://www.quceh.org.uk/working-papers-2026.html)
 -   [Submitted]{.pill .pill-submitted} **Messy Research, Certification and the Monetization of Science** · [Working paper](https://arxiv.org/abs/2607.13844)
 -   [Submitted]{.pill .pill-submitted} **LLMs and Economic History: A Comment on Ferrara (2026)**
