@@ -27,7 +27,7 @@ AUTHORING RULES (for future updates):
   Constantia; wealth.jpg = E703 La Motte, Franschhoek; twentieth.jpg = E6698
   Gold mining surface crushing works; health.jpg = AG6004 Hospital, Kimberley,
   c.1900; sports.jpg = E7895 Regatta, Kalk Bay; practice.jpg = E4430 Map of
-  Africa, 1578–1587; science.jpg = E7850 Group of students at Elsenburg;
+  Africa, 1578–1587; science.jpg = AG1077 Panoramic view of Stellenbosch;
   trade.jpg = E5541 Train leaving Cape Town station.
 - A theme with no published work carries no <details> block at all.
 -->
@@ -207,7 +207,7 @@ How economic history is made and used: applied history, and what the discipline 
 
 ::: {.theme}
 ::: {.theme-banner}
-![](images/themes/science.jpg){fig-alt="A group of students on the steps at Elsenburg. Elliot Collection, Western Cape Archives and Records Service."}
+![](images/themes/science.jpg){fig-alt="Panoramic view of Stellenbosch, the town below the mountains. Western Cape Archives and Records Service."}
 :::
 
 ### The economics of science
