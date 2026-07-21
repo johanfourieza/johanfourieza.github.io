@@ -33,7 +33,7 @@ AUTHORING RULES (for future updates):
 -->
 
 ::: {.pipeline-glance}
-**30 papers in the pipeline:** [11 drafts]{.pill .pill-draft} [13 submitted]{.pill .pill-submitted} [3 R&R]{.pill .pill-rr} [3 accepted]{.pill .pill-accepted}
+**29 papers in the pipeline:** [10 drafts]{.pill .pill-draft} [13 submitted]{.pill .pill-submitted} [3 R&R]{.pill .pill-rr} [3 accepted]{.pill .pill-accepted}
 :::
 
 ::: {.theme}
@@ -167,7 +167,6 @@ Cricket, mega-events and destination brands: what sport and travel reveal about 
 -   [Submitted]{.pill .pill-submitted} **Revealed Comparative Advantage in Team Sport: Classifying Cricket's All-Rounders with the Balassa Index**
 -   [Submitted]{.pill .pill-submitted} **Faster, Higher, Stronger? Political Selection and the Olympic Host Contract**
 -   [Submitted]{.pill .pill-submitted} **A Gate-and-Menu Theory of Collective Tourism Brand Value**
--   [Draft]{.pill .pill-draft} **Policing the Pitch: The Network Economics of Collusion Deterrence in Cricket** [with Adriana Roux]{.with}
 :::
 
 <details class="pubs">
