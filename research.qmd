@@ -4,7 +4,7 @@ title: "'An attempt to study the inventory of alternatives'"
 
 ## Research themes
 
-My research is organised into seven themes. Under each theme, work in progress is listed first, papers closest to publication at the top, each with its current status. Published work sits behind the dropdown, with full citations. [Google Scholar](https://scholar.google.com/citations?user=DL4f8DQAAAAJ&hl=en&authuser=1&oi=ao) has a complete list of my publications.
+My research is organised into eight themes. Under each theme, work in progress is listed first, papers closest to publication at the top, each with its current status. Published work sits behind the dropdown, with full citations. [Google Scholar](https://scholar.google.com/citations?user=DL4f8DQAAAAJ&hl=en&authuser=1&oi=ao) has a complete list of my publications.
 
 <!--
 AUTHORING RULES (for future updates):
@@ -27,7 +27,9 @@ AUTHORING RULES (for future updates):
   Constantia; wealth.jpg = E703 La Motte, Franschhoek; twentieth.jpg = E6698
   Gold mining surface crushing works; health.jpg = AG6004 Hospital, Kimberley,
   c.1900; sports.jpg = E7895 Regatta, Kalk Bay; practice.jpg = E4430 Map of
-  Africa, 1578–1587; trade.jpg = E5541 Train leaving Cape Town station.
+  Africa, 1578–1587; science.jpg = E7850 Group of students at Elsenburg;
+  trade.jpg = E5541 Train leaving Cape Town station.
+- A theme with no published work carries no <details> block at all.
 -->
 
 ::: {.pipeline-glance}
@@ -182,19 +184,15 @@ Cricket, mega-events and destination brands: what sport and travel reveal about 
 ![](images/themes/practice.jpg){fig-alt="Detail from a map of Africa, 1578–1587. Elliot Collection, Western Cape Archives and Records Service."}
 :::
 
-### The practice of economic history
+### The practice of economics and economic history
 
-How economic history is made and used: applied history, AI in research, and the economics of science itself.
+How economic history is made and used: applied history, and what the discipline chooses to study.
 
 ::: {.papers}
 -   [Accepted]{.pill .pill-accepted} **From Renaissance to Relevance: Towards an Applied African Economic History** · *Economic History of Developing Regions*
 -   [R&R]{.pill .pill-rr} **Path Dependence in Economic History Publications** · *Cliometrica*
 -   [Submitted]{.pill .pill-submitted} **Through the Prism of the Past: Principles for Applied Economic History** [with Chris Colvin]{.with} · [Working paper](https://www.quceh.org.uk/working-papers-2026.html)
 -   [Submitted]{.pill .pill-submitted} **LLMs and Economic History: A Comment on Ferrara (2026)**
--   [Submitted]{.pill .pill-submitted} **AI and the Research Team**
--   [Draft]{.pill .pill-draft} **Messy Research, Certification and the Monetization of Science** · [Working paper](https://arxiv.org/abs/2607.13844)
--   [Draft]{.pill .pill-draft} **Writing Is Not Thinking**
--   [Draft]{.pill .pill-draft} **Value per Token: AI Agent Autonomy, Human Attention, and the Growth of Firms**
 :::
 
 <details class="pubs">
@@ -205,6 +203,23 @@ How economic history is made and used: applied history, AI in research, and the 
 -   Fourie, Johan. 2016. "The Data Revolution in African Economic History." *Journal of Interdisciplinary History* 47 (2): 193–212. [Paper](https://direct.mit.edu/jinh/article/47/2/193/49177/The-Data-Revolution-in-African-Economic-History)
 
 </details>
+:::
+
+::: {.theme}
+::: {.theme-banner}
+![](images/themes/science.jpg){fig-alt="A group of students on the steps at Elsenburg. Elliot Collection, Western Cape Archives and Records Service."}
+:::
+
+### The economics of science
+
+How research gets produced, certified and rewarded, and what AI is doing to all three.
+
+::: {.papers}
+-   [Submitted]{.pill .pill-submitted} **AI and the Research Team**
+-   [Draft]{.pill .pill-draft} **Messy Research, Certification and the Monetization of Science** · [Working paper](https://arxiv.org/abs/2607.13844)
+-   [Draft]{.pill .pill-draft} **Writing Is Not Thinking**
+-   [Draft]{.pill .pill-draft} **How Much of AI Progress Reaches Production? Evidence from Agent Commits on Public GitHub**
+:::
 :::
 
 ::: {.theme}
