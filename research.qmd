@@ -31,7 +31,7 @@ AUTHORING RULES (for future updates):
 -->
 
 ::: {.pipeline-glance}
-**28 papers in the pipeline:** [8 drafts]{.pill .pill-draft} [15 submitted]{.pill .pill-submitted} [3 R&R]{.pill .pill-rr} [2 accepted]{.pill .pill-accepted}
+**30 papers in the pipeline:** [11 drafts]{.pill .pill-draft} [13 submitted]{.pill .pill-submitted} [3 R&R]{.pill .pill-rr} [3 accepted]{.pill .pill-accepted}
 :::
 
 ::: {.theme}
@@ -45,7 +45,7 @@ How slavery shaped the Cape economy, and what freedom, when it came, was worth.
 
 ::: {.papers}
 -   [Accepted]{.pill .pill-accepted} **The New Economics of Cape Slavery** · *South African Journal of Economics*
--   [R&R]{.pill .pill-rr} **Demographic Pressure, Emancipation and Selection into the Great Trek** [with Calumet Links]{.with} · *European Review of Economic History*
+-   [R&R]{.pill .pill-rr} **Selection into the Great Trek** [with Calumet Links]{.with} · *European Review of Economic History*
 :::
 
 <details class="pubs">
@@ -71,8 +71,8 @@ Tax censuses, auction rolls and probate inventories reveal who prospered in the 
 -   [Accepted]{.pill .pill-accepted} **Prices and Living Standards: Evidence from the Cape Colony Auction Rolls** [with Leoné Walters and Jonathan Schoots]{.with} · *Cliometrica*
 -   [Submitted]{.pill .pill-submitted} **Biplots and Classification: Measuring Household Economic Systems at the Cape Colony** [with Sugnet Lubbe, Johané Nienkemper-Swanepoel and Dieter von Fintel]{.with}
 -   [Submitted]{.pill .pill-submitted} **Between Public Duty and Private Profit: Government Officials and Real Estate Investments in the Cape Colony, 1897–1902** [with Munashe Chideya]{.with} · [Working paper](https://www.ekon.sun.ac.za/wpapers/2026/wp022026)
+-   [Submitted]{.pill .pill-submitted} **The Household in a Coercive Society: Evidence from South Africa's Cape Colony** [with Kate Ekama]{.with}
 -   [Draft]{.pill .pill-draft} **The Poor Fund as Lender: Church Credit and Agricultural Production in the Cape Colony, 1686–1829** [with Jacques Theron]{.with}
--   [Draft]{.pill .pill-draft} **The Labour-Extended Household: Evidence from 300,000 Cape Colony Census Records** [with Kate Ekama]{.with}
 -   [Draft]{.pill .pill-draft} **Counter-Elite Mobilization and Settler Colonialism: The Structure of Contestation in the Cape Colony, 1779** [with Jonathan Schoots]{.with}
 -   [Draft]{.pill .pill-draft} **Selection Bias in Probate Inventories** [with Anne McCants and Leoné Walters]{.with}
 :::
@@ -109,7 +109,7 @@ The economics of segregation and apartheid: who paid, who benefited, and what pe
 
 ::: {.papers}
 -   [Submitted]{.pill .pill-submitted} **Discrimination After Hiring: Within-Firm Sorting, Slow Employer Learning, and the Cost to the Sorted Worker** [with Kris Inwood and Martine Mariotti]{.with}
--   [Draft]{.pill .pill-draft} **The Cost of Apartheid: Labour Market Discrimination in Twentieth-Century South Africa** [with Timothy Ngalande]{.with}
+-   [Draft]{.pill .pill-draft} **The Colour of a Title: The Opening and Emptying of Protected Work under Apartheid** [with Timothy Ngalande]{.with}
 -   [Draft]{.pill .pill-draft} **Selective Persistence: Colonial Education, State Intervention and the Durability of School Quality in South Africa** [with Gabriel Brown and Sarah Ferber]{.with}
 :::
 
@@ -134,7 +134,8 @@ Epidemics and their economic afterlives, from the 1713 smallpox at the Cape to t
 
 ::: {.papers}
 -   [Submitted]{.pill .pill-submitted} **A Disease Never Seen Here: Measuring the Severity of the 1713 Smallpox Epidemic at the Cape**
--   [Submitted]{.pill .pill-submitted} **Selective Sanitation and Racial Health Inequality** [with Kelsey Lemon and Jan-Hendrik Pretorius]{.with} · [Working paper](https://www.ekon.sun.ac.za/wpapers/2026/wp012026)
+-   [Submitted]{.pill .pill-submitted} **Babies as Industrial Policy**
+-   [Draft]{.pill .pill-draft} **Selective Sanitation and Racial Health Inequality** [with Kelsey Lemon and Jan-Hendrik Pretorius]{.with} · [Working paper](https://www.ekon.sun.ac.za/wpapers/2026/wp012026)
 :::
 
 <details class="pubs">
@@ -160,9 +161,9 @@ Epidemics and their economic afterlives, from the 1713 smallpox at the Cape to t
 Cricket, mega-events and destination brands: what sport and travel reveal about how markets work.
 
 ::: {.papers}
--   [Submitted]{.pill .pill-submitted} **Invisible Handedness: The Myth of Left–Right Batting Partnerships** [with Krige Siebrits]{.with} · featured in [Nature](https://www.nature.com/articles/d44148-026-00177-x)
+-   [R&R]{.pill .pill-rr} **Invisible Handedness: The Myth of Left–Right Batting Partnerships** [with Krige Siebrits]{.with} · *Journal of Sports Economics* · featured in [Nature](https://www.nature.com/articles/d44148-026-00177-x)
 -   [Submitted]{.pill .pill-submitted} **Revealed Comparative Advantage in Team Sport: Classifying Cricket's All-Rounders with the Balassa Index**
--   [Submitted]{.pill .pill-submitted} **The Olympic Games as Industrial Policy**
+-   [Submitted]{.pill .pill-submitted} **Faster, Higher, Stronger? Political Selection and the Olympic Host Contract**
 -   [Submitted]{.pill .pill-submitted} **A Gate-and-Menu Theory of Collective Tourism Brand Value**
 -   [Draft]{.pill .pill-draft} **Policing the Pitch: The Network Economics of Collusion Deterrence in Cricket** [with Adriana Roux]{.with}
 :::
@@ -186,13 +187,14 @@ Cricket, mega-events and destination brands: what sport and travel reveal about 
 How economic history is made and used: applied history, AI in research, and the economics of science itself.
 
 ::: {.papers}
--   [R&R]{.pill .pill-rr} **From Renaissance to Relevance: Towards an Applied African Economic History** · *Economic History of Developing Regions*
+-   [Accepted]{.pill .pill-accepted} **From Renaissance to Relevance: Towards an Applied African Economic History** · *Economic History of Developing Regions*
 -   [R&R]{.pill .pill-rr} **Path Dependence in Economic History Publications** · *Cliometrica*
 -   [Submitted]{.pill .pill-submitted} **Through the Prism of the Past: Principles for Applied Economic History** [with Chris Colvin]{.with} · [Working paper](https://www.quceh.org.uk/working-papers-2026.html)
--   [Submitted]{.pill .pill-submitted} **Messy Research, Certification and the Monetization of Science** · [Working paper](https://arxiv.org/abs/2607.13844)
 -   [Submitted]{.pill .pill-submitted} **LLMs and Economic History: A Comment on Ferrara (2026)**
 -   [Submitted]{.pill .pill-submitted} **AI and the Research Team**
--   [Submitted]{.pill .pill-submitted} **Writing Is Not Thinking**
+-   [Draft]{.pill .pill-draft} **Messy Research, Certification and the Monetization of Science** · [Working paper](https://arxiv.org/abs/2607.13844)
+-   [Draft]{.pill .pill-draft} **Writing Is Not Thinking**
+-   [Draft]{.pill .pill-draft} **Value per Token: AI Agent Autonomy, Human Attention, and the Growth of Firms**
 :::
 
 <details class="pubs">
