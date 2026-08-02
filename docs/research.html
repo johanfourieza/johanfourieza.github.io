@@ -194,6 +194,15 @@ AUTHORING RULES (for future updates):
   " · *Journal*" and " · [Working paper](url)" links. The journal (kabbo's
   "Intended journal" field) is shown ONLY on R&R and Accepted rows, never
   on Draft or Submitted rows.
+- Downloadable working papers live in files/wp/ (Quarto copies them to
+  docs/files/wp/ on render). They are staged by Johan in
+  0Claude0\1Research\WorkingPapers as {Initials}_{TitleWords}[_sup]_v{N}.pdf,
+  and only papers at Submitted, R&R or Accepted get one. Keep the version
+  marker in the filename but NEVER show it in the link text:
+    · [Working paper](files/wp/JF_WritingIsNot_v3.pdf) \| [Supplementary file](files/wp/JF_WritingIsNot_sup_v3.pdf)
+  A _sup file is the supplement; omit that half of the pair when absent.
+  Where a row could carry either a local PDF or an external link (SUN
+  wpapers, arXiv, QUCEH), show whichever is the more recent version.
 - No em-dashes anywhere on this page; use commas or en dashes.
 - Pills: [Draft]{.pill .pill-draft} [Submitted]{.pill .pill-submitted}
   [R&R]{.pill .pill-rr} [Accepted]{.pill .pill-accepted}
@@ -253,7 +262,7 @@ Published work (3)
 <li><span class="pill pill-submitted">Submitted</span> <strong>Biplots and Classification: Measuring Household Economic Systems at the Cape Colony</strong> <span class="with">with Sugnet Lubbe, Johané Nienkemper-Swanepoel and Dieter von Fintel</span></li>
 <li><span class="pill pill-submitted">Submitted</span> <strong>Between Public Duty and Private Profit: Government Officials and Real Estate Investments in the Cape Colony, 1897–1902</strong> <span class="with">with Munashe Chideya</span> · <a href="https://www.ekon.sun.ac.za/wpapers/2026/wp022026">Working paper</a></li>
 <li><span class="pill pill-submitted">Submitted</span> <strong>The Household in a Coercive Society: Evidence from South Africa’s Cape Colony</strong></li>
-<li><span class="pill pill-submitted">Submitted</span> <strong>Protest from Above: Elite Decoupling and Public Petitioning in the VOC Cape Colony</strong> <span class="with">with Jonathan Schoots</span></li>
+<li><span class="pill pill-submitted">Submitted</span> <strong>Protest from Above: Elite Decoupling and Public Petitioning in the VOC Cape Colony</strong> <span class="with">with Jonathan Schoots</span> · <a href="files/wp/JS_JF_ProtestFromAbove_v1.pdf">Working paper</a> | <a href="files/wp/JS_JF_ProtestFromAbove_sup_v1.pdf">Supplementary file</a></li>
 <li><span class="pill pill-draft">Draft</span> <strong>The Poor Fund as Lender: Church Credit and Agricultural Production in the Cape Colony, 1686–1829</strong> <span class="with">with Jacques Theron</span></li>
 <li><span class="pill pill-draft">Draft</span> <strong>Selection Bias in Probate Inventories</strong> <span class="with">with Anne McCants and Leoné Walters</span></li>
 </ul>
@@ -317,7 +326,7 @@ Published work (3)
 <div class="papers">
 <ul>
 <li><span class="pill pill-submitted">Submitted</span> <strong>A Disease Never Seen Here: Measuring the Severity of the 1713 Smallpox Epidemic at the Cape</strong></li>
-<li><span class="pill pill-submitted">Submitted</span> <strong>Babies as Industrial Policy</strong></li>
+<li><span class="pill pill-submitted">Submitted</span> <strong>Babies as Industrial Policy</strong> · <a href="files/wp/JF_BabiesAsIndustrial_v1.pdf">Working paper</a></li>
 <li><span class="pill pill-draft">Draft</span> <strong>Selective Sanitation and Racial Health Inequality</strong> <span class="with">with Kelsey Lemon and Jan-Hendrik Pretorius</span> · <a href="https://www.ekon.sun.ac.za/wpapers/2026/wp012026">Working paper</a></li>
 </ul>
 </div>
@@ -399,7 +408,7 @@ Published work (3)
 <p>How research gets produced, certified and rewarded, and what AI is doing to all three.</p>
 <div class="papers">
 <ul>
-<li><span class="pill pill-submitted">Submitted</span> <strong>Writing Is Not Thinking</strong></li>
+<li><span class="pill pill-submitted">Submitted</span> <strong>Writing Is Not Thinking</strong> · <a href="files/wp/JF_WritingIsNot_v3.pdf">Working paper</a> | <a href="files/wp/JF_WritingIsNot_sup_v3.pdf">Supplementary file</a></li>
 <li><span class="pill pill-draft">Draft</span> <strong>AI and the Research Team</strong></li>
 <li><span class="pill pill-draft">Draft</span> <strong>Messy Research, Certification and the Monetization of Science</strong> · <a href="https://arxiv.org/abs/2607.13844">Working paper</a></li>
 <li><span class="pill pill-draft">Draft</span> <strong>How Much of AI Progress Reaches Production? Evidence from Agent Commits on Public GitHub</strong> <span class="with">with Friedrich Kreuser</span></li>
