@@ -42,7 +42,7 @@ AUTHORING RULES (for future updates):
 -->
 
 ::: {.pipeline-glance}
-**29 papers in the pipeline:** [9 drafts]{.pill .pill-draft} [15 submitted]{.pill .pill-submitted} [3 R&R]{.pill .pill-rr} [2 accepted]{.pill .pill-accepted}
+**28 papers in the pipeline:** [9 drafts]{.pill .pill-draft} [15 submitted]{.pill .pill-submitted} [3 R&R]{.pill .pill-rr} [1 accepted]{.pill .pill-accepted}
 :::
 
 ::: {.theme}
@@ -198,15 +198,15 @@ Cricket, mega-events and destination brands: what sport and travel reveal about 
 How economic history is made and used: applied history, and what the discipline chooses to study.
 
 ::: {.papers}
--   [Accepted]{.pill .pill-accepted} **From Renaissance to Relevance: Towards an Applied African Economic History** · *Economic History of Developing Regions*
 -   [R&R]{.pill .pill-rr} **Path Dependence in Economic History Publications** · *Cliometrica* · [Working paper](files/wp/JF_TestingForPath_v1.pdf)
 -   [Submitted]{.pill .pill-submitted} **Through the Prism of the Past: Principles for Applied Economic History** [with Chris Colvin]{.with} · [Working paper](https://www.quceh.org.uk/working-papers-2026.html)
 -   [Submitted]{.pill .pill-submitted} **LLMs and Economic History: A Comment on Ferrara (2026)**
 :::
 
 <details class="pubs">
-<summary>Published work (3)</summary>
+<summary>Published work (4)</summary>
 
+-   Fourie, Johan. 2026. "From Renaissance to Relevance: Towards an Applied African Economic History." *Economic History of Developing Regions*. [Paper](https://www.tandfonline.com/doi/full/10.1080/20780389.2026.2707070)
 -   Fourie, Johan. (ed.) 2023. *Quantitative History and Uncharted People: Case Studies from the South African Past*. Bloomsbury Publishing. [Edited book](https://www.bloomsbury.com/uk/quantitative-history-and-uncharted-people-9781350331167/)
 -   Fourie, Johan. 2022. *Our Long Walk to Economic Freedom: Lessons from 100,000 Years of Human History*. Cambridge University Press. [Book](https://www.cambridge.org/core/books/our-long-walk-to-economic-freedom/0985F9390A3B26B40DE0AC6BC1111414)
 -   Fourie, Johan. 2016. "The Data Revolution in African Economic History." *Journal of Interdisciplinary History* 47 (2): 193–212. [Paper](https://direct.mit.edu/jinh/article/47/2/193/49177/The-Data-Revolution-in-African-Economic-History)
