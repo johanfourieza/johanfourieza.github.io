@@ -158,16 +158,32 @@ figure figcaption, .figure-caption {
 /* --- Substack latest posts --- */
 .substack-section {
   clear: both;
-  margin-top: 2rem;
-  padding-top: 1rem;
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(105, 62, 35, 0.1);
+}
+
+.substack-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.9rem;
 }
 
 .substack-heading {
   font-size: 1rem;
   border-bottom: none;
   padding-bottom: 0;
-  margin-top: 0;
-  margin-bottom: 0.75rem;
+  margin: 0;
+}
+
+.substack-all {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  text-decoration: none;
 }
 
 .substack-grid {
@@ -179,42 +195,84 @@ figure figcaption, .figure-caption {
 .substack-card {
   display: flex;
   flex-direction: column;
+  background: #fff;
   text-decoration: none !important;
   border-radius: 4px;
   overflow: hidden;
   border: 1px solid rgba(105, 62, 35, 0.1);
+  box-shadow: 0 1px 3px rgba(105, 62, 35, 0.06);
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .substack-card:hover {
-  box-shadow: 0 2px 8px rgba(105, 62, 35, 0.12);
+  box-shadow: 0 4px 14px rgba(105, 62, 35, 0.12);
   transform: translateY(-2px);
   text-decoration: none !important;
 }
 
+.substack-card-img {
+  overflow: hidden;
+  aspect-ratio: 3 / 2;
+}
+
+.substack-card-img img,
 .substack-card img {
   width: 100%;
+  height: 100%;
   aspect-ratio: 3 / 2;
   object-fit: cover;
   border-radius: 0;
+  transition: transform 0.3s ease;
+}
+
+.substack-card:hover .substack-card-img img {
+  transform: scale(1.03);
 }
 
 .substack-card-body {
-  padding: 0.6rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0.75rem 0.85rem 0.85rem;
+}
+
+.substack-card-date {
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #8f8844;
+  margin: 0 0 0.35rem 0;
 }
 
 .substack-card-title {
-  font-size: 0.85rem;
+  font-size: 0.92rem;
   font-weight: 600;
   color: #693e23;
   line-height: 1.35;
-  margin: 0 0 0.3rem 0;
+  margin: 0 0 0.35rem 0;
+}
+
+.substack-card:hover .substack-card-title {
+  text-decoration: underline;
+  text-decoration-color: rgba(105, 62, 35, 0.4);
+  text-underline-offset: 2px;
 }
 
 .substack-card-desc {
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   color: #666;
-  line-height: 1.4;
+  line-height: 1.45;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.substack-fallback {
+  font-size: 0.9rem;
+  color: #666;
   margin: 0;
 }
 

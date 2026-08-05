@@ -154,14 +154,8 @@ gtag('config', 'G-TQJEXD9NM3', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#latest-from-our-long-walk" id="toc-latest-from-our-long-walk" class="nav-link active" data-scroll-target="#latest-from-our-long-walk">Latest from Our Long Walk</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -210,95 +204,63 @@ gtag('config', 'G-TQJEXD9NM3', { 'anonymize_ip': true});
 <p>I see myself as a knowledge broker, who believes that effective science communication matters deeply. Stories not only help us understand the world around us, they actively shape it.</p>
 <p>My blog, <a href="http://www.ourlongwalk.com">ourlongwalk.com</a>, now followed by more than 6,000 subscribers, features my columns and essays on a wide variety of topics.</p>
 <p>My greatest ambition is to be cited in a Nobel lecture – ideally by one of my students.</p>
-<section id="latest-from-our-long-walk" class="level2 substack-heading substack-section">
-<h2 class="substack-heading anchored" data-anchor-id="latest-from-our-long-walk">Latest from <a href="https://www.ourlongwalk.com">Our Long Walk</a></h2>
+<div class="substack-section">
+<div class="substack-header">
+  <h2 class="substack-heading anchored">Latest from <a href="https://www.ourlongwalk.com">Our Long Walk</a></h2>
+  <a class="substack-all" href="https://www.ourlongwalk.com/archive" target="_blank" rel="noopener">All essays&nbsp;→</a>
+</div>
 <div id="substack-feed" class="substack-grid">
 
 </div>
-</section>
+</div>
 <script>
 (function() {
-  const FEED_URL = "https://www.ourlongwalk.com/feed";
+  // The feed JSON is refreshed by .github/workflows/substack-feed.yml and
+  // served same-origin, so this fetch needs no CORS proxies.
   const NUM_POSTS = 3;
+  const MONTHS = ["January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"];
 
-  function parseItemsFromXml(xml) {
-    const doc = new DOMParser().parseFromString(xml, "text/xml");
-    const items = doc.querySelectorAll("item");
-    const posts = [];
-    for (const item of items) {
-      if (posts.length >= NUM_POSTS) break;
-      const enc = item.querySelector("enclosure");
-      // skip podcast episodes
-      if (enc && enc.getAttribute("type") && enc.getAttribute("type").startsWith("audio")) continue;
-      posts.push({
-        title: (item.querySelector("title")?.textContent || "").trim(),
-        description: (item.querySelector("description")?.textContent || "").trim(),
-        link: (item.querySelector("link")?.textContent || "").trim(),
-        image: enc ? enc.getAttribute("url") : null
-      });
-    }
-    return posts;
+  function formatDate(iso) {
+    if (!iso) return "";
+    var p = iso.split("-");
+    if (p.length !== 3) return "";
+    return parseInt(p[2], 10) + " " + (MONTHS[parseInt(p[1], 10) - 1] || "") + " " + p[0];
   }
 
-  async function fetchFeed() {
-    const proxies = [
-      { url: "https://api.allorigins.win/raw?url=" + encodeURIComponent(FEED_URL), type: "xml" },
-      { url: "https://corsproxy.io/?url=" + encodeURIComponent(FEED_URL), type: "xml" },
-      { url: "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(FEED_URL), type: "json" }
-    ];
-    for (const proxy of proxies) {
-      try {
-        const resp = await fetch(proxy.url, { signal: AbortSignal.timeout(15000) });
-        if (!resp.ok) continue;
-        if (proxy.type === "json") {
-          const data = await resp.json();
-          if (!data.items || !data.items.length) continue;
-          return data.items
-            .filter(function(it) { return !it.enclosure || !it.enclosure.type || !it.enclosure.type.startsWith("audio"); })
-            .slice(0, NUM_POSTS)
-            .map(function(it) {
-              return {
-                title: it.title || "",
-                description: it.description || "",
-                link: it.link || "",
-                image: (it.enclosure && it.enclosure.link) || it.thumbnail || null
-              };
-            });
-        } else {
-          const xml = await resp.text();
-          if (!xml || xml.length < 100) continue;
-          const items = parseItemsFromXml(xml);
-          if (items.length > 0) return items;
-        }
-      } catch (e) { continue; }
-    }
-    return null;
-  }
-
-  function stripHtml(str) {
-    var tmp = document.createElement("div");
-    tmp.innerHTML = str;
-    return tmp.textContent || tmp.innerText || "";
+  function el(tag, className, text) {
+    var node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text) node.textContent = text;
+    return node;
   }
 
   function renderPosts(posts) {
     var grid = document.getElementById("substack-feed");
     if (!grid) return;
     grid.innerHTML = "";
-    posts.forEach(function(post) {
-      var desc = stripHtml(post.description);
-      if (desc.length > 120) desc = desc.substring(0, 117) + "…";
-      var card = document.createElement("a");
+    posts.slice(0, NUM_POSTS).forEach(function(post) {
+      var card = el("a", "substack-card");
       card.href = post.link;
-      card.className = "substack-card";
       card.target = "_blank";
       card.rel = "noopener";
-      card.innerHTML =
-        (post.image ? '<img src="' + post.image + '" alt="" loading="lazy">' : '') +
-        '<div class="substack-card-body">' +
-          '<p class="substack-card-title">' + post.title + '</p>' +
-          '<p class="substack-card-desc">' + desc + '</p>' +
-        '</div>';
+
+      if (post.image) {
+        var frame = el("div", "substack-card-img");
+        var img = document.createElement("img");
+        img.src = post.image;
+        img.alt = "";
+        img.loading = "lazy";
+        frame.appendChild(img);
+        card.appendChild(frame);
+      }
+
+      var body = el("div", "substack-card-body");
+      var date = formatDate(post.date);
+      if (date) body.appendChild(el("p", "substack-card-date", date));
+      body.appendChild(el("p", "substack-card-title", post.title));
+      if (post.description) body.appendChild(el("p", "substack-card-desc", post.description));
+      card.appendChild(body);
       grid.appendChild(card);
     });
   }
@@ -306,15 +268,25 @@ gtag('config', 'G-TQJEXD9NM3', { 'anonymize_ip': true});
   function showFallback() {
     var grid = document.getElementById("substack-feed");
     if (!grid) return;
-    grid.innerHTML = '<p style="font-size:0.9rem;color:#666;">Visit <a href="https://www.ourlongwalk.com">ourlongwalk.com</a> for the latest posts.</p>';
+    grid.innerHTML = "";
+    var p = el("p", "substack-fallback", "Visit ");
+    var a = el("a", null, "ourlongwalk.com");
+    a.href = "https://www.ourlongwalk.com";
+    p.appendChild(a);
+    p.appendChild(document.createTextNode(" for the latest posts."));
+    grid.appendChild(p);
   }
 
-  fetchFeed().then(function(posts) {
-    if (posts && posts.length) renderPosts(posts);
-    else showFallback();
-  }).catch(function() {
-    showFallback();
-  });
+  fetch("data/substack.json")
+    .then(function(resp) {
+      if (!resp.ok) throw new Error("HTTP " + resp.status);
+      return resp.json();
+    })
+    .then(function(data) {
+      if (data && data.posts && data.posts.length) renderPosts(data.posts);
+      else showFallback();
+    })
+    .catch(showFallback);
 })();
 </script>
 

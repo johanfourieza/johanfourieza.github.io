@@ -1,0 +1,46 @@
+name: Refresh Substack feed
+
+# Fetches the Our Long Walk RSS feed every six hours and commits a static
+# JSON snapshot (data/substack.json + docs/data/substack.json) that the
+# front page reads same-origin. This replaces the old client-side CORS
+# proxies, which proved unreliable. If the fetch fails, the last good
+# snapshot stays live and this run simply fails without committing.
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "code/fetch_substack.py"
+      - ".github/workflows/substack-feed.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: substack-feed
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch feed and write JSON
+        run: python3 code/fetch_substack.py
+
+      - name: Commit updated feed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/substack.json docs/data/substack.json
+          if git diff --staged --quiet; then
+            echo "Feed unchanged."
+          else
+            git commit -m "chore: refresh Substack feed [skip ci]"
+            git pull --rebase
+            git push
+          fi
