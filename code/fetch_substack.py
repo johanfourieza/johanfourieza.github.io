@@ -93,6 +93,16 @@ def main():
         print("No posts parsed from feed; leaving existing JSON untouched.")
         return 1
 
+    # Skip the write when nothing changed, so the timestamp stays put and
+    # the CI workflow does not commit an identical feed every run.
+    try:
+        existing = json.loads(OUT_FILES[0].read_text(encoding="utf-8"))
+        if existing.get("posts") == posts:
+            print("Feed unchanged; leaving existing JSON untouched.")
+            return 0
+    except (OSError, ValueError):
+        pass
+
     payload = {
         "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "posts": posts,
