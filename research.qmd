@@ -231,7 +231,7 @@ How research gets produced, certified and rewarded, and what AI is doing to all 
 ::: {.papers}
 -   [Submitted]{.pill .pill-submitted} **Writing Is Not Thinking** · [Working paper](files/wp/JF_WritingIsNot_v3.pdf) [(md)](files/wp/JF_WritingIsNot_v3.md) \| [Supplementary file](files/wp/JF_WritingIsNot_sup_v3.pdf) [(md)](files/wp/JF_WritingIsNot_sup_v3.md)
 -   [Submitted]{.pill .pill-submitted} **AI and the Research Team** · [Working paper](files/wp/JF_AIAndThe_v1.pdf) [(md)](files/wp/JF_AIAndThe_v1.md) \| [Supplementary file](files/wp/JF_AIAndThe_sup_v1.pdf) [(md)](files/wp/JF_AIAndThe_sup_v1.md)
--   [Draft]{.pill .pill-draft} **Messy Review: Certification Value and the Return to Pedigree** · [Working paper](https://arxiv.org/abs/2607.13844)
+-   [Draft]{.pill .pill-draft} **Messy Review: Certification Value and the Return to Pedigree** · [Working paper](files/wp/JF_MessyReviewCertification_v1.pdf) [(md)](files/wp/JF_MessyReviewCertification_v1.md)
 -   [Draft]{.pill .pill-draft} **How Much of AI Progress Reaches Production? Evidence from Agent Commits on Public GitHub** [with Friedrich Kreuser]{.with}
 :::
 :::
