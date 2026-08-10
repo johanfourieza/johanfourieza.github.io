@@ -16,9 +16,12 @@ AUTHORING RULES (for future updates):
 - Downloadable working papers live in files/wp/ (Quarto copies them to
   docs/files/wp/ on render). They are staged by Johan in
   0Claude0\1Research\WorkingPapers as {Initials}_{TitleWords}[_sup]_v{N}.pdf,
-  and only papers at Submitted, R&R or Accepted get one. Keep the version
-  marker in the filename but NEVER show it in the link text:
-    · [Working paper](files/wp/JF_WritingIsNot_v3.pdf) \| [Supplementary file](files/wp/JF_WritingIsNot_sup_v3.pdf)
+  and only papers at Submitted, R&R or Accepted get one. Every paper is two
+  files: the .pdf for people and a .md twin of the same stem for AI assistants
+  and crawlers. Both are published and both are linked, the named link to the
+  PDF and a bare (md) straight after it. Keep the version marker in the
+  filename but NEVER show it in the link text:
+    · [Working paper](files/wp/JF_WritingIsNot_v3.pdf) [(md)](files/wp/JF_WritingIsNot_v3.md) \| [Supplementary file](files/wp/JF_WritingIsNot_sup_v3.pdf) [(md)](files/wp/JF_WritingIsNot_sup_v3.md)
   A _sup file is the supplement; omit that half of the pair when absent.
   Where a row could carry either a local PDF or an external link (SUN
   wpapers, arXiv, QUCEH), show whichever is the more recent version.
@@ -45,6 +48,8 @@ AUTHORING RULES (for future updates):
 **28 papers in the pipeline:** [9 drafts]{.pill .pill-draft} [15 submitted]{.pill .pill-submitted} [3 R&R]{.pill .pill-rr} [1 accepted]{.pill .pill-accepted}
 :::
 
+Each working paper is also available as a Markdown file, which is easier for AI assistants and other automated readers to process than a PDF.
+
 ::: {.theme}
 ::: {.theme-banner}
 ![](images/themes/slavery.jpg){fig-alt="Convicts picking grapes under armed guard at Groot Constantia. Elliot Collection, Western Cape Archives and Records Service."}
@@ -55,8 +60,8 @@ AUTHORING RULES (for future updates):
 How slavery shaped the Cape economy, and what freedom, when it came, was worth.
 
 ::: {.papers}
--   [Accepted]{.pill .pill-accepted} **The New Economics of Cape Slavery** · *South African Journal of Economics* · [Working paper](files/wp/JF_TheNewEconomics_v1.pdf)
--   [R&R]{.pill .pill-rr} **Selection into the Great Trek** [with Calumet Links]{.with} · *European Review of Economic History* · [Working paper](files/wp/JF_CL_SelectionIntoThe_v1.pdf)
+-   [Accepted]{.pill .pill-accepted} **The New Economics of Cape Slavery** · *South African Journal of Economics* · [Working paper](files/wp/JF_TheNewEconomics_v1.pdf) [(md)](files/wp/JF_TheNewEconomics_v1.md)
+-   [R&R]{.pill .pill-rr} **Selection into the Great Trek** [with Calumet Links]{.with} · *European Review of Economic History* · [Working paper](files/wp/JF_CL_SelectionIntoThe_v1.pdf) [(md)](files/wp/JF_CL_SelectionIntoThe_v1.md)
 :::
 
 <details class="pubs">
@@ -82,7 +87,7 @@ Tax censuses, auction rolls and probate inventories reveal who prospered in the 
 -   [Submitted]{.pill .pill-submitted} **Biplots and Classification: Measuring Household Economic Systems at the Cape Colony** [with Sugnet Lubbe, Johané Nienkemper-Swanepoel and Dieter von Fintel]{.with}
 -   [Submitted]{.pill .pill-submitted} **Between Public Duty and Private Profit: Government Officials and Real Estate Investments in the Cape Colony, 1897–1902** [with Munashe Chideya]{.with} · [Working paper](https://www.ekon.sun.ac.za/wpapers/2026/wp022026)
 -   [Submitted]{.pill .pill-submitted} **The Household in a Coercive Society: Evidence from South Africa's Cape Colony**
--   [Submitted]{.pill .pill-submitted} **Protest from Above: Elite Decoupling and Public Petitioning in the VOC Cape Colony** [with Jonathan Schoots]{.with} · [Working paper](files/wp/JS_JF_ProtestFromAbove_v1.pdf) \| [Supplementary file](files/wp/JS_JF_ProtestFromAbove_sup_v1.pdf)
+-   [Submitted]{.pill .pill-submitted} **Protest from Above: Elite Decoupling and Public Petitioning in the VOC Cape Colony** [with Jonathan Schoots]{.with} · [Working paper](files/wp/JS_JF_ProtestFromAbove_v1.pdf) [(md)](files/wp/JS_JF_ProtestFromAbove_v1.md) \| [Supplementary file](files/wp/JS_JF_ProtestFromAbove_sup_v1.pdf) [(md)](files/wp/JS_JF_ProtestFromAbove_sup_v1.md)
 -   [Draft]{.pill .pill-draft} **The Poor Fund as Lender: Church Credit and Agricultural Production in the Cape Colony, 1686–1829** [with Jacques Theron]{.with}
 -   [Draft]{.pill .pill-draft} **Selection Bias in Probate Inventories** [with Anne McCants and Leoné Walters]{.with}
 :::
@@ -119,8 +124,8 @@ Tax censuses, auction rolls and probate inventories reveal who prospered in the 
 The economics of segregation and apartheid: who paid, who benefited, and what persisted.
 
 ::: {.papers}
--   [Submitted]{.pill .pill-submitted} **Discrimination After Hiring: Within-Firm Sorting, Slow Employer Learning, and the Cost to the Sorted Worker** [with Kris Inwood and Martine Mariotti]{.with}
--   [Draft]{.pill .pill-draft} **The Colour of a Title: The Opening and Emptying of Protected Work under Apartheid** [with Timothy Ngalande]{.with}
+-   [Draft]{.pill .pill-draft} **Discrimination After Hiring: Within-Firm Sorting, Slow Employer Learning, and the Cost to the Sorted Worker** [with Kris Inwood and Martine Mariotti]{.with}
+-   [Draft]{.pill .pill-draft} **Reconfiguring the Colour Bar: Legal Reform and Occupational Persistence under Apartheid** [with Timothy Ngalande]{.with}
 -   [Draft]{.pill .pill-draft} **Selective Persistence: Colonial Education, State Intervention and the Durability of School Quality in South Africa** [with Gabriel Brown and Sarah Ferber]{.with}
 :::
 
@@ -145,7 +150,7 @@ Epidemics and their economic afterlives, from the 1713 smallpox at the Cape to t
 
 ::: {.papers}
 -   [Submitted]{.pill .pill-submitted} **A Disease Never Seen Here: Measuring the Severity of the 1713 Smallpox Epidemic at the Cape**
--   [Submitted]{.pill .pill-submitted} **Babies as Industrial Policy** · [Working paper](files/wp/JF_BabiesAsIndustrial_v1.pdf)
+-   [Submitted]{.pill .pill-submitted} **Babies as Industrial Policy** · [Working paper](files/wp/JF_BabiesAsIndustrial_v1.pdf) [(md)](files/wp/JF_BabiesAsIndustrial_v1.md)
 -   [Draft]{.pill .pill-draft} **Selective Sanitation and Racial Health Inequality** [with Kelsey Lemon and Jan-Hendrik Pretorius]{.with} · [Working paper](https://www.ekon.sun.ac.za/wpapers/2026/wp012026)
 :::
 
@@ -175,7 +180,7 @@ Cricket, mega-events and destination brands: what sport and travel reveal about 
 -   [R&R]{.pill .pill-rr} **Invisible Handedness: The Myth of Left–Right Batting Partnerships** [with Krige Siebrits]{.with} · *Journal of Sports Economics* · featured in [Nature](https://www.nature.com/articles/d44148-026-00177-x)
 -   [Submitted]{.pill .pill-submitted} **Revealed Comparative Advantage in Team Sport: Classifying Cricket's All-Rounders with the Balassa Index**
 -   [Submitted]{.pill .pill-submitted} **Faster, Higher, Stronger? Political Selection and the Olympic Host Contract**
--   [Submitted]{.pill .pill-submitted} **Do Cricket Captains Maximise Winning? Evidence from 125 Years of the Follow-On Rule**
+-   [Submitted]{.pill .pill-submitted} **The Decline of the Follow-On in 125 Years of First-Class Cricket** · [Working paper](files/wp/JF_TheDeclineOf_v1.pdf) [(md)](files/wp/JF_TheDeclineOf_v1.md) \| [Supplementary file](files/wp/JF_TheDeclineOf_sup_v1.pdf) [(md)](files/wp/JF_TheDeclineOf_sup_v1.md)
 -   [Draft]{.pill .pill-draft} **Gates and Menus: Self-Financing Quality in Fragmented Tourism Destinations**
 :::
 
@@ -198,7 +203,7 @@ Cricket, mega-events and destination brands: what sport and travel reveal about 
 How economic history is made and used: applied history, and what the discipline chooses to study.
 
 ::: {.papers}
--   [R&R]{.pill .pill-rr} **Path Dependence in Economic History Publications** · *Cliometrica* · [Working paper](files/wp/JF_TestingForPath_v1.pdf)
+-   [R&R]{.pill .pill-rr} **Path Dependence in Economic History Publications** · *Cliometrica* · [Working paper](files/wp/JF_TestingForPath_v1.pdf) [(md)](files/wp/JF_TestingForPath_v1.md)
 -   [Submitted]{.pill .pill-submitted} **Through the Prism of the Past: Principles for Applied Economic History** [with Chris Colvin]{.with} · [Working paper](https://www.quceh.org.uk/working-papers-2026.html)
 -   [Submitted]{.pill .pill-submitted} **LLMs and Economic History: A Comment on Ferrara (2026)**
 :::
@@ -224,9 +229,9 @@ How economic history is made and used: applied history, and what the discipline 
 How research gets produced, certified and rewarded, and what AI is doing to all three.
 
 ::: {.papers}
--   [Submitted]{.pill .pill-submitted} **Writing Is Not Thinking** · [Working paper](files/wp/JF_WritingIsNot_v3.pdf) \| [Supplementary file](files/wp/JF_WritingIsNot_sup_v3.pdf)
--   [Draft]{.pill .pill-draft} **AI and the Research Team**
--   [Draft]{.pill .pill-draft} **Messy Research, Certification and the Monetization of Science** · [Working paper](https://arxiv.org/abs/2607.13844)
+-   [Submitted]{.pill .pill-submitted} **Writing Is Not Thinking** · [Working paper](files/wp/JF_WritingIsNot_v3.pdf) [(md)](files/wp/JF_WritingIsNot_v3.md) \| [Supplementary file](files/wp/JF_WritingIsNot_sup_v3.pdf) [(md)](files/wp/JF_WritingIsNot_sup_v3.md)
+-   [Submitted]{.pill .pill-submitted} **AI and the Research Team** · [Working paper](files/wp/JF_AIAndThe_v1.pdf) [(md)](files/wp/JF_AIAndThe_v1.md) \| [Supplementary file](files/wp/JF_AIAndThe_sup_v1.pdf) [(md)](files/wp/JF_AIAndThe_sup_v1.md)
+-   [Draft]{.pill .pill-draft} **Messy Review: Certification Value and the Return to Pedigree** · [Working paper](https://arxiv.org/abs/2607.13844)
 -   [Draft]{.pill .pill-draft} **How Much of AI Progress Reaches Production? Evidence from Agent Commits on Public GitHub** [with Friedrich Kreuser]{.with}
 :::
 :::
@@ -241,7 +246,7 @@ How research gets produced, certified and rewarded, and what AI is doing to all 
 Trade routes, transport costs and the long shadow of migration on how people connect.
 
 ::: {.papers}
--   [Submitted]{.pill .pill-submitted} **Uprooted: Migration, Coercion, and the Roots of Social Connectedness** · [Working paper](files/wp/JF_UprootedMigrationCoercion_v1.pdf) \| [Supplementary file](files/wp/JF_UprootedMigrationCoercion_sup_v1.pdf)
+-   [Submitted]{.pill .pill-submitted} **Uprooted: Migration, Coercion, and the Roots of Social Connectedness** · [Working paper](files/wp/JF_UprootedMigrationCoercion_v1.pdf) [(md)](files/wp/JF_UprootedMigrationCoercion_v1.md) \| [Supplementary file](files/wp/JF_UprootedMigrationCoercion_sup_v1.pdf) [(md)](files/wp/JF_UprootedMigrationCoercion_sup_v1.md)
 -   [Submitted]{.pill .pill-submitted} **Bulky: Commodity Booms and Shared Transport Capacity**
 :::
 
