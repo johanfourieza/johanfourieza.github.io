@@ -1,6 +1,13 @@
 {
-  "updated": "2026-08-06T09:10:01+00:00",
+  "updated": "2026-08-10T08:07:32+00:00",
   "posts": [
+    {
+      "title": "The economy under your skin",
+      "link": "https://www.ourlongwalk.com/p/the-economy-under-your-skin-001",
+      "description": "What ancient DNA can reveal about economic history – and us",
+      "date": "2026-08-10",
+      "image": "https://substackcdn.com/image/fetch/$s_!03io!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa292c2ee-979f-4b99-afaf-b709ddf5836b_1456x816.png"
+    },
     {
       "title": "Ozempic externalities",
       "link": "https://www.ourlongwalk.com/p/ozempic-externalities",
@@ -35,13 +42,6 @@
       "description": "My talk at Standard Bank tonight",
       "date": "2026-07-23",
       "image": "https://substackcdn.com/image/fetch/$s_!sMCg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffefccbfb-6bcf-4753-9c9d-17633984f7bb_1456x816.png"
-    },
-    {
-      "title": "Morality was forged in the marketplace",
-      "link": "https://www.ourlongwalk.com/p/morality-was-forged-in-the-marketplace",
-      "description": "What happens to right and wrong when AI no longer needs us to trade with each other?",
-      "date": "2026-07-20",
-      "image": "https://substackcdn.com/image/fetch/$s_!a1Tg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4437dae6-4392-48fa-bd35-a506eb5adaf4_1456x816.png"
     }
   ]
 }
