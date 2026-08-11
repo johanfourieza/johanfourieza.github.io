@@ -45,7 +45,7 @@ AUTHORING RULES (for future updates):
 -->
 
 ::: {.pipeline-glance}
-**28 papers in the pipeline:** [9 drafts]{.pill .pill-draft} [15 submitted]{.pill .pill-submitted} [3 R&R]{.pill .pill-rr} [1 accepted]{.pill .pill-accepted}
+**29 papers in the pipeline:** [9 drafts]{.pill .pill-draft} [16 submitted]{.pill .pill-submitted} [3 R&R]{.pill .pill-rr} [1 accepted]{.pill .pill-accepted}
 :::
 
 Each working paper is also available as a Markdown file, which is easier for AI assistants and other automated readers to process than a PDF.
@@ -86,7 +86,7 @@ Tax censuses, auction rolls and probate inventories reveal who prospered in the 
 ::: {.papers}
 -   [Submitted]{.pill .pill-submitted} **Biplots and Classification: Measuring Household Economic Systems at the Cape Colony** [with Sugnet Lubbe, Johané Nienkemper-Swanepoel and Dieter von Fintel]{.with}
 -   [Submitted]{.pill .pill-submitted} **Between Public Duty and Private Profit: Government Officials and Real Estate Investments in the Cape Colony, 1897–1902** [with Munashe Chideya]{.with} · [Working paper](https://www.ekon.sun.ac.za/wpapers/2026/wp022026)
--   [Submitted]{.pill .pill-submitted} **The Household in a Coercive Society: Evidence from South Africa's Cape Colony**
+-   [Submitted]{.pill .pill-submitted} **The Household in a Coercive Society: Evidence from South Africa's Cape Colony** · [Working paper](files/wp/JF_TheHouseholdIn_v1.pdf) [(md)](files/wp/JF_TheHouseholdIn_v1.md)
 -   [Submitted]{.pill .pill-submitted} **Protest from Above: Elite Decoupling and Public Petitioning in the VOC Cape Colony** [with Jonathan Schoots]{.with} · [Working paper](files/wp/JS_JF_ProtestFromAbove_v1.pdf) [(md)](files/wp/JS_JF_ProtestFromAbove_v1.md) \| [Supplementary file](files/wp/JS_JF_ProtestFromAbove_sup_v1.pdf) [(md)](files/wp/JS_JF_ProtestFromAbove_sup_v1.md)
 -   [Draft]{.pill .pill-draft} **The Poor Fund as Lender: Church Credit and Agricultural Production in the Cape Colony, 1686–1829** [with Jacques Theron]{.with}
 -   [Draft]{.pill .pill-draft} **Selection Bias in Probate Inventories** [with Anne McCants and Leoné Walters]{.with}
@@ -181,6 +181,7 @@ Cricket, mega-events and destination brands: what sport and travel reveal about 
 -   [Submitted]{.pill .pill-submitted} **Revealed Comparative Advantage in Team Sport: Classifying Cricket's All-Rounders with the Balassa Index**
 -   [Submitted]{.pill .pill-submitted} **Faster, Higher, Stronger? Political Selection and the Olympic Host Contract**
 -   [Submitted]{.pill .pill-submitted} **The Decline of the Follow-On in 125 Years of First-Class Cricket** · [Working paper](files/wp/JF_TheDeclineOf_v1.pdf) [(md)](files/wp/JF_TheDeclineOf_v1.md) \| [Supplementary file](files/wp/JF_TheDeclineOf_sup_v1.pdf) [(md)](files/wp/JF_TheDeclineOf_sup_v1.md)
+-   [Submitted]{.pill .pill-submitted} **Hunting in Pairs: Testing for Coworker Effects in Professional Cricket** · [Working paper](files/wp/JF_HuntingInPairs_v1.pdf) [(md)](files/wp/JF_HuntingInPairs_v1.md)
 -   [Draft]{.pill .pill-draft} **Gates and Menus: Self-Financing Quality in Fragmented Tourism Destinations**
 :::
 
