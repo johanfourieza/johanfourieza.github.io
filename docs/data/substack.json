@@ -1,6 +1,13 @@
 {
-  "updated": "2026-08-10T08:07:32+00:00",
+  "updated": "2026-08-13T07:56:57+00:00",
   "posts": [
+    {
+      "title": "But I like doing this",
+      "link": "https://www.ourlongwalk.com/p/but-i-like-doing-this",
+      "description": "What Adam Smith and two new NBER papers say about work that is too enjoyable to stop",
+      "date": "2026-08-13",
+      "image": "https://substackcdn.com/image/fetch/$s_!lEQH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80b54034-ffa1-4271-9287-bf02612f9376_1456x816.png"
+    },
     {
       "title": "The economy under your skin",
       "link": "https://www.ourlongwalk.com/p/the-economy-under-your-skin-001",
@@ -35,13 +42,6 @@
       "description": "The last mining boom built universities. What will the AI boom leave behind?",
       "date": "2026-07-27",
       "image": "https://substackcdn.com/image/fetch/$s_!yvZy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e58c405-0969-41fa-8fe7-74dc2b1366f4_1456x816.png"
-    },
-    {
-      "title": "Two lessons for a four per cent country",
-      "link": "https://www.ourlongwalk.com/p/two-lessons-for-a-four-per-cent-country",
-      "description": "My talk at Standard Bank tonight",
-      "date": "2026-07-23",
-      "image": "https://substackcdn.com/image/fetch/$s_!sMCg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffefccbfb-6bcf-4753-9c9d-17633984f7bb_1456x816.png"
     }
   ]
 }
