@@ -45,7 +45,7 @@ AUTHORING RULES (for future updates):
 -->
 
 ::: {.pipeline-glance}
-**31 papers in the pipeline:** [10 drafts]{.pill .pill-draft} [16 submitted]{.pill .pill-submitted} [4 R&R]{.pill .pill-rr} [1 accepted]{.pill .pill-accepted}
+**30 papers in the pipeline:** [9 drafts]{.pill .pill-draft} [16 submitted]{.pill .pill-submitted} [4 R&R]{.pill .pill-rr} [1 accepted]{.pill .pill-accepted}
 :::
 
 Each working paper is also available as a Markdown file, which is easier for AI assistants and other automated readers to process than a PDF.
@@ -234,7 +234,6 @@ How research gets produced, certified and rewarded, and what AI is doing to all 
 -   [Submitted]{.pill .pill-submitted} **AI and the Research Team** · [Working paper](files/wp/JF_AIAndThe_v1.pdf) [(md)](files/wp/JF_AIAndThe_v1.md) \| [Supplementary file](files/wp/JF_AIAndThe_sup_v1.pdf) [(md)](files/wp/JF_AIAndThe_sup_v1.md)
 -   [Submitted]{.pill .pill-submitted} **The Value of Peer Review and the Reward to Reputation** · [Working paper](files/wp/JF_ValueOfPeer_v5.pdf) [(md)](files/wp/JF_ValueOfPeer_v5.md)
 -   [Submitted]{.pill .pill-submitted} **The Price of Submission** · [Working paper](files/wp/JF_ThePriceOf_v1.pdf) [(md)](files/wp/JF_ThePriceOf_v1.md)
--   [Draft]{.pill .pill-draft} **Messy Review: Certification Value and the Return to Pedigree** · [Working paper](files/wp/JF_MessyReviewCertification_v1.pdf) [(md)](files/wp/JF_MessyReviewCertification_v1.md)
 -   [Draft]{.pill .pill-draft} **How Much of AI Progress Reaches Production? Evidence from Agent Commits on Public GitHub** [with Friedrich Kreuser]{.with}
 :::
 :::
