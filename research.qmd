@@ -45,7 +45,7 @@ AUTHORING RULES (for future updates):
 -->
 
 ::: {.pipeline-glance}
-**29 papers in the pipeline:** [9 drafts]{.pill .pill-draft} [16 submitted]{.pill .pill-submitted} [3 R&R]{.pill .pill-rr} [1 accepted]{.pill .pill-accepted}
+**31 papers in the pipeline:** [10 drafts]{.pill .pill-draft} [16 submitted]{.pill .pill-submitted} [4 R&R]{.pill .pill-rr} [1 accepted]{.pill .pill-accepted}
 :::
 
 Each working paper is also available as a Markdown file, which is easier for AI assistants and other automated readers to process than a PDF.
@@ -87,7 +87,7 @@ Tax censuses, auction rolls and probate inventories reveal who prospered in the 
 -   [Submitted]{.pill .pill-submitted} **Biplots and Classification: Measuring Household Economic Systems at the Cape Colony** [with Sugnet Lubbe, Johané Nienkemper-Swanepoel and Dieter von Fintel]{.with}
 -   [Submitted]{.pill .pill-submitted} **Between Public Duty and Private Profit: Government Officials and Real Estate Investments in the Cape Colony, 1897–1902** [with Munashe Chideya]{.with} · [Working paper](https://www.ekon.sun.ac.za/wpapers/2026/wp022026)
 -   [Submitted]{.pill .pill-submitted} **The Household in a Coercive Society: Evidence from South Africa's Cape Colony** · [Working paper](files/wp/JF_TheHouseholdIn_v1.pdf) [(md)](files/wp/JF_TheHouseholdIn_v1.md)
--   [Submitted]{.pill .pill-submitted} **Protest from Above: Elite Decoupling and Public Petitioning in the VOC Cape Colony** [with Jonathan Schoots]{.with} · [Working paper](files/wp/JS_JF_ProtestFromAbove_v1.pdf) [(md)](files/wp/JS_JF_ProtestFromAbove_v1.md) \| [Supplementary file](files/wp/JS_JF_ProtestFromAbove_sup_v1.pdf) [(md)](files/wp/JS_JF_ProtestFromAbove_sup_v1.md)
+-   [Draft]{.pill .pill-draft} **Protest from Above: Elite Decoupling and Public Petitioning in the VOC Cape Colony** [with Jonathan Schoots]{.with} · [Working paper](files/wp/JS_JF_ProtestFromAbove_v1.pdf) [(md)](files/wp/JS_JF_ProtestFromAbove_v1.md) \| [Supplementary file](files/wp/JS_JF_ProtestFromAbove_sup_v1.pdf) [(md)](files/wp/JS_JF_ProtestFromAbove_sup_v1.md)
 -   [Draft]{.pill .pill-draft} **The Poor Fund as Lender: Church Credit and Agricultural Production in the Cape Colony, 1686–1829** [with Jacques Theron]{.with}
 -   [Draft]{.pill .pill-draft} **Selection Bias in Probate Inventories** [with Anne McCants and Leoné Walters]{.with}
 :::
@@ -232,6 +232,8 @@ How research gets produced, certified and rewarded, and what AI is doing to all 
 ::: {.papers}
 -   [Submitted]{.pill .pill-submitted} **Writing Is Not Thinking** · [Working paper](files/wp/JF_WritingIsNot_v3.pdf) [(md)](files/wp/JF_WritingIsNot_v3.md) \| [Supplementary file](files/wp/JF_WritingIsNot_sup_v3.pdf) [(md)](files/wp/JF_WritingIsNot_sup_v3.md)
 -   [Submitted]{.pill .pill-submitted} **AI and the Research Team** · [Working paper](files/wp/JF_AIAndThe_v1.pdf) [(md)](files/wp/JF_AIAndThe_v1.md) \| [Supplementary file](files/wp/JF_AIAndThe_sup_v1.pdf) [(md)](files/wp/JF_AIAndThe_sup_v1.md)
+-   [Submitted]{.pill .pill-submitted} **The Value of Peer Review and the Reward to Reputation** · [Working paper](files/wp/JF_ValueOfPeer_v5.pdf) [(md)](files/wp/JF_ValueOfPeer_v5.md)
+-   [Submitted]{.pill .pill-submitted} **The Price of Submission** · [Working paper](files/wp/JF_ThePriceOf_v1.pdf) [(md)](files/wp/JF_ThePriceOf_v1.md)
 -   [Draft]{.pill .pill-draft} **Messy Review: Certification Value and the Return to Pedigree** · [Working paper](files/wp/JF_MessyReviewCertification_v1.pdf) [(md)](files/wp/JF_MessyReviewCertification_v1.md)
 -   [Draft]{.pill .pill-draft} **How Much of AI Progress Reaches Production? Evidence from Agent Commits on Public GitHub** [with Friedrich Kreuser]{.with}
 :::
@@ -247,7 +249,7 @@ How research gets produced, certified and rewarded, and what AI is doing to all 
 Trade routes, transport costs and the long shadow of migration on how people connect.
 
 ::: {.papers}
--   [Submitted]{.pill .pill-submitted} **Uprooted: Migration, Coercion, and the Roots of Social Connectedness** · [Working paper](files/wp/JF_UprootedMigrationCoercion_v1.pdf) [(md)](files/wp/JF_UprootedMigrationCoercion_v1.md) \| [Supplementary file](files/wp/JF_UprootedMigrationCoercion_sup_v1.pdf) [(md)](files/wp/JF_UprootedMigrationCoercion_sup_v1.md)
+-   [R&R]{.pill .pill-rr} **Uprooted: Migration, Coercion, and the Roots of Social Connectedness** · *Economic Inquiry* · [Working paper](files/wp/JF_UprootedMigrationCoercion_v1.pdf) [(md)](files/wp/JF_UprootedMigrationCoercion_v1.md) \| [Supplementary file](files/wp/JF_UprootedMigrationCoercion_sup_v1.pdf) [(md)](files/wp/JF_UprootedMigrationCoercion_sup_v1.md)
 -   [Submitted]{.pill .pill-submitted} **Bulky: Commodity Booms and Shared Transport Capacity**
 :::
 
