@@ -1,6 +1,13 @@
 {
-  "updated": "2026-08-17T07:18:54+00:00",
+  "updated": "2026-08-20T07:09:24+00:00",
   "posts": [
+    {
+      "title": "What I think about when I think about writing",
+      "link": "https://www.ourlongwalk.com/p/what-i-think-about-when-i-think-about",
+      "description": "Why writing is not thinking",
+      "date": "2026-08-20",
+      "image": "https://substackcdn.com/image/fetch/$s_!QY7G!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29be0bf3-a2a8-4478-8050-27e23c0723ae_1456x816.png"
+    },
     {
       "title": "AI and academic publication",
       "link": "https://www.ourlongwalk.com/p/ai-and-academic-publication",
@@ -35,13 +42,6 @@
       "description": "A hundred and sixty years of counting South Africans – and the line is levelling off.",
       "date": "2026-08-03",
       "image": "https://substackcdn.com/image/fetch/$s_!RRQM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F10e0bbca-1ecc-405c-8478-492d29ad67e9_1456x816.png"
-    },
-    {
-      "title": "How (South) Africans use AI",
-      "link": "https://www.ourlongwalk.com/p/how-south-africans-use-ai",
-      "description": "The latest evidence from Google, Microsoft, Anthropic and OpenAI",
-      "date": "2026-07-30",
-      "image": "https://substackcdn.com/image/fetch/$s_!YqBn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49bcca00-dbaf-46a2-b3dd-bc461be2851c_1456x816.png"
     }
   ]
 }
