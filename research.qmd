@@ -45,7 +45,7 @@ AUTHORING RULES (for future updates):
 -->
 
 ::: {.pipeline-glance}
-**30 papers in the pipeline:** [9 drafts]{.pill .pill-draft} [16 submitted]{.pill .pill-submitted} [4 R&R]{.pill .pill-rr} [1 accepted]{.pill .pill-accepted}
+**30 papers in the pipeline:** [7 drafts]{.pill .pill-draft} [17 submitted]{.pill .pill-submitted} [5 R&R]{.pill .pill-rr} [1 accepted]{.pill .pill-accepted}
 :::
 
 Each working paper is also available as a Markdown file, which is easier for AI assistants and other automated readers to process than a PDF.
@@ -84,11 +84,11 @@ How slavery shaped the Cape economy, and what freedom, when it came, was worth.
 Tax censuses, auction rolls and probate inventories reveal who prospered in the colonial Cape, and how.
 
 ::: {.papers}
+-   [R&R]{.pill .pill-rr} **Between Public Duty and Private Profit: Government Officials and Real Estate Investments in the Cape Colony, 1897–1902** [with Munashe Chideya]{.with} · *Enterprise & Society* · [Working paper](https://www.ekon.sun.ac.za/wpapers/2026/wp022026)
 -   [Submitted]{.pill .pill-submitted} **Biplots and Classification: Measuring Household Economic Systems at the Cape Colony** [with Sugnet Lubbe, Johané Nienkemper-Swanepoel and Dieter von Fintel]{.with}
--   [Submitted]{.pill .pill-submitted} **Between Public Duty and Private Profit: Government Officials and Real Estate Investments in the Cape Colony, 1897–1902** [with Munashe Chideya]{.with} · [Working paper](https://www.ekon.sun.ac.za/wpapers/2026/wp022026)
 -   [Submitted]{.pill .pill-submitted} **The Household in a Coercive Society: Evidence from South Africa's Cape Colony** · [Working paper](files/wp/JF_TheHouseholdIn_v1.pdf) [(md)](files/wp/JF_TheHouseholdIn_v1.md)
+-   [Submitted]{.pill .pill-submitted} **The Poor Fund as Lender: Church Credit and Agricultural Production in the Cape Colony, 1686–1829** [with Jacques Theron]{.with} · [Working paper](files/wp/JF_JT_ThePoorFund_v1.pdf) [(md)](files/wp/JF_JT_ThePoorFund_v1.md)
 -   [Draft]{.pill .pill-draft} **Protest from Above: Elite Decoupling and Public Petitioning in the VOC Cape Colony** [with Jonathan Schoots]{.with} · [Working paper](files/wp/JS_JF_ProtestFromAbove_v1.pdf) [(md)](files/wp/JS_JF_ProtestFromAbove_v1.md) \| [Supplementary file](files/wp/JS_JF_ProtestFromAbove_sup_v1.pdf) [(md)](files/wp/JS_JF_ProtestFromAbove_sup_v1.md)
--   [Draft]{.pill .pill-draft} **The Poor Fund as Lender: Church Credit and Agricultural Production in the Cape Colony, 1686–1829** [with Jacques Theron]{.with}
 -   [Draft]{.pill .pill-draft} **Selection Bias in Probate Inventories** [with Anne McCants and Leoné Walters]{.with}
 :::
 
@@ -124,9 +124,9 @@ Tax censuses, auction rolls and probate inventories reveal who prospered in the 
 The economics of segregation and apartheid: who paid, who benefited, and what persisted.
 
 ::: {.papers}
+-   [Submitted]{.pill .pill-submitted} **When Do Colonial Institutions Persist? Evidence from Two School Systems in South Africa** [with Sarah Ferber and Gabriel Brown]{.with} · [Working paper](files/wp/SF_EtAl_WhenDoColonial_v1.pdf) [(md)](files/wp/SF_EtAl_WhenDoColonial_v1.md)
 -   [Draft]{.pill .pill-draft} **Discrimination After Hiring: Within-Firm Sorting, Slow Employer Learning, and the Cost to the Sorted Worker** [with Kris Inwood and Martine Mariotti]{.with}
 -   [Draft]{.pill .pill-draft} **Reconfiguring the Colour Bar: Legal Reform and Occupational Persistence under Apartheid** [with Timothy Ngalande]{.with}
--   [Draft]{.pill .pill-draft} **Selective Persistence: Colonial Education, State Intervention and the Durability of School Quality in South Africa** [with Gabriel Brown and Sarah Ferber]{.with}
 :::
 
 <details class="pubs">
@@ -204,7 +204,7 @@ Cricket, mega-events and destination brands: what sport and travel reveal about 
 How economic history is made and used: applied history, and what the discipline chooses to study.
 
 ::: {.papers}
--   [R&R]{.pill .pill-rr} **Path Dependence in Economic History Publications** · *Cliometrica* · [Working paper](files/wp/JF_TestingForPath_v1.pdf) [(md)](files/wp/JF_TestingForPath_v1.md)
+-   [R&R]{.pill .pill-rr} **Testing for Path Dependence in Economic History Publications** · *Cliometrica* · [Working paper](files/wp/JF_TestingForPath_v2.pdf) [(md)](files/wp/JF_TestingForPath_v2.md)
 -   [Submitted]{.pill .pill-submitted} **Through the Prism of the Past: Principles for Applied Economic History** [with Chris Colvin]{.with} · [Working paper](https://www.quceh.org.uk/working-papers-2026.html)
 -   [Submitted]{.pill .pill-submitted} **LLMs and Economic History: A Comment on Ferrara (2026)**
 :::
