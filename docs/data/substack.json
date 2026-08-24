@@ -1,6 +1,13 @@
 {
-  "updated": "2026-08-20T07:09:24+00:00",
+  "updated": "2026-08-24T07:31:17+00:00",
   "posts": [
+    {
+      "title": "The big sample delusion",
+      "link": "https://www.ourlongwalk.com/p/the-big-sample-delusion",
+      "description": "What 3.4 million households – and one very strange South African survey – reveal about the numbers we trust",
+      "date": "2026-08-24",
+      "image": "https://substackcdn.com/image/fetch/$s_!sYvs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc34009c2-861a-489d-b261-5481f2d294eb_1456x816.png"
+    },
     {
       "title": "What I think about when I think about writing",
       "link": "https://www.ourlongwalk.com/p/what-i-think-about-when-i-think-about",
@@ -35,13 +42,6 @@
       "description": "What weight loss drugs might mean for a country where obesity is common and body size carries its own history",
       "date": "2026-08-06",
       "image": "https://substackcdn.com/image/fetch/$s_!jiRZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc6e5bb23-3942-4897-8d46-4e78ce1214c0_1456x816.png"
-    },
-    {
-      "title": "Two point one",
-      "link": "https://www.ourlongwalk.com/p/two-point-one",
-      "description": "A hundred and sixty years of counting South Africans – and the line is levelling off.",
-      "date": "2026-08-03",
-      "image": "https://substackcdn.com/image/fetch/$s_!RRQM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F10e0bbca-1ecc-405c-8478-492d29ad67e9_1456x816.png"
     }
   ]
 }
