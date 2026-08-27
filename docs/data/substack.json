@@ -1,6 +1,13 @@
 {
-  "updated": "2026-08-24T07:31:17+00:00",
+  "updated": "2026-08-27T09:56:18+00:00",
   "posts": [
+    {
+      "title": "Not quite borderless founders",
+      "link": "https://www.ourlongwalk.com/p/not-quite-borderless-founders",
+      "description": "Silicon Valley says your background is your moat. For Africa’s founders, so is their government’s failure.",
+      "date": "2026-08-27",
+      "image": "https://substackcdn.com/image/fetch/$s_!V6We!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F061f4df9-56af-495d-b99f-f5722d99b21d_1456x816.png"
+    },
     {
       "title": "The big sample delusion",
       "link": "https://www.ourlongwalk.com/p/the-big-sample-delusion",
@@ -35,13 +42,6 @@
       "description": "What ancient DNA can reveal about economic history – and us",
       "date": "2026-08-10",
       "image": "https://substackcdn.com/image/fetch/$s_!03io!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa292c2ee-979f-4b99-afaf-b709ddf5836b_1456x816.png"
-    },
-    {
-      "title": "Ozempic externalities",
-      "link": "https://www.ourlongwalk.com/p/ozempic-externalities",
-      "description": "What weight loss drugs might mean for a country where obesity is common and body size carries its own history",
-      "date": "2026-08-06",
-      "image": "https://substackcdn.com/image/fetch/$s_!jiRZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc6e5bb23-3942-4897-8d46-4e78ce1214c0_1456x816.png"
     }
   ]
 }
