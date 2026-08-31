@@ -1,6 +1,13 @@
 {
-  "updated": "2026-08-27T09:56:18+00:00",
+  "updated": "2026-08-31T14:00:58+00:00",
   "posts": [
+    {
+      "title": "Medicine for one",
+      "link": "https://www.ourlongwalk.com/p/medicine-for-one",
+      "description": "Four advances in a single week are pushing medicine towards the individual patient. Will Africa be left behind?",
+      "date": "2026-08-31",
+      "image": "https://substackcdn.com/image/fetch/$s_!9IzF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2587fa50-997f-4f9f-95cc-060e48c16b41_1456x816.png"
+    },
     {
       "title": "Not quite borderless founders",
       "link": "https://www.ourlongwalk.com/p/not-quite-borderless-founders",
@@ -35,13 +42,6 @@
       "description": "What Adam Smith and two new NBER papers say about work that is too enjoyable to stop",
       "date": "2026-08-13",
       "image": "https://substackcdn.com/image/fetch/$s_!lEQH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80b54034-ffa1-4271-9287-bf02612f9376_1456x816.png"
-    },
-    {
-      "title": "The economy under your skin",
-      "link": "https://www.ourlongwalk.com/p/the-economy-under-your-skin-001",
-      "description": "What ancient DNA can reveal about economic history – and us",
-      "date": "2026-08-10",
-      "image": "https://substackcdn.com/image/fetch/$s_!03io!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa292c2ee-979f-4b99-afaf-b709ddf5836b_1456x816.png"
     }
   ]
 }
