@@ -1,6 +1,13 @@
 {
-  "updated": "2026-08-31T14:00:58+00:00",
+  "updated": "2026-09-03T11:21:56+00:00",
   "posts": [
+    {
+      "title": "The path of Clio",
+      "link": "https://www.ourlongwalk.com/p/the-path-of-clio",
+      "description": "Does the discipline that brought us path dependence suffer from it too?",
+      "date": "2026-09-03",
+      "image": "https://substackcdn.com/image/fetch/$s_!OvEs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F578c585d-bf57-4c93-b649-b13cb115b68e_1456x816.png"
+    },
     {
       "title": "Medicine for one",
       "link": "https://www.ourlongwalk.com/p/medicine-for-one",
@@ -35,13 +42,6 @@
       "description": "Three new working papers make predictions about how AI will affect the price of submissions, the review system, and the size of research teams...",
       "date": "2026-08-17",
       "image": "https://substackcdn.com/image/fetch/$s_!vHKB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a8bb480-f202-450f-b21b-20bf2ae7bf36_1456x816.png"
-    },
-    {
-      "title": "But I like doing this",
-      "link": "https://www.ourlongwalk.com/p/but-i-like-doing-this",
-      "description": "What Adam Smith and two new NBER papers say about work that is too enjoyable to stop",
-      "date": "2026-08-13",
-      "image": "https://substackcdn.com/image/fetch/$s_!lEQH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80b54034-ffa1-4271-9287-bf02612f9376_1456x816.png"
     }
   ]
 }
