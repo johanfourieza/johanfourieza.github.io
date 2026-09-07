@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-03T11:21:56+00:00",
+  "updated": "2026-09-07T12:42:50+00:00",
   "posts": [
+    {
+      "title": "The road to Mecca",
+      "link": "https://www.ourlongwalk.com/p/the-road-to-mecca",
+      "description": "How to save 10,000 South Africans every year",
+      "date": "2026-09-07",
+      "image": "https://substackcdn.com/image/fetch/$s_!gsOH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb951090d-0e40-4537-9482-612801b73da4_1456x816.png"
+    },
     {
       "title": "The path of Clio",
       "link": "https://www.ourlongwalk.com/p/the-path-of-clio",
@@ -35,13 +42,6 @@
       "description": "Why writing is not thinking",
       "date": "2026-08-20",
       "image": "https://substackcdn.com/image/fetch/$s_!QY7G!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29be0bf3-a2a8-4478-8050-27e23c0723ae_1456x816.png"
-    },
-    {
-      "title": "AI and academic publication",
-      "link": "https://www.ourlongwalk.com/p/ai-and-academic-publication",
-      "description": "Three new working papers make predictions about how AI will affect the price of submissions, the review system, and the size of research teams...",
-      "date": "2026-08-17",
-      "image": "https://substackcdn.com/image/fetch/$s_!vHKB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a8bb480-f202-450f-b21b-20bf2ae7bf36_1456x816.png"
     }
   ]
 }
