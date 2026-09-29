@@ -45,7 +45,7 @@ AUTHORING RULES (for future updates):
 -->
 
 ::: {.pipeline-glance}
-**22 papers in the pipeline:** [14 submitted]{.pill .pill-submitted} [5 R&R]{.pill .pill-rr} [3 accepted]{.pill .pill-accepted}
+**23 papers in the pipeline:** [15 submitted]{.pill .pill-submitted} [5 R&R]{.pill .pill-rr} [3 accepted]{.pill .pill-accepted}
 :::
 
 Each working paper is also available as a Markdown file, which is easier for AI assistants and other automated readers to process than a PDF.
@@ -201,6 +201,7 @@ How economic history is made and used: applied history, and what the discipline 
 -   [Accepted]{.pill .pill-accepted} **Path Dependence in Economic History Publications** · *Cliometrica* · [Working paper](files/wp/JF_TestingForPath_v2.pdf) [(md)](files/wp/JF_TestingForPath_v2.md)
 -   [R&R]{.pill .pill-rr} **Through the Prism of the Past: Principles for Applied Economic History** [with Chris Colvin]{.with} · *Explorations in Economic History* · [Working paper](https://www.quceh.org.uk/working-papers-2026.html)
 -   [Submitted]{.pill .pill-submitted} **LLMs and Economic History: A Comment on Ferrara (2026)**
+-   [Submitted]{.pill .pill-submitted} **The Dismal State of the Dismal Science in South Africa** · [Working paper](files/wp/JF_TheDismalState_v2.pdf) [(md)](files/wp/JF_TheDismalState_v2.md)
 :::
 
 <details class="pubs">
