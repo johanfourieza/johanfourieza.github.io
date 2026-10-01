@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-28T14:06:01+00:00",
+  "updated": "2026-10-01T06:04:45+00:00",
   "posts": [
+    {
+      "title": "Worth a try",
+      "link": "https://www.ourlongwalk.com/p/worth-a-try",
+      "description": "Why South African schools should buy more, not fewer, rugby players",
+      "date": "2026-10-01",
+      "image": "https://substackcdn.com/image/fetch/$s_!v-P7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5082db04-133a-42ed-8565-c42465f71aee_1456x816.png"
+    },
     {
       "title": "After Washington",
       "link": "https://www.ourlongwalk.com/p/after-washington",
@@ -35,13 +42,6 @@
       "description": "The paradox of why the poor sleep more",
       "date": "2026-09-14",
       "image": "https://substackcdn.com/image/fetch/$s_!dEHv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c95a155-5392-41ac-ac89-85fadcf25d2f_1456x816.png"
-    },
-    {
-      "title": "Economic growth is back",
-      "link": "https://www.ourlongwalk.com/p/economic-growth-is-back",
-      "description": "And so, too, will be its critics",
-      "date": "2026-09-10",
-      "image": "https://substackcdn.com/image/fetch/$s_!OPai!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F87c1a954-e9f6-4a61-b8b0-f976a09c7cbd_1456x816.png"
     }
   ]
 }
