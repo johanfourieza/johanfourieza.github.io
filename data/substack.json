@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-01T06:04:45+00:00",
+  "updated": "2026-10-05T14:51:49+00:00",
   "posts": [
+    {
+      "title": "Servers in the Karoo",
+      "link": "https://www.ourlongwalk.com/p/servers-in-the-karoo",
+      "description": "Why its so tough to get industrial policy right",
+      "date": "2026-10-05",
+      "image": "https://substackcdn.com/image/fetch/$s_!oN1D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c74a92-5a44-48c1-87d8-6e42e95ef608_1456x816.png"
+    },
     {
       "title": "Worth a try",
       "link": "https://www.ourlongwalk.com/p/worth-a-try",
@@ -35,13 +42,6 @@
       "description": "A new Norwegian study finds that meetings are costly but worth it – in firms, where somebody pays for them. In universities, the same evidence predicts too many",
       "date": "2026-09-17",
       "image": "https://substackcdn.com/image/fetch/$s_!vX1c!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5b51544-27a7-45f3-a15d-92f952758e84_1456x816.png"
-    },
-    {
-      "title": "Sleeponomics",
-      "link": "https://www.ourlongwalk.com/p/sleeponomics",
-      "description": "The paradox of why the poor sleep more",
-      "date": "2026-09-14",
-      "image": "https://substackcdn.com/image/fetch/$s_!dEHv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c95a155-5392-41ac-ac89-85fadcf25d2f_1456x816.png"
     }
   ]
 }
