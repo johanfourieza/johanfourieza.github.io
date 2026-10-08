@@ -61,7 +61,7 @@ How slavery shaped the Cape economy, and what freedom, when it came, was worth.
 
 ::: {.papers}
 -   [Accepted]{.pill .pill-accepted} **The New Economics of Cape Slavery** · *South African Journal of Economics* · [Working paper](files/wp/JF_TheNewEconomics_v1.pdf) [(md)](files/wp/JF_TheNewEconomics_v1.md)
--   [Accepted]{.pill .pill-accepted} **Selection into the Great Trek** [with Calumet Links]{.with} · *European Review of Economic History* · [Working paper](files/wp/JF_CL_SelectionIntoThe_v4.pdf) [(md)](files/wp/JF_CL_SelectionIntoThe_v4.md) · [Replication package](https://github.com/johanfourieza/research/tree/main/2026/voortrekker)
+-   [Accepted]{.pill .pill-accepted} **Selection into the Great Trek** [with Calumet Links]{.with} · *European Review of Economic History* · [Working paper](files/wp/JF_CL_SelectionIntoThe_v5.pdf) [(md)](files/wp/JF_CL_SelectionIntoThe_v5.md) · [Replication package](https://github.com/johanfourieza/research/tree/main/2026/voortrekker)
 :::
 
 <details class="pubs">
