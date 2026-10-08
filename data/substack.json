@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-05T14:51:49+00:00",
+  "updated": "2026-10-08T06:14:02+00:00",
   "posts": [
+    {
+      "title": "Master of none",
+      "link": "https://www.ourlongwalk.com/p/master-of-none",
+      "description": "On a Wharton experiment, the Renaissance Man and cricket’s Jack Hobbs...",
+      "date": "2026-10-08",
+      "image": "https://substackcdn.com/image/fetch/$s_!g_-x!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F391594b0-0479-423a-ba8b-31e9ccdd5c49_1456x816.png"
+    },
     {
       "title": "Servers in the Karoo",
       "link": "https://www.ourlongwalk.com/p/servers-in-the-karoo",
@@ -35,13 +42,6 @@
       "description": "Dangote's record IPO revives an old question: Does entrepreneurship happen because of government or despite it?",
       "date": "2026-09-21",
       "image": "https://substackcdn.com/image/fetch/$s_!1wlj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0784bfe8-f6f3-4b46-ab27-9b2ff25222ff_1456x816.png"
-    },
-    {
-      "title": "Meeting adjourned",
-      "link": "https://www.ourlongwalk.com/p/meeting-adjourned",
-      "description": "A new Norwegian study finds that meetings are costly but worth it – in firms, where somebody pays for them. In universities, the same evidence predicts too many",
-      "date": "2026-09-17",
-      "image": "https://substackcdn.com/image/fetch/$s_!vX1c!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5b51544-27a7-45f3-a15d-92f952758e84_1456x816.png"
     }
   ]
 }
