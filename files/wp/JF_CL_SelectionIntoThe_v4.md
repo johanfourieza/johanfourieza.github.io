@@ -1,6 +1,6 @@
 ---
 abstract: |
-  We study selection into the Great Trek, the 1835–1840 migration of 12,000–14,000 Dutch-speaking colonists from the Cape Colony into southern Africa’s interior. Linking Voortrekker genealogies to the 1825 census and slave-compensation records, we find that within districts linked trekking households were larger, with more children, a similar census asset index, and fewer enslaved people, a linkage-dependent difference. Married couples’ overrepresentation among linked households explains much of the demographic difference. Owners with greater emancipation losses were not detectably more likely to trek. Consistent with Hirschman’s distinction between grievance and exit, linked Trekkers were established frontier families rather than the most exposed slaveholders.
+  We study selection into the Great Trek, the 1835–1840 migration of 12,000–14,000 Dutch-speaking colonists from the Cape Colony into southern Africa’s interior. Linking Voortrekker genealogies to the 1825 census and slave-compensation records, we find that within districts linked trekking households were larger, with more children, a similar census asset index, and fewer enslaved people. Married couples’ overrepresentation among linked households explains much of the demographic difference. Owners with greater emancipation losses were not detectably more likely to trek. Consistent with Hirschman’s distinction between grievance and exit, linked Trekkers were established frontier families rather than the most exposed slaveholders.
 author:
 - Johan Fourie[^1]
 - Calumet Links[^2]
@@ -10,7 +10,7 @@ title: Selection into the Great Trek[^3]
 ---
 
 > Figures and typeset tables are omitted from this Markdown version.
-> The complete paper, with all figures, is in JF_CL_SelectionIntoThe_v3.pdf.
+> The complete paper, with all figures, is in JF_CL_SelectionIntoThe_v4.pdf.
 
 
 **Keywords:** migration selection; Cape Colony; Hirschman; slavery; partible inheritance
@@ -21,7 +21,7 @@ title: Selection into the Great Trek[^3]
 
 Between 1835 and 1840, an estimated 12,000 to 14,000 Dutch-speaking colonists left the Cape Colony and moved into the interior of southern Africa. The movement was large, roughly a fifth of the colony’s European population, and its consequences were lasting. It led to the formation of settler polities beyond British jurisdiction, intensified conflicts over land and labor across the interior, and changed the political organization of the subcontinent (Walker 1934; Muller 1974; Giliomee 2003). Yet a simple puzzle about the Voortrekkers has never been resolved with systematic evidence. They were not the colony’s richest inhabitants, since the south-western wine farmers and large slaveholders overwhelmingly stayed. Nor were they its poorest, who lacked the wagons, oxen and supplies the journey demanded. What, then, distinguished those who left from those who stayed?
 
-We show that, among linked households, household composition distinguished them more clearly than the assets the census records, and that it did so largely through the family. Using machine-learning record linkage (Feigenbaum 2016; Abramitzky et al. 2021), we match Voortrekker genealogies to the 1825 Cape Colony census (*opgaafrolle*) on the names of husbands and wives, and separately to the British slave compensation records compiled by Ekama et al. (2021). Within districts, Trekker households were larger than the households that stayed, by about 0.7 persons and 0.5 children, a difference that survives clustering by district, corrections for multiple testing and a linkage that ignores wives. Among linked households, much of it reflects the higher share of married couples. Married couples headed 82 percent of linked Trekker households but 65 percent of other households in the same districts, a gap that the linkage’s preference for married men may partly produce, and among married couples the difference is a fraction of the full-sample gap, small and imprecise in our main linkage and larger when wives are ignored in linking. Trekkers were not wealthier than their neighbors on a census index of assets and production, but they held fewer enslaved people (a difference that weakens when wives are ignored in linking) and Khoekhoe workers and sowed less wheat, while their herds were as large. This is the profile of established frontier families with recorded assets in the middle of their districts’ distribution, held in mobile rather than sunk form.
+We show that, among linked households, household composition distinguished them more clearly than the assets the census records, and that it did so largely through the family. Using machine-learning record linkage (Feigenbaum 2016; Abramitzky et al. 2021), we match Voortrekker genealogies to the 1825 Cape Colony census (*opgaafrolle*) on the names of husbands and wives, and separately to the British slave compensation records compiled by Ekama et al. (2021). Within districts, Trekker households were larger than the households that stayed, by about 0.7 persons and 0.5 children, a difference that survives clustering by district and corrections for multiple testing. Among linked households, much of it reflects the higher share of married couples. Married couples headed 82 percent of linked Trekker households but 65 percent of other households in the same districts, a gap that may reflect the linkage’s preference for married men. Trekkers were not wealthier than their neighbors on a census index of assets and production, but they held fewer enslaved people and Khoekhoe workers and sowed less wheat, while their herds were as large. This is the profile of established frontier families with recorded assets in the middle of their districts’ distribution, held in mobile rather than sunk form.
 
 The finding is consistent with a long-standing interpretation. Keegan (1996) and Muller (1974) placed land scarcity and the expansionary logic of pastoral production at the center of the Trek’s material causes, and Venter (1985) described a “hunger for land” after the shift to expensive quitrent tenure in 1814. The demographic-pressure account has never, however, been tested against individual-level data.
 
@@ -47,7 +47,7 @@ Frontier households required grazing, water, transport animals and labor, and mo
 
 The Trek comprised a sequence of departures between 1835 and 1840. The earliest parties, under Louis Tregardt and Hans van Rensburg, left from the northern frontier in 1835. Larger parties followed under Hendrik Potgieter, Gerrit Maritz, Piet Retief and Piet Uys, drawing especially from Graaff-Reinet, Uitenhage, Cradock (Somerset East) and adjacent districts (Walker 1934; Muller 1974; Giliomee 2003). Family, neighborhood and church networks structured these departures. Some Trekkers settled north of the Orange River, others crossed the Drakensberg into Natal and still others moved into the Transvaal, a heterogeneity that is one reason no single cause has been found to fit all Trekkers (Muller 1974; Legassick 2010).
 
-## Why They Left: Causes and Competing Interpretations
+## Causes and Competing Interpretations
 
 Few questions in South African history have attracted as sustained a debate as the causes of the Great Trek. Five strands of the historiography compete for explanatory weight: land scarcity, slave emancipation, labor and racial equalization, frontier insecurity and the Sixth Frontier War, and the desire for self-governance. We review each and state the prediction it implies; our data speak most directly to the first two.
 
@@ -111,7 +111,7 @@ Of the five causes, emancipation is the one we can test most directly, because s
 
 Our analysis draws on three sources: the 1825 Cape Colony census, Voortrekker genealogical records and the slave compensation records held at the UK National Archives. Figure [1](#fig:map) shows how the Voortrekker records are distributed across the districts of 1825, with most in the eastern frontier districts of Somerset, Graaff-Reinet, Uitenhage and Beaufort.
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Districts are shaded by the number of Voortrekker genealogical records originating there (source: Voortrekker genealogies). The inset locates the Cape Colony at the southern tip of Africa. Colesberg (58 records), established only in the 1830s, is included in the Graaff-Reinet total ($n = 210$). Cradock (30 records) is included in the Somerset total ($n = 421$), as Cradock was renamed Somerset in 1825. Clanwilliam (14 records) is included in the Worcester total ($n = 28$), as it fell within Worcester’s 1825 boundary.
 
 *Alt text*: Map of the 1825 Cape Colony districts shaded by number of Voortrekker records, darkest in Somerset and Graaff-Reinet.
@@ -130,7 +130,7 @@ Table [7](#tab:match_rates) reports Voortrekker records and match rates by dist
 
 Figure [2](#fig:district_chars) maps four district characteristics. The main Trek origins had fewer enslaved people and more children per household than the Cape and Stellenbosch, while the wealth index does not follow a simple west–east gradient.
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Panel (a) shows mean numbers of enslaved people per household from the 1825 *opgaafrolle*. Panel (b) shows mean compensation loss (valuation minus compensation, in pounds sterling) per slave owner from the compensation records (Ekama et al. 2021). Panel (c) shows the standardized wealth index defined in Section [3](#sec:data) (first principal component of nine standardized census stock and output variables). Panel (d) shows mean settler children per household. The Somerset census data come from the Cradock 1823 returns (the district was renamed in 1825). Clanwilliam is included in Worcester and Colesberg is included in Graaff-Reinet.
 
 *Alt text*: Four maps of Cape Colony districts showing mean slaveholding, compensation loss, wealth index and children per household; slaveholding is highest in the south-west and children per household in the eastern frontier districts.
@@ -184,13 +184,13 @@ Column (2) of Table [1](#tab:main_combined) presents our main results.
 
 First, Voortrekkers did not score higher than other households in their districts on the census index of assets and production. The wealth-index coefficient is small and insignificant ($-0.072$, or $-0.04$ of a standard deviation), and with heteroskedasticity-robust errors an equivalence test rules out differences larger than 0.10 standard deviations; with errors clustered by district the interval is wider and does not (Appendix [14](#sec:app_equivalence)). The components differ in a telling way. Voortrekkers held as many horses, cattle and sheep as their neighbors but fewer enslaved people and Khoekhoe workers, and they sowed and reaped less wheat; the differences in counts of enslaved people and in wheat survive correction for multiple testing. Voortrekkers held as much livestock as their neighbors but less invested in slaveholding and arable farming, and they were of middling wealth for their districts. Few fell in the lowest, asset-poor part of their districts’ distribution (Figure [16](#fig:wealth_dist)).
 
-Second, Voortrekker households were larger and had more children. A Voortrekker household had 0.68 more persons and 0.51 more children than a household in the same district, about 18 and 24 percent of the comparison means. The differences survive corrections for multiple testing, district-clustered inference (Appendix [15](#sec:app_clustered)), exact matching, a comparison with households of the same surname (Table [14](#tab:all_methods)), restriction of the controls to households with an adult settler man, and a linkage that never uses wives’ names (Section [8.3](#sec:hh_robustness)).
+Second, Voortrekker households were larger and had more children. A Voortrekker household had 0.68 more persons and 0.51 more children than a household in the same district, about 18 and 24 percent of the comparison means. The differences survive corrections for multiple testing, district-clustered inference (Appendix [15](#sec:app_clustered)), exact matching, a comparison with households of the same surname (Table [14](#tab:all_methods)) and restriction of the controls to households with an adult settler man.
 
 Two features of the comparison group deserve attention. Every matched household contains an adult settler man, but some unlinked households do not, and if an adult man was a precondition for trekking these households are poor counterfactuals. Restricting the controls to households with an adult settler man (Table [2](#tab:married), column (2); Appendix [12](#sec:app_male_headed)) removes the settler-men difference, since every Trekker and every control in a district with Trekkers then has exactly one adult man, and reduces the household-size difference by about 14 percent, leaving the composition differences large and precisely estimated. Most of the rest, as we show next, reflects the presence of a married couple.
 
 Figures [3](#fig:coef_plot) and [5](#fig:household) show the standardized differences under every comparison method.
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Standardized effect sizes (in standard-deviation units) for wealth-related variables across all six comparison methods. Positive values indicate that Voortrekkers had higher values than non-Voortrekkers. Source: 1825 census linked to the Voortrekker genealogies.
 
 *Alt text*: Grouped bar chart of standardized differences in wealth variables under six comparison methods, negative for enslaved people and Khoekhoe workers.
@@ -207,9 +207,9 @@ Matching also on the number of children compares households at a similar stage o
 
 The household-size difference could arise in two ways, corresponding to the two parts of the prediction in Section [2.2](#sec:causes). Married households might have been more likely to trek than single men, widows and other small households, or among married households those with more children might have left at higher rates. Tables [2](#tab:married) and [3](#tab:decomposition) separate the two. Married couples headed 82 percent of Trekker households but 65 percent of other households in the same districts (weighted by the districts’ Trekker households). Controlling for whether a household was a married couple reduces the household-size coefficient from 0.68 to 0.05 and the children coefficient from 0.51 to 0.05. Among married couples alone, Trekker households were 0.13 persons larger, a difference that is not statistically significant (95 percent confidence interval from -0.11 to 0.38).
 
-Because the linkage itself favors married men, the married share among linked Trekkers may overstate their share among all Trekkers by an amount we cannot measure. If the higher linkage rate of men married by the census year reflected linkage alone, the 82 percent among linked Trekkers would correspond to about 67 percent among all Trekkers, close to the controls’ 65 percent; if it reflected only that later-married men did not yet head households, the share would be 82 percent. The married-household margin therefore describes the linked households, and how far married households were overrepresented among all Trekker households is uncertain (Appendix [20](#sec:app_limits)). Three facts suggest that the composition effect is not merely a product of using wives’ names in linking. The wife-blind linkage of Section [8.3](#sec:hh_robustness), which never uses them, also links married couples far more often than they occur among the controls. Among the households that both linkages identify, the married-household margin accounts for about three-quarters of the household-size difference in either linkage. On those common links the size difference among married couples is 0.26 persons in the main linkage and 0.30 in the wife-blind one, far smaller than the full-sample difference. The wife-blind linkage as a whole gives a larger estimate among couples (0.49), even after excluding links whose wives contradict the genealogy (0.39, 95 percent interval from 0.09 to 0.68, $p = 0.010$). The excess is concentrated among couple links that only the wife-blind linkage makes, which may include older namesakes, such as fathers, linked in place of the Trekker, as model judgments in an identity check of the links suggest (Section [8.3](#sec:hh_robustness)). We therefore read the within-couple difference as positive, smaller than the full-sample difference and dependent on the linkage, not as zero.
+Because the linkage itself favors married men, the married share among linked Trekkers may overstate their share among all Trekkers by an amount we cannot measure. If the higher linkage rate of men married by the census year reflected linkage alone, the 82 percent among linked Trekkers would correspond to about 67 percent among all Trekkers, close to the controls’ 65 percent; if it reflected only that later-married men did not yet head households, the share would be 82 percent. The married-household margin therefore describes the linked households, and how far married households were overrepresented among all Trekker households is uncertain (Appendix [20](#sec:app_limits)). The within-couple estimate is small and imprecise; it does not establish either additional selection on family size or its absence.
 
-Among linked households, then, the demographic selection we document is in the first instance selection on the family. Linked Trekkers were disproportionately the heads of established married households, and these households, with their dependent children, made Trekker households larger. In the main linkage, married Trekker households also had a lower index than other married households in their districts and held fewer enslaved people (Table [2](#tab:married), column (3)). The wife-blind linkage does not reproduce the wealth difference among couples and gives a smaller, imprecise difference in counts of enslaved people (Table [6](#tab:nonwife)).
+Among linked households, then, the demographic selection we document is in the first instance selection on the family. Linked Trekkers were disproportionately the heads of established married households, and these households, with their dependent children, made Trekker households larger. In the main linkage, married Trekker households also had a lower index than other married households in their districts and held fewer enslaved people (Table [2](#tab:married), column (3)).
 
 |                    |              |                   |                 |
 |:-------------------|:------------:|:-----------------:|:---------------:|
@@ -231,22 +231,21 @@ Household Composition and Wealth: All Households and Married Couples {#tab:marri
 
 *Notes*: Each cell reports the Voortrekker coefficient from an OLS regression with district fixed effects and heteroskedasticity-robust (HC1) standard errors; $p$-values in parentheses. Column (1): main specification (Table [1](#tab:main_combined), column (2)). Column (2): controls restricted to households with at least one adult settler man (Appendix [12](#sec:app_male_headed)). Column (3): Trekker and control households alike restricted to married couples, households headed by a man whose wife is named in the return. Household counts are for household size and children; they differ slightly for the wealth index and enslaved people. $^{*} p < 0.05$, $^{**} p < 0.01$, $^{***} p < 0.001$.
 
-|  | Main linkage |  | Wife-blind linkage |  |
-|:---|:--:|:--:|:--:|:--:|
-| 2-3 (lr)4-5 | All links | Common links | Common links | All links |
-| Full-sample coefficient | 0.68 | 0.63 | 0.62 | 0.59 |
-| Controlling for married couple | 0.05 | 0.14 | 0.17 | 0.30 |
-| Married-household margin share, FE (%) | 92 | 77 | 73 | 49 |
-| Married-household margin share, Kitagawa (%) | 91 | 76 | 72 | 48 |
-| Couples only: coefficient | 0.13 | 0.26 | 0.30 | 0.49 |
-|  | (0.288) | (0.084) | (0.048) | ($<$0.001) |
-| % confidence interval | \[-0.11, 0.38\] | \[-0.03, 0.56\] | \[0.00, 0.59\] | \[0.22, 0.77\] |
-| Couples among Trekker households (%) | 82 | 78 | 78 | 74 |
-| Couples among controls, district-weighted (%) | 65 | 65 | 66 | 66 |
+|                                               |  Main linkage   |
+|:----------------------------------------------|:---------------:|
+| Full-sample coefficient                       |      0.68       |
+| Controlling for married couple                |      0.05       |
+| Married-household margin share, FE (%)        |       92        |
+| Married-household margin share, Kitagawa (%)  |       91        |
+| Couples only: coefficient                     |      0.13       |
+|                                               |     (0.288)     |
+| % confidence interval                         | \[-0.11, 0.38\] |
+| Couples among Trekker households (%)          |       82        |
+| Couples among controls, district-weighted (%) |       65        |
 
 The Married-Household Margin {#tab:decomposition}
 
-*Notes*: Household size, district fixed effects, HC1 standard errors; $p$-values in parentheses. “Common links”: Trekker households identified by both the main and the wife-blind linkage; the comparison group is unchanged. “Controlling for married couple” adds an indicator for a male-headed household with a named wife. The FE share is one minus the ratio of the controlled to the full-sample coefficient; the Kitagawa share decomposes the within-district gap into the difference in married shares (valued at the controls’ size difference between married and other households) and the differences within the two groups, weighting districts by their Trekker households.
+*Notes*: Household size, district fixed effects, HC1 standard errors; $p$-values in parentheses. “Controlling for married couple” adds an indicator for a male-headed household with a named wife. The FE share is one minus the ratio of the controlled to the full-sample coefficient; the Kitagawa share decomposes the within-district gap into the difference in married shares (valued at the controls’ size difference between married and other households) and the differences within the two groups, weighting districts by their Trekker households.
 
 ## Interpretation
 
@@ -264,7 +263,7 @@ The 1825 census predates the Trek by a decade, during which the Cape experienced
 
 #### Demographic pressure.
 
-Linked Trekkers were disproportionately established married households, while among married households the additional selection on family size is smaller and depends on the linkage. Three channels are consistent with this pattern. Under partible inheritance, a married household with children faced the division of its land among heirs once the frontier closed. Trekking required adult sons to drive wagons and manage herds, so a household with a wife and children may have mounted a trek more readily than a single man. And brothers followed brothers, so that kinship structured trek parties (Keegan 1996). Our data cannot distinguish these channels, although Trekker households were larger than both their neighbors and same-surname households in their districts, so the premium is not merely a difference between localities or kin groups. Nor can the data separate demographic pressure from the life cycle, or test the fertility margin raised by the comparison with France, because the census records no ages and children only as counts, and the genealogies offer no comparison group of stayers.
+Linked Trekkers were disproportionately established married households, while among married households the additional difference in family size is small and imprecise. Three channels are consistent with this pattern. Under partible inheritance, a married household with children faced the division of its land among heirs once the frontier closed. Trekking required adult sons to drive wagons and manage herds, so a household with a wife and children may have mounted a trek more readily than a single man. And brothers followed brothers, so that kinship structured trek parties (Keegan 1996). Our data cannot distinguish these channels, although Trekker households were larger than both their neighbors and same-surname households in their districts, so the premium is not merely a difference between localities or kin groups. Nor can the data separate demographic pressure from the life cycle, or test the fertility margin raised by the comparison with France, because the census records no ages and children only as counts, and the genealogies offer no comparison group of stayers.
 
 #### The Khoekhoe-labor channel.
 
@@ -274,14 +273,14 @@ These findings are consistent with the land-scarcity and demographic-pressure ch
 
 Figure [4](#fig:conditional) maps the two findings by district. Within-district differences in compensation losses vary in sign, while the children difference is positive in every district shown, including Graaff-Reinet, the district on which the earlier quantitative literature rests (Cilliers and Green 2018; Nel 2020).
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Each panel shows the difference in district means between Voortrekker and non-Voortrekker households (VT minus non-VT). Darker shading indicates larger absolute differences; labels show the signed value. Panel (a) uses the slave compensation records (Ekama et al. 2021): the difference in mean compensation loss (valuation minus compensation, in pounds sterling) per slave owner. Panel (b) uses the 1825 census: the difference in mean children per household. White indicates that the contrast is unavailable: Cape has no linked Voortrekkers in either panel, and in panel (a) Swellendam has no usable compensation-loss means and Worcester no linked Voortrekker owners. Colesberg is included in Graaff-Reinet, Clanwilliam in Worcester and the Somerset census data come from the Cradock 1823 returns.
 
 *Alt text*: Two district maps of Voortrekker-minus-other differences in compensation loss and in children per household; the children difference is positive in every district shown.
 
 Within-District Differences by District
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Standardized effect sizes (in standard-deviation units) for household composition variables across five comparison methods. Positive values indicate that Voortrekker households were larger on the relevant dimension. In the child-conditioned designs the children difference is zero by construction. Source: 1825 census linked to the Voortrekker genealogies.
 
 *Alt text*: Grouped bar chart of standardized differences in household-composition variables under five comparison methods; household size and children are positive in the designs that do not condition on the number of children.
@@ -298,14 +297,14 @@ We link Voortrekker records to the compensation dataset by blind review. Two lar
 
 ## Slave Ownership Comparisons
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Raw, unadjusted means per slave owner, with 95 percent confidence intervals, for Voortrekker and non-Voortrekker owners in the compensation records: (a) number of enslaved people, (b) total assessed valuation and (c) absolute loss (valuation minus compensation), each panel on its own scale. These descriptive comparisons do not condition on district; Figure [7](#fig:emancipation_effects) reports district-adjusted differences, including the percentage loss. Source: compensation records (Ekama et al. 2021).
 
 *Alt text*: Three-panel bar chart of mean counts of enslaved people, valuations and losses, lower for Voortrekker owners than for other owners.
 
 Slave Ownership of Voortrekker and Other Owners
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Standardized district fixed-effects estimates of the difference between Voortrekker and other slave owners, with 95 percent confidence intervals. Source: compensation records (Ekama et al. 2021).
 
 *Alt text*: Coefficient plot of standardized within-district differences between Voortrekker and other slave owners; the intervals for counts of enslaved people, valuation and absolute loss lie below zero.
@@ -320,7 +319,7 @@ The result corroborates the census, in which Voortrekkers held fewer enslaved pe
 
 A second channel is the arbitrariness of compensation, because owners of similar scale received different fractions of their assessed valuation (Draper 2010). No other surviving source records both valuation and payment for individual owners.
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Histograms of the compensation rate (compensation received divided by assessed valuation) for Voortrekker and non-Voortrekker slave owners, scaled to unit area. A lower rate indicates a larger proportional loss. The display shows rates up to about 125 percent; observations above this range enter the statistical comparisons. Source: compensation records (Ekama et al. 2021).
 
 *Alt text*: Overlapping histograms of compensation rates for Voortrekker and other slave owners, both concentrated between 25 and 50 percent.
@@ -348,7 +347,7 @@ tex_fragments/tab_probit_body.tex
 
 The loss coefficient is close to zero and insignificant in every model, with or without district fixed effects, and whether the number of enslaved people, the compensation rate or log valuation enters (Table [\[tab:probit_emancipation\]](#tab:probit_emancipation)). The scale of slaveholding is the one variable with a consistent sign; owners of more enslaved people were less likely to trek (significant at 5 percent in Models 3 and 4, though not in Model 5, where log valuation also enters).
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Loss-percentage coefficients with 95 percent confidence intervals from Models 1, 2, 3 and 5 of Table [\[tab:probit_emancipation\]](#tab:probit_emancipation) (Model 4 uses the compensation rate instead). Source: compensation records (Ekama et al. 2021).
 
 *Alt text*: Forest plot of loss-percentage coefficients from four probit models, all with intervals crossing zero.
@@ -359,7 +358,7 @@ Within districts, the estimated association between proportional loss and trekki
 
 ## Loss Intensity
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Proportion of slave owners who were Voortrekkers, by quartile of percentage loss from emancipation. Q1 contains owners with the lowest percentage loss; Q4 those with the highest. Labels show the Voortrekker rate and number of slave owners in each quartile. The dashed line indicates the overall Voortrekker rate among slave owners. Source: compensation records (Ekama et al. 2021).
 
 *Alt text*: Bar chart of Trek rates by emancipation-loss quartile, highest in the third quartile.
@@ -385,7 +384,7 @@ tex_fragments/tab_timing_body.tex
 
 Of the 569 linked households, 500 have a recorded departure year in 1835–1845, and 495 have complete economic inputs. In no specification do wealth, numbers of enslaved people or children have a clear linear association with the year of departure (Table [\[tab:timing\]](#tab:timing)), although the test has limited power.
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Coefficients from Model 4 of Table [\[tab:timing\]](#tab:timing), in years of departure per standard deviation of each predictor, with 95 percent confidence intervals. Source: Voortrekker genealogies linked to the 1825 census.
 
 *Alt text*: Coefficient plot for wealth, enslaved people and children as predictors of the departure year, all with intervals crossing zero.
@@ -416,7 +415,7 @@ The Trek comprised separate movements under different leaders, bound for differe
 
 Nine leaders have at least eight matched follower households, from Potgieter (51) to Pretorius (10). Cell sizes are small, and the comparisons are descriptive. Mean wealth does not differ significantly across leaders (Figure [12](#fig:by_leader); analysis of variance $F = 1.39$, $p = 0.202$), although livestock profiles do (Figure [19](#fig:leader_heatmap)). Retief’s followers had the lowest mean wealth and owned fewer enslaved people than the average Trekker.
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Each point shows the mean wealth index for a leader’s matched followers; horizontal bars show 95% confidence intervals. Point size increases with the number of matched households. Dashed line indicates the non-Voortrekker mean. Only leaders with at least eight matched followers are shown. Labels indicate the number of matched households per leader. Source: Voortrekker genealogies linked to the 1825 census.
 
 *Alt text*: Dot plot of mean wealth by trek leader with 95 percent intervals, lowest for Retief’s followers.
@@ -427,7 +426,7 @@ Wealth by Trek Leader
 
 Natal, with its fertile lowlands and summer rainfall, suited agriculture, while the Transvaal and the later Orange Free State suited extensive pastoralism. If pre-Trek wealth shaped destination choice, we should see sorting.
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Mean wealth index with 95% confidence intervals by destination region. Point size increases with the number of matched households. Dashed line indicates the non-Voortrekker mean. Labels indicate sample sizes. Source: Voortrekker genealogies linked to the 1825 census.
 
 *Alt text*: Dot plot of mean wealth by destination with 95 percent intervals; the Orange Free State and Western Transvaal groups have the lowest means.
@@ -438,7 +437,7 @@ Mean wealth differs across the five destination groups with at least 15 househol
 
 # Robustness
 
-We examine three further concerns: the design of the linkage and its review stage, matching bias from spouse evidence, and false-positive links. A second linkage that uses no spouse information serves as a check throughout.
+We examine three further concerns: the design of the linkage and its review stage, matching bias from spouse evidence, and false-positive links. Section [8.3](#sec:hh_robustness) also examines a linkage without spouse features and the identity errors that limit its use.
 
 ## Consistency across Comparisons
 
@@ -448,7 +447,7 @@ The results are consistent across six comparison methods (Table [14](#tab:all_m
 
 The review stage accounts for a substantial share of the links. Of the 569 final links, 344 are classifier proposals accepted by both blind reviewers and 225 were decided by the authors, 157 of them pairs the classifier did not propose. Three features limit the scope for researcher discretion. The hand labels were checked by two language models working independently and blind to household characteristics, and the authors decided only the pairs on which the models disagreed with each other or with the hand label. The reviewers of the final links saw identity evidence alone, without household counts, wealth or classifier scores, and the authors adjudicated from a workbook of the same evidence, although they were not blind to the paper’s broad findings. And the links were locked, with the code and every decision hashed, before any estimate with these links was computed (Appendix [10](#sec:app_methodology)).
 
-Table [5](#tab:tiers_main) re-estimates the main specification separately for households whose link the classifier proposed and for those linked only after adjudication. The tiers differ sharply, and much of the difference reflects their composition. The classifier proposes links automatically only when the wives’ names agree, so its tier consists of married couples with large households, while the adjudicated tier consists mainly of men without a comparable wife, many of them young or unmarried in the census year, whose households are small. The contrast is largely the married-household margin of Section [4.4](#sec:married) in another guise. Among married couples, classifier-proposed and adjudicated links give similar household-size estimates (0.14 and 0.06 persons, both insignificant), although adjudicated couples are poorer. These diagnostics do not establish whether the tiers also differ in accuracy. On a held-out audit sample, all 16 of the classifier’s acceptances are correct, against 15 of 17 for a classifier without spouse information (Appendix [17](#sec:app_linkage_diag)); these figures describe the classifier, not the final links.
+Table [5](#tab:tiers_main) re-estimates the main specification separately for households whose link the classifier proposed and for those linked only after adjudication. The tiers differ sharply, and much of the difference reflects their composition. The classifier proposes links automatically only when the wives’ names agree, so its tier consists of married couples with large households, while the adjudicated tier consists mainly of men without a comparable wife, many of them young or unmarried in the census year, whose households are small. The contrast is largely the married-household margin of Section [4.4](#sec:married) in another guise. Among married couples, classifier-proposed and adjudicated links give similar household-size estimates (0.14 and 0.06 persons, both insignificant), although adjudicated couples are poorer. These diagnostics do not establish whether the tiers also differ in accuracy. On a held-out audit sample, all 16 of the classifier’s acceptances are correct (Appendix [17](#sec:app_linkage_diag)); these figures describe the classifier, not the final links.
 
 | Variable | Full sample | Classifier-proposed | Adjudication only |
 |:---|:--:|:--:|:--:|
@@ -466,7 +465,11 @@ The Voortrekker sample is drawn from men alive and active enough to trek in 1835
 
 #### Concern 2: Matching bias from spouse evidence.
 
-The classifier accepts links automatically only when the wives’ names agree, so married men are easier to link than single men, and their households are mechanically larger. We address this concern in three ways. Section [4.4](#sec:married) separates the married-household margin from the size of families among couples, among whom the premium is small in the main linkage. We also repeat the entire linkage without spouse information, retraining the classifier on the same labels without spouse features and taking its proposals without review (Table [6](#tab:nonwife)). The wife-blind linkage identifies 503 Trekker households, 375 of them also in the main linkage, and reproduces both the full-sample premium and the overrepresentation of married couples, so neither depends on the use of wives’ names in scoring links. The difference in counts of enslaved people is less robust. In the wife-blind linkage it remains negative but is smaller and not statistically significant, and the wealth difference among couples disappears. Its estimate among couples is larger, mostly because of links that the main linkage does not make. An identity check of a stratified sample of links, in which two language models chose for each sampled Trekker one census head or none from heads with his surname and similar given names, without household counts, wealth or any indication of the link, suggests that many of these links are wrong. Both models rejected 1 of 90 links of the main linkage but 14 of 30 links made only by the wife-blind linkage, for reasons that include conflicting spouse evidence, ambiguous namesakes and apparent confusion of fathers and sons (Appendix [17](#sec:app_linkage_diag)). The wife-blind linkage is therefore a noisy check, and its larger estimate among couples should be read with that in mind. The check has limits. The wife-blind classifier is trained on labels assigned with wives’ names visible, and it too links men married by the census year more often than men who married later, so selection through age, names or headship remains possible. Finally, the main links differ by spouse evidence as married and unmarried households would, with large households where the wives agree and small ones where no wife is comparable.
+The main linkage identifies married men more readily, which may contribute to the household-size difference. Section [4.4](#sec:married) separates the married-household margin from differences within couples, where the main estimate is small and imprecise. We also retrain the classifier without spouse features, using the same labels and accepting its proposals without review (Table [6](#tab:nonwife)). This wife-blind linkage identifies 503 households, 375 of them also identified by the main linkage.
+
+These additional links are doubtful. Children were often named after their fathers and grandfathers, so men in successive generations share the same names, and without spouse evidence the records offer little other individual information to tell them apart. The genealogy gives birth years for many men, but the census records no ages against which to match them. In the identity check, both reviewing models rejected 14 of 30 links made only by the wife-blind linkage, against 1 of 90 links of the main linkage, citing conflicting spouse evidence, ambiguous namesakes and apparent confusion of fathers and sons (Appendix [17](#sec:app_linkage_diag)). These judgments are not verified error rates, but they cast substantial doubt on the additional links.
+
+In the wife-blind linkage, Trekker households are 0.59 persons larger and have 0.51 more children, and married couples make up 74 percent of its linked households, against 66 percent of the controls, weighted by district. Among couples its estimate is larger, the difference in enslaved people is smaller and imprecise, and the wealth difference among couples is not significant. Given the doubtful identity of many of its links, these results do not establish robustness to marriage-related matching bias. The training labels also used spouse evidence, and the wife-blind classifier still links men married by the census year more often than later-married men. Finally, the main links differ by spouse evidence as married and unmarried households would, with large households where the wives agree and small ones where no wife is comparable.
 
 |  | Main linkage, by spouse evidence |  | Wife-blind linkage |  |
 |:---|:--:|:--:|:--:|:--:|
@@ -483,7 +486,7 @@ The classifier accepts links automatically only when the wives’ names agree, s
 
 Spouse Evidence and a Wife-Blind Linkage {#tab:nonwife}
 
-*Notes*: District fixed effects, HC1 standard errors, $p$-values in parentheses. Columns (1)–(2): Trekker households of the main linkage whose link has agreeing wives’ names, or missing or inconclusive spouse evidence, each compared with all controls. Columns (3)–(4): links from a classifier that uses no spouse features, trained on the same labels and taken without review (Section [8.3](#sec:hh_robustness)); column (4) restricts Trekkers and controls to married couples. The eight links of the main linkage whose wives’ names disagree, all retained by author adjudication, are not shown separately. Household counts are maxima across outcomes. $^{*} p < 0.05$, $^{**} p < 0.01$, $^{***} p < 0.001$.
+*Notes*: District fixed effects, HC1 standard errors, $p$-values in parentheses. Columns (1)–(2): Trekker households of the main linkage whose link has agreeing wives’ names, or missing or inconclusive spouse evidence, each compared with all controls. Columns (3)–(4): links from a classifier that uses no spouse features, trained on the same labels and taken without review (Section [8.3](#sec:hh_robustness)); column (4) restricts Trekkers and controls to married couples. The identity check raises substantial doubts about links found only by the wife-blind linkage (Appendix [17](#sec:app_linkage_diag)), so columns (3)–(4) are a sensitivity exercise, not independent validation. The eight links of the main linkage whose wives’ names disagree, all retained by author adjudication, are not shown separately. Household counts are maxima across outcomes. $^{*} p < 0.05$, $^{**} p < 0.01$, $^{***} p < 0.001$.
 
 The training labels could also favor large households, because the hand labelers saw household composition. Every label was, however, checked by reviewers who saw no household counts, and the classifier is not given household size or children, so the remaining channel is the correlation between marriage and household size, which Section [4.4](#sec:married) measures directly. Restricting the treated group to the links with the highest classifier scores gives larger composition coefficients (Appendix [14](#sec:app_equivalence)).
 
@@ -493,7 +496,7 @@ Random linkage errors attenuate every contrast. In a simulation that replaces 30
 
 # Conclusion
 
-The Voortrekkers are remembered as a migration shaped by grievance against emancipation, British administration and racial equalization. The linked household records point to other differences. Within districts, Trekker households were larger, with more children, as the older demographic-pressure account holds. Among linked households the difference arises mainly from their composition. Linked Trekkers were disproportionately the heads of established married households, and among married couples the additional difference in family size is small in our main linkage, although larger when wives are ignored in linking. Their index of assets and production was close to that of other households in their districts, but they held fewer enslaved people, a difference that weakens when wives are ignored in linking, fewer Khoekhoe workers and sowed less wheat, while their herds were as large. Owners who lost a larger share of their slaveholding wealth were not detectably more likely to leave, and departure timing shows no linear trend in baseline wealth or numbers of enslaved people, although mean wealth differs across departure cohorts. The profile is consistent with the land-scarcity account, established frontier families with middling recorded assets and a next generation to provide for, but also with differences in the capacity to migrate, kin networks and the family life cycle. One qualification is central. The linkage identifies married men more readily than single ones, so the share of married couples among all Trekker households is uncertain, although their overrepresentation among linked households survives a linkage that never uses wives.
+The Voortrekkers are remembered as a migration shaped by grievance against emancipation, British administration and racial equalization. The linked household records point to other differences. Within districts, Trekker households were larger, with more children, as the older demographic-pressure account holds. Among linked households the difference arises mainly from their composition. Linked Trekkers were disproportionately the heads of established married households, and among married couples the additional difference in family size is small and imprecise. Their index of assets and production was close to that of other households in their districts, but they held fewer enslaved people, fewer Khoekhoe workers and sowed less wheat, while their herds were as large. Owners who lost a larger share of their slaveholding wealth were not detectably more likely to leave, and departure timing shows no linear trend in baseline wealth or numbers of enslaved people, although mean wealth differs across departure cohorts. The profile is consistent with the land-scarcity account, established frontier families with middling recorded assets and a next generation to provide for, but also with differences in the capacity to migrate, kin networks and the family life cycle. One qualification is central. The linkage identifies married men more readily than single ones, so the share of married couples among all Trekker households is uncertain.
 
 The implications reach beyond the Cape. At a pastoral frontier, selection can operate on the household, through its demographic structure and its assets, dimensions that studies of later transatlantic migrations, focused on individual earnings and skills, rarely observe. That distinction bears on what the Voortrekker republics became. If the linked households are representative, they were founded not by a colonial elite transferring enslaved people and coercive infrastructure but by frontier families with middling recorded assets and limited investment in slavery, an origin that may help explain why their labor systems diverged from the Cape’s and why land appropriation became the central mechanism of frontier accumulation. On emancipation, the Cape offers an unusually direct test. The largest slaveholders stayed, and within districts owners with larger compensation losses were not detectably more likely to join the Trek, the disjunction between grievance and exit that Hirschman’s framework anticipates.
 
@@ -575,14 +578,14 @@ Table [7](#tab:match_rates) reports match rates by declared origin among the 1,
 
 Figure [14](#fig:rf_importance) shows the variable importance of the linkage classifier. The similarity of the husbands’ names (initials, full name and first name) carries most of the classifier’s information, followed by the similarity of the wives’ first names and surnames; surname and name-pair frequency add further information. Importance describes the fitted classifier rather than independent evidence of historical identity.
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Mean decrease in Gini impurity for the fifteen most important features of the linkage classifier (spouse-assisted). Higher values indicate greater contribution to classification accuracy. Source: labeled candidate pairs (Appendix [10](#sec:app_methodology)).
 
 *Alt text*: Horizontal bar chart of variable importance in the linkage classifier; the husbands’ name similarities rank highest.
 
 Variable Importance in the Linkage Classifier
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Distribution of Random Forest probability scores for the final links. The dashed line marks the classifier threshold (0.60); links decided by the authors can lie below it. Source: final links (Appendix [10](#sec:app_methodology)).
 
 *Alt text*: Histogram of classifier scores for the final links, with a dashed line at the threshold; most scores lie close to one.
@@ -660,45 +663,45 @@ Results under Six Comparisons {#tab:all_methods}
 
 *Notes*: Differences (VT minus non-VT) with $p$-values in parentheses. Methods: (1) nearest census neighbor; (2) all non-VTs with the same surname in the same district; (3) OLS with district FE (robust SE); (4) exact matching on district with subclass weights; (5) non-VTs matched on district and exact number of children; (6) OLS with district and children-count FE (robust SE). In methods (5) and (6) the settler-children cells are zero by construction (children is the conditioning variable), and the household-size and children-ratio cells in those columns are largely absorbed by the same conditioning. $^{*} p < 0.05$, $^{**} p < 0.01$, $^{***} p < 0.001$.
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Percentage of each group’s households in each five-point bin of the within-district wealth percentile, so that the two groups, which differ twentyfold in size, can be compared directly. The lowest bin holds households with few or no recorded assets. Source: 1825 census linked to the Voortrekker genealogies.
 
 *Alt text*: Paired bar chart of the share of Voortrekker and other households in each within-district wealth-percentile bin; other households are concentrated in the lowest bin.
 
 Within-District Wealth Rank of Voortrekker and Other Households
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Mean wealth index with 95% confidence intervals for Voortrekkers by their year of departure from the Cape Colony. Point size is proportional to the number of matched Voortrekkers in each year; the dashed line shows the linear trend and the shaded band its 95 percent confidence band. Source: Voortrekker genealogies linked to the 1825 census.
 
 *Alt text*: Scatter plot of mean wealth by departure year, 1835 to 1845, with intervals and a slightly declining linear trend.
 
 Mean Wealth of Voortrekkers by Year of Departure
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Distribution of migration years for linked Voortrekkers, by the census district in which they were enumerated. Boxes show the median and interquartile range, whiskers extend to the most extreme observations within 1.5 times the interquartile range of the box, and points show individual households. Source: Voortrekker genealogies linked to the 1825 census.
 
 *Alt text*: Box plots of departure years by census district; most districts have median departure years in 1837 or 1838.
 
 Distribution of Migration Years by Census District
 
-*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v3.pdf]*
+*[Figure not reproduced here — see JF_CL_SelectionIntoThe_v4.pdf]*
 *Notes*: Cell values show the mean for each leader’s followers, expressed as standard deviations from the pooled mean among followers of the displayed leaders. Darker shading indicates larger deviations. Only leaders with at least eight matched followers are shown. Source: Voortrekker genealogies linked to the 1825 census.
 
 *Alt text*: Heatmap of asset z-scores by trek leader; Jacobs’ and De Klerk’s followers stand out for sheep and Landman’s and Maritz’ for cattle.
 
 Asset Composition by Trek Leader
 
-|  | Main linkage |  |  | Wife-blind linkage |
-|:---|:--:|:--:|:--:|:--:|
-| 2-4 (lr)5-5 | All links | Departures | One record per | Departures |
-|  |  | 1835–1840 | repeated household | 1835–1840 |
-| Household size | 0.680 ($<$0.001) | 0.713 ($<$0.001) | 0.692 ($<$0.001) | 0.611 ($<$0.001) |
-| Settler children | 0.514 ($<$0.001) | 0.547 ($<$0.001) | 0.522 ($<$0.001) | 0.534 ($<$0.001) |
-| Wealth index | -0.072 (0.237) | -0.003 (0.970) | -0.050 (0.408) | 0.149 (0.099) |
-| Enslaved people | -0.521 ($<$0.001) | -0.417 ($<$0.001) | -0.514 ($<$0.001) | -0.090 (0.558) |
-| Size, given couple | 0.052 (0.606) | 0.084 (0.455) |  | 0.312 (0.010) |
-| Couples among Trekkers (%) | 82 | 81 |  | 73 |
-| Trekker households (maximum) | 569 | 441 | 569 | 379 |
+|  | Main linkage |  |  |
+|:---|:--:|:--:|:--:|
+| 2-4 | All links | Departures | One record per |
+|  |  | 1835–1840 | repeated household |
+| Household size | 0.680 ($<$0.001) | 0.713 ($<$0.001) | 0.692 ($<$0.001) |
+| Settler children | 0.514 ($<$0.001) | 0.547 ($<$0.001) | 0.522 ($<$0.001) |
+| Wealth index | -0.072 (0.237) | -0.003 (0.970) | -0.050 (0.408) |
+| Enslaved people | -0.521 ($<$0.001) | -0.417 ($<$0.001) | -0.514 ($<$0.001) |
+| Size, given couple | 0.052 (0.606) | 0.084 (0.455) |  |
+| Couples among Trekkers (%) | 82 | 81 |  |
+| Trekker households (maximum) | 569 | 441 | 569 |
 
 Departure Window and Repeated Census Households {#tab:sample_checks}
 
@@ -735,7 +738,7 @@ tex_fragments/tab_tost_body.tex
 
 Our main specification tests 15 outcome variables in separate regressions. To guard against inflated false positive rates, we apply Bonferroni–Holm corrections (Holm 1979) within two families: wealth variables (9 outcomes) and household composition variables (6 outcomes, the five in the main tables and the count of settler adults). Every household-composition outcome survives the correction ($p_\text{Holm} < 0.001$). In the wealth family, enslaved people ($p_\text{Holm} < 0.001$), wheat reaped ($0.002$) and wheat sown ($0.004$) survive; Khoekhoe workers ($0.129$) and the wealth index do not.
 
-Bonferroni–Holm controls the familywise error rate and is conservative when outcomes are correlated, as the household-composition outcomes clearly are. Under the Benjamini–Hochberg procedure (Benjamini and Hochberg 1995), which controls the false discovery rate, the same outcomes clear the 5 percent level, together with Khoekhoe workers ($p_\text{BH} = 0.049$). The settler-men difference reflects the presence of a male head and disappears with male-headed controls; household size and children do not (Appendix [12](#sec:app_male_headed)). The household-composition differences therefore survive multiple-testing correction, district clustering (Appendix [15](#sec:app_clustered)) and a linkage that ignores wives (Section [8.3](#sec:hh_robustness)); what they measure is examined in Section [4.4](#sec:married).
+Bonferroni–Holm controls the familywise error rate and is conservative when outcomes are correlated, as the household-composition outcomes clearly are. Under the Benjamini–Hochberg procedure (Benjamini and Hochberg 1995), which controls the false discovery rate, the same outcomes clear the 5 percent level, together with Khoekhoe workers ($p_\text{BH} = 0.049$). The settler-men difference reflects the presence of a male head and disappears with male-headed controls; household size and children do not (Appendix [12](#sec:app_male_headed)). The household-composition differences therefore survive multiple-testing correction and district clustering (Appendix [15](#sec:app_clustered)); what they measure is examined in Section [4.4](#sec:married).
 
 ## Links with the Highest Scores
 
@@ -745,7 +748,7 @@ If incorrect matches assign non-Voortrekker census records to Voortrekker status
 
 Our main specification reports heteroskedasticity-robust (HC1) standard errors. Table [\[tab:clustered_ses\]](#tab:clustered_ses) adds inference that allows the errors to be correlated within districts. With eleven district units (the fixed effects count Clanwilliam separately from Worcester), ten of which contain linked households, conventional cluster-robust (CR1) $t$-tests over-reject, so we also report wild cluster restricted bootstrap $p$-values (Cameron et al. 2008), with Webb weights and 99,999 replications.
 
-Clustering widens the confidence intervals but does not change the household-composition conclusions. The district-clustered standard error on household size is 0.196, against 0.124 under HC1, and the full-sample household-size and children differences remain significant under the bootstrap ($p = 0.007$ and $p = 0.007$). The settler-men difference remains significant ($p = 0.003$), and the wealth-index estimate is far from significance under the bootstrap. The Khoekhoe-worker difference, significant under HC1, is not ($p = 0.419$), so the evidence for fewer Khoekhoe workers is sensitive to inference. In the main linkage, the household-size and children differences among married couples alone are insignificant under both procedures; in the wife-blind linkage the household-size difference among couples is significant under both (Section [4.4](#sec:married)).
+Clustering widens the confidence intervals but does not change the household-composition conclusions. The district-clustered standard error on household size is 0.196, against 0.124 under HC1, and the full-sample household-size and children differences remain significant under the bootstrap ($p = 0.007$ and $p = 0.007$). The settler-men difference remains significant ($p = 0.003$), and the wealth-index estimate is far from significance under the bootstrap. The Khoekhoe-worker difference, significant under HC1, is not ($p = 0.419$), so the evidence for fewer Khoekhoe workers is sensitive to inference. In the main linkage, the household-size and children differences among married couples alone are insignificant under both procedures (Section [4.4](#sec:married)).
 
 The larger clustered errors reflect variation in the size of the gap across districts: in the eleven district units used for clustering, the children difference is positive in nine of the ten with linked households and ranges from $-0.40$ to $1.83$, and district clustering treats that variation as sampling noise. Which errors are appropriate depends on the question asked (Abadie et al. 2023). Cluster adjustment is called for when clusters are drawn from a larger population or when treatment is assigned by cluster. Shared local conditions and migration networks may correlate outcomes and trekking within districts, and the HC1 errors would then understate uncertainty, so we report both. For the wealth index, clustering widens the interval enough that equivalence within 0.10 standard deviations is not established (Appendix [14](#sec:app_equivalence)). The full-sample demographic difference clears the 1 percent threshold under both procedures.
 
@@ -796,7 +799,7 @@ Trek Rates by Loss Quartile within Districts {#tab:loss_flex}
 
 ## Classifier Performance
 
-Table [19](#tab:confusion) reports the performance of the classifier at the selected thresholds, by spouse evidence, in grouped cross-validation and on the held-out audit sample. Among pairs whose wives’ names agree, out-of-fold precision is 0.989 and recall 0.894; pairs without comparable wives, and pairs whose wives disagree, are never accepted automatically. On the held-out audit sample, all 16 acceptances of the spouse-assisted classifier are correct (95 percent interval 0.81–1.00), against 15 of 17 for the wife-blind classifier. The hold-out sample is small, and these figures describe the classifier against hand labels rather than the final links, which additionally passed blind model review and, where the models did not both accept, author adjudication.
+Table [19](#tab:confusion) reports the performance of the classifier at the selected thresholds, by spouse evidence, in grouped cross-validation and on the held-out audit sample. Among pairs whose wives’ names agree, out-of-fold precision is 0.989 and recall 0.894; pairs without comparable wives, and pairs whose wives disagree, are never accepted automatically. On the held-out audit sample, all 16 acceptances of the spouse-assisted classifier are correct (95 percent interval 0.81–1.00), against 15 of 17 for the wife-blind classifier. The hold-out sample is small, and these figures describe classifier performance against hand labels rather than the accuracy of the final links. Only the main linkage additionally passed blind model review and, where the models did not both accept, author adjudication.
 
 |  | Pairs | Matches | Accepted | Correct | Precision | Recall |
 |:---|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -808,7 +811,7 @@ Table [19](#tab:confusion) reports the performance of the classifier at the sel
 
 Accuracy of the Linkage Classifier {#tab:confusion}
 
-*Notes*: Upper panel: out-of-fold predictions of the spouse-assisted classifier in five-fold cross-validation grouped by connected genealogy persons and census households, classified at the selected thresholds by spouse evidence. Pairs with disagreeing wives are never accepted automatically. Lower panel: the held-out audit sample (15 percent of labeled person–household components, never used for training or tuning); 95 percent Wilson interval for precision in brackets. These describe the classifier against hand labels; final links additionally passed blind model review and author adjudication.
+*Notes*: Upper panel: out-of-fold predictions of the spouse-assisted classifier in five-fold cross-validation grouped by connected genealogy persons and census households, classified at the selected thresholds by spouse evidence. Pairs with disagreeing wives are never accepted automatically. Lower panel: the held-out audit sample (15 percent of labeled person–household components, never used for training or tuning); 95 percent Wilson interval for precision in brackets. These describe classifier performance against hand labels; only the main linkage additionally passed blind model review and author adjudication.
 
 ## Identity Check of the Final Links
 
@@ -824,7 +827,7 @@ Among the 1,131 records with a census candidate, 569 enter the final linkage. Ta
 
 Matched vs. Unmatched Voortrekkers {#tab:matched_unmatched}
 
-*Notes*: Comparison of matched and unmatched Voortrekkers on characteristics available from the genealogical records. Matching success correlates with wife-name availability, so the matched sample over-represents men with recorded wives; matched records also have slightly more common surnames. The wife-blind linkage in Section [8.3](#sec:hh_robustness) addresses the wife-name concern; these diagnostics do not establish balance on unobserved characteristics.
+*Notes*: Comparison of matched and unmatched Voortrekkers on characteristics available from the genealogical records. Matching success correlates with wife-name availability, so the matched sample over-represents men with recorded wives; matched records also have slightly more common surnames. These diagnostics do not establish balance on unobserved characteristics or resolve selection associated with the availability of wives’ names.
 
 # Additional Robustness of the Linkage
 
@@ -832,7 +835,7 @@ This appendix discusses threshold selection, training data and blocking.
 
 #### Thresholds.
 
-The thresholds are chosen by $F_{0.5}$ on out-of-fold predictions, within a protocol fixed before the links were made. The selected threshold for pairs with agreeing wives is 0.60; for the wife-blind classifier, which uses a single threshold within the declared district, it is 0.75. We do not re-estimate the economic results at other thresholds; the wife-blind linkage, which differs in its features, threshold and review, serves that purpose.
+The thresholds are chosen by $F_{0.5}$ on out-of-fold predictions, within a protocol fixed before the links were made. The selected threshold for pairs with agreeing wives is 0.60; for the wife-blind classifier, which uses a single threshold within the declared district, it is 0.75. We do not re-estimate the economic results at other thresholds. The wife-blind linkage changes the features and the review as well as the threshold, so it does not isolate sensitivity to the threshold.
 
 #### Training data adequacy.
 
@@ -881,7 +884,7 @@ Without a complete census closer to 1835, we cannot fully resolve the ten-year g
 
 #### Unmatched Voortrekkers.
 
-Our overall match rate is 47 percent of named genealogical records, and 50 percent of the records for which the census offers a candidate. If unmatched Voortrekkers differ systematically from matched ones, for example because they had very common names or came from districts with poorer records, our results could be subject to selection bias. Within the candidate pool, matched records more often have a wife recorded in the genealogy and, on average, a slightly more common surname (Table [20](#tab:matched_unmatched)), though such comparisons cannot speak to unobserved characteristics. The most important selection concerns marriage: men who had married by the census year are linked far more often (62 percent) than men who married later (29 percent), so linked Trekkers overrepresent married men. Section [4.4](#sec:married) shows that the overrepresentation of married couples among Trekker households survives a linkage that never uses wives, and that within couples the household-size difference is small in the main linkage and larger in the wife-blind linkage, but the married share among all Trekkers cannot be measured directly. If the difference in linkage rates reflected linkage alone, the 82 percent married share among linked Trekkers would correspond to about 67 percent among all Trekkers, against 65 percent among the controls; married men would have to be linked 2.4 times as often as later-married men, against 2.2 times in the genealogy, for the excess to vanish. This is an illustrative calibration, not an estimate or a bound, because the genealogy’s linkage rates also reflect whether a man headed a household in 1825 and need not equal the rates at which census couples are linked. A small number of annotated census quantities and disputed source dates are treated as missing or excluded rather than assigned guessed values; they are listed in the replication ledger.
+Our overall match rate is 47 percent of named genealogical records, and 50 percent of the records for which the census offers a candidate. If unmatched Voortrekkers differ systematically from matched ones, for example because they had very common names or came from districts with poorer records, our results could be subject to selection bias. Within the candidate pool, matched records more often have a wife recorded in the genealogy and, on average, a slightly more common surname (Table [20](#tab:matched_unmatched)), though such comparisons cannot speak to unobserved characteristics. The most important selection concerns marriage: men who had married by the census year are linked far more often (62 percent) than men who married later (29 percent), so linked Trekkers overrepresent married men. Section [4.4](#sec:married) shows that the household-size difference among married couples is small and imprecise. The married share among all Trekkers cannot be measured directly. If the difference in linkage rates reflected linkage alone, the 82 percent married share among linked Trekkers would correspond to about 67 percent among all Trekkers, against 65 percent among the controls; married men would have to be linked 2.4 times as often as later-married men, against 2.2 times in the genealogy, for the excess to vanish. This is an illustrative calibration, not an estimate or a bound, because the genealogy’s linkage rates also reflect whether a man headed a household in 1825 and need not equal the rates at which census couples are linked. A small number of annotated census quantities and disputed source dates are treated as missing or excluded rather than assigned guessed values; they are listed in the replication ledger.
 
 #### Unobservable characteristics.
 
