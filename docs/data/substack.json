@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-08T06:14:02+00:00",
+  "updated": "2026-10-12T06:06:43+00:00",
   "posts": [
+    {
+      "title": "Light merchants",
+      "link": "https://www.ourlongwalk.com/p/light-merchants",
+      "description": "Is the lighthouse really a public good? A South African example",
+      "date": "2026-10-12",
+      "image": "https://substackcdn.com/image/fetch/$s_!Pbao!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F46045075-90a4-44ea-beb6-3f65f13f6509_1456x816.png"
+    },
     {
       "title": "Master of none",
       "link": "https://www.ourlongwalk.com/p/master-of-none",
@@ -35,13 +42,6 @@
       "description": "Why people migrate and the origins of the Great Trek",
       "date": "2026-09-24",
       "image": "https://substackcdn.com/image/fetch/$s_!Zkoc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F570d9f3a-4f97-41bc-bfaf-35098c8973f8_1456x816.png"
-    },
-    {
-      "title": "Jumping into the sea",
-      "link": "https://www.ourlongwalk.com/p/jumping-into-the-sea",
-      "description": "Dangote's record IPO revives an old question: Does entrepreneurship happen because of government or despite it?",
-      "date": "2026-09-21",
-      "image": "https://substackcdn.com/image/fetch/$s_!1wlj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0784bfe8-f6f3-4b46-ab27-9b2ff25222ff_1456x816.png"
     }
   ]
 }
