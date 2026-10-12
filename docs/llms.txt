@@ -65,5 +65,6 @@
 ## Pages
 
 - [Research](https://www.johanfourie.com/research.html): all work in progress by theme, with current stage, and full citations for published work.
+- [ReFourie](https://www.johanfourie.com/research/refourie.html): an AI-assisted replication, audit and re-estimation of thirty of my published papers, with costs and findings per paper. Code and data: https://github.com/johanfourieza/refourie
 - [Books](https://www.johanfourie.com/books.html): books and edited volumes.
 - [Public](https://www.johanfourie.com/public.html): the Our Long Walk blog and podcast.

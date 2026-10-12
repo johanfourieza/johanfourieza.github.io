@@ -50,6 +50,8 @@ AUTHORING RULES (for future updates):
 
 Each working paper is also available as a Markdown file, which is easier for AI assistants and other automated readers to process than a PDF.
 
+**[ReFourie](research/refourie.qmd):** I asked a team of language models to replicate, audit and re-estimate thirty of my published papers. The page describes how, what it cost, and what they found, paper by paper.
+
 ::: {.theme}
 ::: {.theme-banner}
 ![](images/themes/slavery.jpg){fig-alt="Convicts picking grapes under armed guard at Groot Constantia. Elliot Collection, Western Cape Archives and Records Service."}
