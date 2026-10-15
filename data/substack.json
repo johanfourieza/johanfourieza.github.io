@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-12T06:06:43+00:00",
+  "updated": "2026-10-15T04:48:53+00:00",
   "posts": [
+    {
+      "title": "Resolutely human?",
+      "link": "https://www.ourlongwalk.com/p/resolutely-human",
+      "description": "South African universities punch above their weight. AI can make them better.",
+      "date": "2026-10-15",
+      "image": "https://substackcdn.com/image/fetch/$s_!gZbc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F54d09339-8d6e-4ac5-8cab-f42621817740_1456x816.png"
+    },
     {
       "title": "Light merchants",
       "link": "https://www.ourlongwalk.com/p/light-merchants",
@@ -35,13 +42,6 @@
       "description": "What would a Kremer Consensus look like?",
       "date": "2026-09-28",
       "image": "https://substackcdn.com/image/fetch/$s_!VRay!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72279c33-9027-434b-8e45-f7aa97561e83_1456x816.png"
-    },
-    {
-      "title": "No RSA just trek DNA",
-      "link": "https://www.ourlongwalk.com/p/no-rsa-just-trek-dna",
-      "description": "Why people migrate and the origins of the Great Trek",
-      "date": "2026-09-24",
-      "image": "https://substackcdn.com/image/fetch/$s_!Zkoc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F570d9f3a-4f97-41bc-bfaf-35098c8973f8_1456x816.png"
     }
   ]
 }
