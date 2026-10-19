@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-15T04:48:53+00:00",
+  "updated": "2026-10-19T13:30:14+00:00",
   "posts": [
+    {
+      "title": "Table turners",
+      "link": "https://www.ourlongwalk.com/p/table-turners",
+      "description": "I asked two AI models to replicate thirty of my own papers",
+      "date": "2026-10-19",
+      "image": "https://substackcdn.com/image/fetch/$s_!6JOo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9f42d65f-7b05-4ebc-93b9-4ef744027fe5_1456x816.png"
+    },
     {
       "title": "Resolutely human?",
       "link": "https://www.ourlongwalk.com/p/resolutely-human",
@@ -35,13 +42,6 @@
       "description": "Why South African schools should buy more, not fewer, rugby players",
       "date": "2026-10-01",
       "image": "https://substackcdn.com/image/fetch/$s_!v-P7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5082db04-133a-42ed-8565-c42465f71aee_1456x816.png"
-    },
-    {
-      "title": "After Washington",
-      "link": "https://www.ourlongwalk.com/p/after-washington",
-      "description": "What would a Kremer Consensus look like?",
-      "date": "2026-09-28",
-      "image": "https://substackcdn.com/image/fetch/$s_!VRay!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72279c33-9027-434b-8e45-f7aa97561e83_1456x816.png"
     }
   ]
 }
