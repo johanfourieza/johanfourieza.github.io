@@ -1,0 +1,65 @@
+---
+title: "Life under Lockdown"
+subtitle: "An anthology of Stellenbosch student Covid-19 diary entries"
+date-modified: last-modified
+---
+
+![](images/cover.jpg){.book-cover fig-alt="Life under Lockdown cover – a grid of hand-painted coloured squares, the painting Atlas by Klara-Marie den Heijer"}
+
+When South Africa locked down in March 2020, I asked my Economics 281 students at
+Stellenbosch University to keep a diary. They wrote about queues and curfews, about
+Zoom lectures and data bundles, about parents losing work, about fear, boredom,
+gratitude and guilt. From more than a thousand entries, Laura Richardson and I selected
+**335**, written between **21 March and 23 April 2020**, the first month of the national
+lockdown. The entries are anonymous, lightly edited for readability, and arranged by day.
+
+The book was published by African Sun Media (SUN PReSS) in March 2022. This is the free
+online edition: the editors' introduction, Nico Koopman's foreword, and all 335 entries,
+each day opening with a short note on what was happening in the country and the world.
+
+## How to read this book
+
+- Each **day** is its own page. Use the sidebar to move between the five weeks, or the
+  **← →** links at the foot of each page to read straight through, one day after the next.
+- The grey box at the top of a day is the editors' note on the news of that day; the
+  entries that follow are the students' own words, separated by a row of three asterisks, as in the book.
+- The **search** box (top of the sidebar) finds any word, place or theme across all 335
+  entries. Toggle **reader mode** (top right) for a distraction-free view.
+- Start with the [introduction](introduction.html) if you want the context and the text
+  analysis; start with [21 March](2020-03-21.html) if you want the voices.
+
+## Praise
+
+::: {.praise}
+"When the Covid-19 pandemic first hit, university students around the world were among those most immediately affected, their routines upended as schools and dorms shut down and classes moved online. In lieu of their regular assignments, economics professor Johan Fourie asked his students to maintain a lockdown journal chronicling their experience of daily life made newly strange. In the 335 entries he has selected here, the students grapple with the many ways Covid altered their lives, from the mundane to the existential, their voices combining to give the reader a perspective at once intimate and panoramic."
+
+[Ruth Franklin, literary critic and author of *Shirley Jackson: A Rather Haunted Life*]{.who}
+:::
+
+::: {.praise}
+"In one or two decades from now historians will be grateful to everyone who kept a personal diary under the pandemic. A relatively old-fashioned habit for a world moving at the speed of social media comes alive as part of a university course assignment. A great pedagogic experiment by Johan Fourie and Laura Richardson. If you think it might feel contrived, or that to read diary entries from the first lockdown might be boring and repetitive, think again. There is something deeply touching about these students' reflections on the pandemic. From the very personal, such as the illness of a mother, to the very social, such as the realisation of the unfairness of privilege; from the celebration of the power of art to concerns about unemployment, these diary entries provide an interesting, readable and moving account of one set of experiences of the Covid-19 lockdown."
+
+[Prof Lis Lange, Deputy Vice-Chancellor: Teaching and Learning, University of Cape Town]{.who}
+:::
+
+::: {.praise}
+"This volume collates entries from an unusual diary task set for Stellenbosch University Economics 281 students during the initial month of South Africa's (very) hard lockdown in 2020. With the sudden, unprecedented disruptions to lives and livelihoods caused by Covid-19, the journaling gave the students an opportunity to reflect, in the pandemic's enforced pause, on the mundanities and mutations, on the privileges and precarities, of everyday life under the coronavirus. Rich in documenting the varied and changing thoughts, emotions, struggles and material situations of the young respondents' daily lives during the first lockdown, the anonymised diary entries record valuable microhistories. They offer illuminating experiential insight into the bigger picture of facts and data-oriented coverage of these not yet post-coronial times."
+
+[Prof Sally Ann Murray, Chair of English department, Stellenbosch University]{.who}
+:::
+
+## How to cite this edition
+
+> Fourie, Johan and Laura Richardson (eds). *Life under Lockdown: An anthology of
+> Stellenbosch student Covid-19 diary entries*. Stellenbosch: African Sun Media, 2022.
+> Free online edition, johanfourie.com/LUL. Accessed [date].
+
+::: {.licence-notice}
+**About this edition.** *Life under Lockdown* was first published in March 2022 by African
+Sun Media under the SUN PReSS imprint (ISBN 978-1-991201-64-5; e-book 978-1-991201-65-2;
+[doi:10.52779/9781991201652](https://doi.org/10.52779/9781991201652)). © 2022 African Sun
+Media and the editors. This online edition is free to read; the text is **not** for
+download or redistribution. The print and e-book editions remain available from
+[African Sun Media](https://africansunmedia.co.za) and booksellers. Cover art: *Atlas* by
+Klara-Marie den Heijer; cover design by Nudge Studio.
+:::

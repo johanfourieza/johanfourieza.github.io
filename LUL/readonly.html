@@ -1,0 +1,12 @@
+<script>
+// Light read-only deterrents for the freely-readable edition.
+// NOTE: HTML text can never be fully protected; this only discourages
+// casual saving/printing. The real safeguard is offering no downloadable file.
+document.addEventListener("DOMContentLoaded", function () {
+  // Block right-click "Save image as…" on figures.
+  document.querySelectorAll("img").forEach(function (img) {
+    img.addEventListener("contextmenu", function (e) { e.preventDefault(); });
+    img.setAttribute("draggable", "false");
+  });
+});
+</script>

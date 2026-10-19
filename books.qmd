@@ -3,9 +3,10 @@ title: "Books to read"
 toc: false
 ---
 
-My book, *Our Long Walk to Economic Freedom*, is now free to read online, in full. This is a
+Three of my books are free to read online, in full. *Our Long Walk to Economic Freedom* is a
 **living edition**: I update it as new research appears, and I link the text to the original
 papers, working papers, and [datasets](https://github.com/johanfourieza) behind each argument.
+*Let's Talk About Varsity* and *Life under Lockdown* are the complete published texts.
 Looking for a copy to buy instead? Visit the [Bookshop](bookshop.qmd).
 
 ::: {.read-grid}
@@ -31,6 +32,18 @@ An accessible, engaging introduction to economic history from an African perspec
 A practical, generous guide to university in South Africa, written by leading academics and public figures. Free to read online and to download.
 
 [Read online →](LTAV/){.read-btn}
+:::
+:::
+
+::: {.read-card}
+[![African Sun Media, 2022](images/lul-cover.jpg){.read-cover fig-alt="Life under Lockdown cover"}](LUL/)
+
+::: {.read-card-body}
+### [Life under Lockdown](LUL/)
+
+An anthology of 335 diary entries by Stellenbosch students from the first month of South Africa's 2020 lockdown, compiled with Laura Richardson. Free to read online.
+
+[Read online →](LUL/){.read-btn}
 :::
 :::
 

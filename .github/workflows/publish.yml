@@ -1,6 +1,6 @@
 name: Build the living books
 
-# Rebuilds the free online books (OLWTEF, LTAV) whenever their source (or the
+# Rebuilds the free online books (OLWTEF, LTAV, LUL) whenever their source (or the
 # shared bibliography) changes on main, and commits the rendered docs/ back so
 # GitHub Pages (served from /docs) picks it up. The books are plain markdown,
 # so no R is needed.
@@ -14,6 +14,7 @@ on:
     paths:
       - "OLWTEF/**"
       - "LTAV/**"
+      - "LUL/**"
       - "references.bib"
       - ".github/workflows/publish.yml"
   workflow_dispatch:
@@ -40,11 +41,14 @@ jobs:
       - name: Render LTAV book
         run: quarto render LTAV
 
+      - name: Render LUL book
+        run: quarto render LUL
+
       - name: Commit rendered books
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/OLWTEF docs/LTAV
+          git add docs/OLWTEF docs/LTAV docs/LUL
           if git diff --staged --quiet; then
             echo "No changes to publish."
           else

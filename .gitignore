@@ -13,6 +13,7 @@ LTAV/ingest/*.tmp.*
 # Stray single-file renders in the source dir (book HTML belongs in docs/<book>/)
 OLWTEF/[0-9]*.html
 LTAV/[0-9]*.html
+LUL/[0-9]*.html
 images/_originals/
 Johan_podcast_dataset.xlsx
 *.xlsx.bak
@@ -24,3 +25,10 @@ Johan_podcast_dataset.xlsx
 
 # Geo-data cache for figure 8.1 (re-downloadable from FAO)
 OLWTEF/ingest/_cache/
+
+# Life under Lockdown: raw sources (publisher PDF, Word drafts, figures), intermediates and data cache
+LUL/ingest/_source/
+LUL/ingest/_work/
+LUL/ingest/_cache/
+LUL/ingest/node_modules/
+LUL/ingest/package*.json

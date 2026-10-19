@@ -18,6 +18,8 @@ Johan Fourie, Professor of Economics at Stellenbosch University. It is a
 | `econtools.qmd` | Tools | |
 | `bookshop.qmd` | Bookshop | Affiliate gallery – see [`README_bookshop.md`](README_bookshop.md) |
 | `OLWTEF/` | **The book** | *Our Long Walk to Economic Freedom*, free online edition |
+| `LTAV/` | Book | *Let's Talk About Varsity* (2009), free online edition + PDF |
+| `LUL/` | Book | *Life under Lockdown* (2022), free online edition, read-only (see below) |
 
 Shared identity lives in `styles.css` and `_quarto.yml` (brown `#693e23`, olive `#8f8844`,
 cream `#f7f5f2`, Inter). Output is built into `docs/` and committed.
@@ -91,6 +93,35 @@ the Jerusalem timeline (9.1), the Atlantic slave routes (12.1), the norms-via-mi
 schematic (3.1), and Africa's ecological zones (8.1, a stylised approximation).
 
 Figure captions follow `/olwstyle`: `Source: … • Visualised: johanfourie.com`.
+
+---
+
+## *Life under Lockdown* – the anthology
+
+`LUL/` is a Quarto book (rendered to `docs/LUL/`, served at **johanfourie.com/LUL**): the
+2022 African Sun Media anthology of 335 Stellenbosch student Covid-19 diary entries, compiled
+with Laura Richardson. **Read-online only**, like OLWTEF (no PDF, `readonly.html`, print
+blanked). © 2022 African Sun Media and the editors – the colophon on `index.qmd` says so.
+
+- **Structure:** landing page (praise, how to read, cite, colophon) · foreword · the editors'
+  introduction (7 figures, Table 1, 40 footnotes) · one page per day, `2020-03-21.md` …
+  `2020-04-23.md`, grouped in five week parts · about-this-book (editors, acknowledgements,
+  cover art). Each day page opens with the editors' news-context paragraph in a
+  `.day-context` box; entries are separated by a `.entry-break` ornament (the book's `***`).
+- **Source of truth** is the publisher's typeset PDF (`LUL/ingest/_source/Life under
+  Lockdown_Text.pdf`, gitignored; the Word files there are earlier drafts). The ingest is
+  reproducible: `node LUL/ingest/extract.mjs` (pdfjs-dist, dumps every text run with its
+  font so italics, footnote markers and the context paragraphs can be told apart) →
+  `node LUL/ingest/build.mjs` (rebuilds the markdown; hard-fails unless it finds 34 days and
+  335 entries). One deliberate correction: the artist's name on the cover-art page is
+  spelled *den Heijer* (the print edition has *den Meijer*).
+- **Figures:** 1–2 are screenshots, used as supplied. 3–7 are redrawn in the house style by
+  `LUL/ingest/lul_figures.R` (word clouds recomputed from the published entries; the weekly
+  sentiment values of Figure 4 are taken from the printed figure because the original data
+  are gone; Covid counts from DSFSI/NICD, rand/dollar from FRED, JSE from Yahoo Finance,
+  cached in `LUL/ingest/_cache/`). The supplied black-and-white originals stay in
+  `LUL/ingest/_source/`.
+- Builds in CI with the other books (`publish.yml`).
 
 ---
 
