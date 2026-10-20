@@ -3,13 +3,17 @@
 # style (/olwstyle: brown/olive/cream palette, theme_olw, "Source … • Visualised"
 # captions). Figures 1 and 2 are screenshots and are used as supplied.
 #
-# The original R code and data no longer exist, so:
-#   * the text analysis (word clouds) is recomputed from the 335 published
-#     entries – the book's own corpus (46 800 words) – with tidytext and the
-#     bing / AFINN lexicons used in the book;
-#   * the six weekly sentiment means and the week-specific theme words of
-#     Figure 4 are taken from the printed figure, so the chart agrees with the
-#     text ("sentiment … collapses in the final week");
+# The original R code and data no longer exist, so the text analysis is
+# recomputed from the 335 published entries – the book's own corpus:
+#   * Figure 3: word frequencies and the bing sentiment lexicon, as in the book;
+#   * Figures 4, 5, 7: the weekly sentiment series is the mean AFINN-111 score
+#     of the matched words, grouped by calendar week (lubridate::week()). That
+#     binning reproduces the printed week structure exactly (points at 24 and
+#     31 March, 7, 14 and 21 April, and a last bin of 22–23 April only), and the
+#     weighted log odds (tidylo) reproduce the printed theme words, so the
+#     recomputed series replaces the printed one (whose level was ~0.3 lower
+#     and cannot be reproduced). The theme labels are the editors' phrases
+#     from the print edition;
 #   * Covid-19 tests, cases and deaths come from the DSFSI/NICD covid19za
 #     repository; the rand/dollar rate from FRED (DEXSFUS); the JSE All Share
 #     Index from Yahoo Finance (^J203.JO). Downloads are cached in _cache/.
@@ -67,10 +71,12 @@ entries <- map_dfr(day_files, function(f) {
   tibble(date = as.Date(sub("\\.md$", "", basename(f))), text = body[keep])
 }) %>% mutate(text = str_replace_all(text, "[*_\\[\\]…]", " "))
 
-words <- entries %>%
-  unnest_tokens(word, text) %>%
-  filter(!str_detect(word, "^[0-9]+$"))
-cat(sprintf("corpus: %d paragraphs, %d words\n", nrow(entries), nrow(words)))
+all_tokens <- entries %>% unnest_tokens(word, text)
+words <- all_tokens %>% filter(!str_detect(word, "^[0-9]+$"))
+cat(sprintf("corpus: %d paragraphs, %d words (%d excluding numbers)\n",
+            nrow(entries), nrow(all_tokens), nrow(words)))
+cat(sprintf("  'lockdown' %d, 'virus' %d, 'unproductive' %d\n",
+            sum(words$word == "lockdown"), sum(words$word == "virus"), sum(words$word == "unproductive")))
 
 # ---- Figure 3: frequency cloud + bing sentiment cloud ------------------------
 set.seed(2020)
@@ -107,31 +113,45 @@ sv("figure-3.jpg", p3, w = 11, h = 5.5)
 cat("  ok figure-3\n")
 
 # ---- Figure 4: weekly sentiment + week-specific themes -----------------------
-# Values and words as printed (the original data are gone; see header).
-wk <- tibble(
-  date  = as.Date(c("2020-03-24", "2020-03-31", "2020-04-07", "2020-04-14", "2020-04-21", "2020-04-22")),
-  sent  = c(-0.415, -0.340, -0.405, -0.072, -0.100, -0.503),
+# Sentiment: AFINN-111 (the lexicon the book cites; Table 1 values match it),
+# mean score of the matched words per calendar week (see header).
+afinn_file <- file.path(CACHE, "AFINN-111.txt")
+if (!file.exists(afinn_file))
+  download.file("https://raw.githubusercontent.com/fnielsen/afinn/master/afinn/data/AFINN-111.txt",
+                afinn_file, quiet = TRUE)
+afinn <- read_tsv(afinn_file, col_names = c("word", "value"), show_col_types = FALSE)
+scored <- words %>% inner_join(afinn, by = "word") %>% mutate(week = lubridate::week(date))
+wk <- scored %>% group_by(week) %>%
+  summarise(from = min(date), date = max(date), sent = mean(value), n = n(), .groups = "drop") %>%
+  arrange(week)
+cat(sprintf("AFINN-111: %d scored words, overall mean %.3f; weekly means:\n", nrow(scored), mean(scored$value)))
+print(as.data.frame(wk), row.names = FALSE)
+stopifnot(nrow(wk) == 6)
+
+# week-specific words (weighted log odds, tidylo) – logged as a check on the
+# labels, which are the editors' curated phrases from the print edition
+lo <- words %>% anti_join(stop_words, by = "word") %>%
+  mutate(week = lubridate::week(date)) %>% count(week, word) %>%
+  tidylo::bind_log_odds(week, word, n) %>% group_by(week) %>%
+  slice_max(log_odds_weighted, n = 8) %>% summarise(top = paste(word, collapse = ", "))
+cat("tidylo week-specific words:\n"); print(as.data.frame(lo), row.names = FALSE)
+
+wk <- wk %>% mutate(
   words = c("National lockdown\nChurch\nAfrican leaders\nAirports\nNSFAS",
             "Townships\nLockdown starts\nVirus\nInternet access\nCases recorded",
             "Conspiracy theories\nContinues to rise\nPrivilege\nAn obligation",
             "Easter Sunday\nHot Cross buns\nGood Friday\nPayment\nExtension\nEmotions",
             "R500 billion\nEconomic stimulus\nFresh produce\nSUN Learn\nZoom\nGrade",
             "Clothing bank\nPresident Ramaphosa\nLevel 5\nLivelihoods\nUnemployed\nLockdown restrictions"),
-  ly    = c(-0.30, -0.22, -0.27, 0.03, 0.03, -0.37),   # label anchor (y)
-  lx    = c(0, 0, 0, 0, 0, 0.4)                          # label x nudge (days)
+  above = c(FALSE, TRUE, FALSE, TRUE, TRUE, FALSE),        # label above or below the point
+  ly    = ifelse(above, sent + 0.05, sent - 0.05),
+  vj    = ifelse(above, 0, 1),
+  lx    = c(0, 0, 0, 0, 0, -1.4)                           # label x nudge (days)
 )
-# cross-check against AFINN recomputed from the published entries (log only)
-afinn_lex <- tryCatch(get_sentiments("afinn"), error = function(e) NULL)   # needs a one-off interactive download (textdata)
-if (!is.null(afinn_lex)) {
-  afinn <- words %>% inner_join(afinn_lex, by = "word") %>%
-    mutate(week = cut(date, breaks = as.Date(c("2020-03-21", "2020-03-28", "2020-04-04", "2020-04-11", "2020-04-18", "2020-04-25")), right = FALSE)) %>%
-    group_by(week) %>% summarise(mean_afinn = mean(value), n = n())
-  cat("AFINN check (published entries, 7-day bins from 21 March):\n"); print(afinn)
-} else cat("AFINN cross-check skipped (lexicon not downloaded; run textdata::lexicon_afinn() once interactively)\n")
 
 date_axis <- list(
   scale_x_date(breaks = as.Date(c("2020-03-23", "2020-03-30", "2020-04-06", "2020-04-13", "2020-04-20")),
-               date_labels = "%b %d", limits = as.Date(c("2020-03-20", "2020-04-25")))
+               date_labels = "%b %d", limits = as.Date(c("2020-03-20", "2020-04-26")))
 )
 p4_core <- function(with_words = TRUE, base = 13) {
   g <- ggplot(wk, aes(date, sent)) +
@@ -139,16 +159,16 @@ p4_core <- function(with_words = TRUE, base = 13) {
     geom_line(colour = "#693e23", linewidth = 0.9) +
     geom_point(colour = "#db6a11", size = 3.4) +
     date_axis +
-    scale_y_continuous(limits = c(-0.56, 0.12), breaks = seq(-0.5, 0.1, 0.1)) +
+    scale_y_continuous(limits = c(-0.4, 0.55), breaks = seq(-0.4, 0.5, 0.1)) +
     labs(x = NULL, y = "Average sentiment of students' diary entries") +
     theme_olw(base)
-  if (with_words) g <- g + geom_text(aes(x = date + lx, y = ly, label = words), colour = "#8f8844",
+  if (with_words) g <- g + geom_text(aes(x = date + lx, y = ly, label = words, vjust = vj), colour = "#8f8844",
                                       size = 3.3, lineheight = 0.95, family = "sans")
   g
 }
+NOTE4 <- "Note: words displayed are most specific to each week of diary entries. Weeks are calendar weeks; the last point covers 22–23 April only."
 p4 <- p4_core() +
-  labs(caption = paste0("Note: words displayed are most specific to each week of diary entries.  ",
-                        CAP("The 335 diary entries; AFINN lexicon; weighted log odds (tidylo)")))
+  labs(caption = paste0(NOTE4, "\n", CAP("The 335 diary entries; AFINN-111 lexicon; weighted log odds (tidylo)")))
 sv("figure-4.jpg", p4, w = 10, h = 6.5)
 cat("  ok figure-4\n")
 
@@ -182,7 +202,8 @@ p5b <- ggplot(cv5, aes(date, value, colour = series, linetype = series)) +
   labs(x = NULL, y = "Tests, cases, deaths", colour = NULL, linetype = NULL) +
   theme_olw() + theme(legend.position = "bottom", legend.text = element_text(size = 10))
 p5 <- (p4_core(TRUE, 12) / p5b) + plot_layout(heights = c(1, 1)) +
-  plot_annotation(caption = CAP("The 335 diary entries (AFINN); DSFSI/NICD covid19za"), theme = theme_olw())
+  plot_annotation(caption = paste0(NOTE4, "\n", CAP("The 335 diary entries (AFINN-111); DSFSI/NICD covid19za")),
+                  theme = theme_olw())
 sv("figure-5.jpg", p5, w = 10, h = 9)
 cat("  ok figure-5\n")
 
@@ -218,14 +239,17 @@ s7 <- wk %>% transmute(date, value = sent, series = "Mean sentiment of students'
 d7 <- bind_rows(s7, jse, fx) %>%
   filter(date >= as.Date("2020-03-21"), date <= as.Date("2020-04-24")) %>%
   mutate(series = factor(series, c("Mean sentiment of students' diary entries", "JSE All Share Index", "ZAR to USD exchange rate")))
+zero7 <- tibble(series = factor("Mean sentiment of students' diary entries", levels(d7$series)), y = 0)
 p7 <- ggplot(d7, aes(date, value, colour = series, linetype = series)) +
+  geom_hline(data = zero7, aes(yintercept = y), linetype = "dashed", colour = "#693e23",
+             linewidth = 0.4) +
   geom_line(linewidth = 0.9) +
   facet_wrap(~series, ncol = 1, scales = "free_y") +
   date_axis +
   scale_y_continuous(labels = label_comma(big.mark = " ")) +
   scale_colour_manual(values = c("#693e23", "#db6a11", "#4492a0")) +
   scale_linetype_manual(values = c("solid", "longdash", "dotted")) +
-  labs(x = NULL, y = NULL, caption = CAP("The 335 diary entries (AFINN); Yahoo Finance (^J203.JO); FRED (DEXSFUS)")) +
+  labs(x = NULL, y = NULL, caption = CAP("The 335 diary entries (AFINN-111); Yahoo Finance (^J203.JO); FRED (DEXSFUS)")) +
   theme_olw() + theme(strip.text = element_text(colour = "#f7f5f2", face = "bold", size = 11),
                       strip.background = element_rect(fill = "#693e23", colour = NA))
 sv("figure-7.jpg", p7, w = 10, h = 8)

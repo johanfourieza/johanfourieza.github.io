@@ -116,11 +116,15 @@ blanked). © 2022 African Sun Media and the editors – the colophon on `index.q
   335 entries). One deliberate correction: the artist's name on the cover-art page is
   spelled *den Heijer* (the print edition has *den Meijer*).
 - **Figures:** 1–2 are screenshots, used as supplied. 3–7 are redrawn in the house style by
-  `LUL/ingest/lul_figures.R` (word clouds recomputed from the published entries; the weekly
-  sentiment values of Figure 4 are taken from the printed figure because the original data
-  are gone; Covid counts from DSFSI/NICD, rand/dollar from FRED, JSE from Yahoo Finance,
-  cached in `LUL/ingest/_cache/`). The supplied black-and-white originals stay in
-  `LUL/ingest/_source/`.
+  `LUL/ingest/lul_figures.R`. The text analysis is recomputed from the published entries
+  because the original data are gone: word clouds (bing), and the weekly sentiment series of
+  Figures 4, 5 and 7 as the mean AFINN-111 score per calendar week (`lubridate::week()`,
+  which reproduces the printed week bins – the last one is 22–23 April only – and, via
+  tidylo, the printed theme words; the printed *level* was ~0.3 lower and could not be
+  reproduced, so the introduction's text was minimally adjusted and the colophon says so).
+  Covid counts from DSFSI/NICD, rand/dollar from FRED, JSE from Yahoo Finance, AFINN-111
+  from the fnielsen/afinn repo, all cached in `LUL/ingest/_cache/`. The supplied
+  black-and-white originals stay in `LUL/ingest/_source/`.
 - Builds in CI with the other books (`publish.yml`).
 
 ---

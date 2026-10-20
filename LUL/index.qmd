@@ -61,5 +61,8 @@ Sun Media under the SUN PReSS imprint (ISBN 978-1-991201-64-5; e-book 978-1-9912
 Media and the editors. This online edition is free to read; the text is **not** for
 download or redistribution. The print and e-book editions remain available from
 [African Sun Media](https://africansunmedia.co.za) and booksellers. Cover art: *Atlas* by
-Klara-Marie den Heijer; cover design by Nudge Studio.
+Klara-Marie den Heijer; cover design by Nudge Studio. The figures in the introduction were
+redrawn for this edition, and the text analysis (word clouds and the weekly sentiment series)
+recomputed from the 335 published entries; a few counts therefore differ slightly from the
+print edition.
 :::
