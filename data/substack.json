@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-19T13:30:14+00:00",
+  "updated": "2026-10-22T12:01:08+00:00",
   "posts": [
+    {
+      "title": "To whom it may concern",
+      "link": "https://www.ourlongwalk.com/p/to-whom-it-may-concern",
+      "description": "Why you should attend more conferences in the age of agentic AI",
+      "date": "2026-10-22",
+      "image": "https://substackcdn.com/image/fetch/$s_!O84h!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44c814d2-09f0-45d5-87d1-166b1c547888_1456x816.png"
+    },
     {
       "title": "Table turners",
       "link": "https://www.ourlongwalk.com/p/table-turners",
@@ -35,13 +42,6 @@
       "description": "Why its so tough to get industrial policy right",
       "date": "2026-10-05",
       "image": "https://substackcdn.com/image/fetch/$s_!oN1D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c74a92-5a44-48c1-87d8-6e42e95ef608_1456x816.png"
-    },
-    {
-      "title": "Worth a try",
-      "link": "https://www.ourlongwalk.com/p/worth-a-try",
-      "description": "Why South African schools should buy more, not fewer, rugby players",
-      "date": "2026-10-01",
-      "image": "https://substackcdn.com/image/fetch/$s_!v-P7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5082db04-133a-42ed-8565-c42465f71aee_1456x816.png"
     }
   ]
 }
