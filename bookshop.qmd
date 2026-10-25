@@ -216,6 +216,34 @@ var BOOKS = [
     url:    "https://amzn.to/4ufEFVD",
     asin:   "1009407147",
     notes:  "This is a book only Warren Whatley could write. Important."
+  },
+  {
+    title:  "A Fabulous Debt",
+    author: "Robin Wigglesworth",
+    url:    "https://link.amazon/B0jbIuiVW",
+    asin:   "0593719182",
+    notes:  "A spirited dive into what might seem like the most boring of topics."
+  },
+  {
+    title:  "The Inclusive Wealth of Nations",
+    author: "Eoin McLaughlin",
+    url:    "https://link.amazon/B0fgNqMaL",
+    asin:   "1350544159",
+    notes:  "My blurb on the cover: At a moment when societies cannot afford to give up on growth, yet can no longer ignore its costs, McLaughlin shows how a fuller account of wealth can reconcile human flourishing with environmental limits."
+  },
+  {
+    title:  "Trade World",
+    author: "Ed Conway",
+    url:    "https://link.amazon/B091Gz20x",
+    asin:   "B0FYY5NTWY",
+    notes:  "The world is much more integrated than we imagine - and therefore also dependent on the (fragile) links that allow for the prosperity this creates."
+  },
+  {
+    title:  "Co-Existence",
+    author: "Ethan Mollick",
+    url:    "https://link.amazon/B03UZelUn",
+    asin:   "B0G7RTYW85",
+    notes:  "The first book you should read on AI."
   }
 ];
 

@@ -19,15 +19,22 @@ format:
 :::
 ::::
 
-I am Professor of Economics and Chair of Economics, History and Policy at Stellenbosch University, where I also direct LEAP, [the Laboratory for the Economics of Africa's Past](https://leapstellenbosch.org.za/). I teach economic history to undergraduate and graduate students, and regularly publish on the subject academically, through journal articles and book chapters. Please visit my [research page](research.qmd) to find out more.
+**How do we build a prosperous South Africa? That question sits at the heart of everything I do.** I am Professor of Economics and Chair of Economics, History and Policy at Stellenbosch University, where I teach economic history and economic policy. I study the past to understand the present, and to draw from history the lessons we need to build a better future. My [research page](research.qmd) sets out the questions I think are most important to study now, and my [public page](public.qmd) links to the policy reports I've prepared to help guide us forward.
 
-My book, [*Our Long Walk to Economic Freedom*](https://www.cambridge.org/core/books/our-long-walk-to-economic-freedom/0985F9390A3B26B40DE0AC6BC1111414) (CUP), offers an accessible and engaging introduction to economic history from an African perspective. Its closing line – 'The future belongs to those who believe in a better tomorrow' – captures my conviction that economic history is fundamentally optimistic: we have the agency to build a more prosperous society.
+The lessons of history are only useful if people know about them. That is why I invest so much time in bringing others' research to new audiences. My book, [*Our Long Walk to Economic Freedom*](https://www.cambridge.org/core/books/our-long-walk-to-economic-freedom/0985F9390A3B26B40DE0AC6BC1111414) (CUP), offers an accessible and engaging introduction to economic history from an African perspective. Its closing line – 'The future belongs to those who believe in a better tomorrow' – captures my conviction that economic history is fundamentally optimistic: we have the agency to build a more prosperous society. You can read the entire book for free on my [books page](books.qmd).
 
-I see myself as a knowledge broker, who believes that effective science communication matters deeply. Stories not only help us understand the world around us, they actively shape it.
+I see myself as a knowledge broker. Effective science communication matters deeply: stories not only help us understand the world around us, they actively shape it. My blog, [ourlongwalk.com](http://www.ourlongwalk.com), now followed by more than 6,000 subscribers, features my columns and essays on a wide variety of topics – do subscribe. For my public talks, podcasts and media appearances, visit my [public page](public.qmd).
 
-My blog, [ourlongwalk.com](http://www.ourlongwalk.com), now followed by more than 6,000 subscribers, features my columns and essays on a wide variety of topics.
+The history of human progress is a history of innovation. Artificial intelligence offers extraordinary opportunities for human advancement, though not without risks. I study, and use, AI through a historical lens, and I help business leaders and managers navigate this transformative period. I am also an Affiliate at the [Center for Human Progress](https://www.centerforhumanprogress.org/). If you'd like to book me for a talk or a session with your team, see [speaking and consulting](public.qmd#consult).
 
-My greatest ambition is to be cited in a Nobel lecture – ideally by one of my students.
+Understanding a technology this transformative demands experimentation. I believe universities, and the people who work in them, are best placed to do it: to act as scouts – *voorlopers* – for what advanced intelligence could do to improve human prosperity. The tools of economics are ideally suited to the task. If you'd like to join my team or support our work, [I'd love to hear from you](mailto:johanf@sun.ac.za).
+
+```{=html}
+<div class="bio-box">
+  <h2 class="bio-box-heading">Short bio (for introductions)</h2>
+  <p>Johan Fourie is Professor of Economics and Chair of Economics, History and Policy at Stellenbosch University, and the founder of LEAP, the Laboratory for the Economics of Africa’s Past. An economic historian, he studies the past to understand how South Africa, and Africa more broadly, can build a more prosperous future. He is the author of <em>Our Long Walk to Economic Freedom</em> (Cambridge University Press) and writes the blog <em>Our Long Walk</em>, read by more than 6,000 subscribers. He also advises business leaders on navigating the age of artificial intelligence.</p>
+</div>
+```
 
 ::: {.substack-section}
 

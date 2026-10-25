@@ -1,7 +1,7 @@
 # Johan Fourie
 
 > Professor of Economics at Stellenbosch University, Chair of Economics,
-> History and Policy, and director of LEAP (Laboratory for the Economics of
+> History and Policy, and founder of LEAP (Laboratory for the Economics of
 > Africa's Past). Economic history of Africa, with a focus on the long-run
 > development of southern Africa. The full text of each working paper is
 > available in Markdown at the links below.
