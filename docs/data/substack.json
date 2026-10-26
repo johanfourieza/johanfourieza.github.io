@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-22T12:01:08+00:00",
+  "updated": "2026-10-26T13:13:52+00:00",
   "posts": [
+    {
+      "title": "A local Parliament",
+      "link": "https://www.ourlongwalk.com/p/a-local-parliament",
+      "description": "South Africa’s local elections will be most important for the poorest",
+      "date": "2026-10-26",
+      "image": "https://substackcdn.com/image/fetch/$s_!4lx7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2cd3272-a889-444e-be2c-5cfe1c51458b_1456x816.png"
+    },
     {
       "title": "To whom it may concern",
       "link": "https://www.ourlongwalk.com/p/to-whom-it-may-concern",
@@ -35,13 +42,6 @@
       "description": "On a Wharton experiment, the Renaissance Man and cricket’s Jack Hobbs...",
       "date": "2026-10-08",
       "image": "https://substackcdn.com/image/fetch/$s_!g_-x!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F391594b0-0479-423a-ba8b-31e9ccdd5c49_1456x816.png"
-    },
-    {
-      "title": "Servers in the Karoo",
-      "link": "https://www.ourlongwalk.com/p/servers-in-the-karoo",
-      "description": "Why its so tough to get industrial policy right",
-      "date": "2026-10-05",
-      "image": "https://substackcdn.com/image/fetch/$s_!oN1D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c74a92-5a44-48c1-87d8-6e42e95ef608_1456x816.png"
     }
   ]
 }
