@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-26T13:13:52+00:00",
+  "updated": "2026-10-29T13:12:59+00:00",
   "posts": [
+    {
+      "title": "STEM for everyone",
+      "link": "https://www.ourlongwalk.com/p/stem-for-everyone",
+      "description": "A dinner question in Stellenbosch, a Salvadoran president's thread, and what PISA 2025 says about what AI can teach and what only effort can",
+      "date": "2026-10-29",
+      "image": "https://substackcdn.com/image/fetch/$s_!ebqf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F122e18bd-9a3b-46ab-ad12-b219925c98f2_1456x816.png"
+    },
     {
       "title": "A local Parliament",
       "link": "https://www.ourlongwalk.com/p/a-local-parliament",
@@ -35,13 +42,6 @@
       "description": "Is the lighthouse really a public good? A South African example",
       "date": "2026-10-12",
       "image": "https://substackcdn.com/image/fetch/$s_!Pbao!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F46045075-90a4-44ea-beb6-3f65f13f6509_1456x816.png"
-    },
-    {
-      "title": "Master of none",
-      "link": "https://www.ourlongwalk.com/p/master-of-none",
-      "description": "On a Wharton experiment, the Renaissance Man and cricket’s Jack Hobbs...",
-      "date": "2026-10-08",
-      "image": "https://substackcdn.com/image/fetch/$s_!g_-x!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F391594b0-0479-423a-ba8b-31e9ccdd5c49_1456x816.png"
     }
   ]
 }
