@@ -45,7 +45,7 @@ AUTHORING RULES (for future updates):
 -->
 
 ::: {.pipeline-glance}
-**23 papers in the pipeline:** [15 submitted]{.pill .pill-submitted} [5 R&R]{.pill .pill-rr} [3 accepted]{.pill .pill-accepted}
+**23 papers in the pipeline:** [14 submitted]{.pill .pill-submitted} [6 R&R]{.pill .pill-rr} [3 accepted]{.pill .pill-accepted}
 :::
 
 Each working paper is also available as a Markdown file, which is easier for AI assistants and other automated readers to process than a PDF.
@@ -227,7 +227,7 @@ How economic history is made and used: applied history, and what the discipline 
 How research gets produced, certified and rewarded, and what AI is doing to all three.
 
 ::: {.papers}
--   [Submitted]{.pill .pill-submitted} **Writing Is Not Thinking** · [Working paper](files/wp/JF_WritingIsNot_v3.pdf) [(md)](files/wp/JF_WritingIsNot_v3.md) \| [Supplementary file](files/wp/JF_WritingIsNot_sup_v3.pdf) [(md)](files/wp/JF_WritingIsNot_sup_v3.md)
+-   [R&R]{.pill .pill-rr} **When Everyone Writes Well: The Economics of Writing with AI** · *Kyklos* · [Working paper](files/wp/JF_WhenEveryoneWrites_v1.pdf) [(md)](files/wp/JF_WhenEveryoneWrites_v1.md) \| [Supplementary file](files/wp/JF_WhenEveryoneWrites_sup_v1.pdf) [(md)](files/wp/JF_WhenEveryoneWrites_sup_v1.md)
 -   [Submitted]{.pill .pill-submitted} **The Value of Peer Review and the Reward to Reputation** · [Working paper](files/wp/JF_ValueOfPeer_v5.pdf) [(md)](files/wp/JF_ValueOfPeer_v5.md)
 -   [Submitted]{.pill .pill-submitted} **The Price of Submission** · [Working paper](files/wp/JF_ThePriceOf_v1.pdf) [(md)](files/wp/JF_ThePriceOf_v1.md)
 -   [Submitted]{.pill .pill-submitted} **The Scientist in the Machine Age** · [Working paper](files/wp/JF_TheScientistIn_v2.pdf) [(md)](files/wp/JF_TheScientistIn_v2.md)
