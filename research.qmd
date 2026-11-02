@@ -232,6 +232,7 @@ How research gets produced, certified and rewarded, and what AI is doing to all 
 -   [R&R]{.pill .pill-rr} **When Everyone Writes Well: The Economics of Writing with AI** · *Kyklos* · [Working paper](files/wp/JF_WhenEveryoneWrites_v1.pdf) [(md)](files/wp/JF_WhenEveryoneWrites_v1.md) \| [Supplementary file](files/wp/JF_WhenEveryoneWrites_sup_v1.pdf) [(md)](files/wp/JF_WhenEveryoneWrites_sup_v1.md)
 -   [Submitted]{.pill .pill-submitted} **The Value of Peer Review and the Reward to Reputation** · [Working paper](files/wp/JF_ValueOfPeer_v6.pdf) [(md)](files/wp/JF_ValueOfPeer_v6.md)
 -   [Submitted]{.pill .pill-submitted} **The Price of Submission** · [Working paper](files/wp/JF_ThePriceOf_v1.pdf) [(md)](files/wp/JF_ThePriceOf_v1.md)
+-   [Submitted]{.pill .pill-submitted} **AI and Entry-Level Knowledge Work: Evidence from Research Assistants** · [Working paper](files/wp/JF_AIAndEntry_v1.pdf) [(md)](files/wp/JF_AIAndEntry_v1.md)
 :::
 :::
 
