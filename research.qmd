@@ -45,7 +45,7 @@ AUTHORING RULES (for future updates):
 -->
 
 ::: {.pipeline-glance}
-**23 papers in the pipeline:** [14 submitted]{.pill .pill-submitted} [6 R&R]{.pill .pill-rr} [3 accepted]{.pill .pill-accepted}
+**23 papers in the pipeline:** [11 submitted]{.pill .pill-submitted} [9 R&R]{.pill .pill-rr} [3 accepted]{.pill .pill-accepted}
 :::
 
 Each working paper is also available as a Markdown file, which is easier for AI assistants and other automated readers to process than a PDF.
@@ -62,13 +62,13 @@ Each working paper is also available as a Markdown file, which is easier for AI 
 How slavery shaped the Cape economy, and what freedom, when it came, was worth.
 
 ::: {.papers}
--   [Accepted]{.pill .pill-accepted} **The New Economics of Cape Slavery** · *South African Journal of Economics* · [Working paper](files/wp/JF_TheNewEconomics_v1.pdf) [(md)](files/wp/JF_TheNewEconomics_v1.md)
 -   [Accepted]{.pill .pill-accepted} **Selection into the Great Trek** [with Calumet Links]{.with} · *European Review of Economic History* · [Working paper](files/wp/JF_CL_SelectionIntoThe_v5.pdf) [(md)](files/wp/JF_CL_SelectionIntoThe_v5.md) · [Replication package](https://github.com/johanfourieza/research/tree/main/2026/voortrekker)
 :::
 
 <details class="pubs">
-<summary>Published work (3)</summary>
+<summary>Published work (4)</summary>
 
+-   Fourie, Johan. 2026. "The New Economics of Cape Slavery." *South African Journal of Economics*. [Paper](https://onlinelibrary.wiley.com/doi/10.1111/saje.70035) \| [Working paper](files/wp/JF_TheNewEconomics_v1.pdf) [(md)](files/wp/JF_TheNewEconomics_v1.md)
 -   Bergemann, Karl, Gabriel Brown, and Johan Fourie. 2026. "Running Towards: Labour Market Incentives for Runaway Slaves in the British Cape Colony, 1830–1838." *Asia-Pacific Economic History Review*. [Paper](https://onlinelibrary.wiley.com/doi/10.1111/aehr.70034)
 -   Martins, Igor, Jeanne Cilliers, and Johan Fourie. 2023. "Legacies of Loss: The Health Outcomes of Slaveholder Compensation in the British Cape Colony." *Explorations in Economic History* 89: 101506. [Paper](https://www.sciencedirect.com/science/article/pii/S0014498322000778)
 -   Ekama, Kate, Johan Fourie, Hans Heese, and Lisa-Cheree Martin. 2021. "When Cape Slavery Ended: Introducing a New Slave Emancipation Dataset." *Explorations in Economic History* 81: 101390. [Paper](https://www.sciencedirect.com/science/article/pii/S0014498321000012)
@@ -86,10 +86,11 @@ How slavery shaped the Cape economy, and what freedom, when it came, was worth.
 Tax censuses, auction rolls and probate inventories reveal who prospered in the colonial Cape, and how.
 
 ::: {.papers}
--   [R&R]{.pill .pill-rr} **Between Public Duty and Private Profit: Government Officials and Real Estate Investments in the Cape Colony, 1897–1902** [with Munashe Chideya]{.with} · *Enterprise & Society* · [Working paper](https://www.ekon.sun.ac.za/wpapers/2026/wp022026)
--   [R&R]{.pill .pill-rr} **Biplots and Classification: Measuring Household Economic Systems at the Cape Colony** [with Sugnet Lubbe, Johané Nienkemper-Swanepoel and Dieter von Fintel]{.with} · *Historical Methods*
+-   [R&R]{.pill .pill-rr} **"The Property Boom!": Political Directors, Private Bills and Estate Development in the Cape Colony, 1897–1903** [with Munashe Chideya]{.with} · *Enterprise & Society* · [Working paper](https://www.ekon.sun.ac.za/wpapers/2026/wp022026)
+-   [R&R]{.pill .pill-rr} **Biplots and Classification: Measuring Household Economic Systems at the Cape Colony** [with Sugnet Lubbe, Johané Nienkemper-Swanepoel and Dieter von Fintel]{.with} · *Historical Methods* · [Working paper](files/wp/JF_EtAl_BiplotsForHistorical_v1.pdf) [(md)](files/wp/JF_EtAl_BiplotsForHistorical_v1.md)
 -   [Submitted]{.pill .pill-submitted} **The Household in a Coercive Society: Evidence from South Africa's Cape Colony** · [Working paper](files/wp/JF_TheHouseholdIn_v1.pdf) [(md)](files/wp/JF_TheHouseholdIn_v1.md)
 -   [Submitted]{.pill .pill-submitted} **The Poor Fund as Lender: Church Credit and Agricultural Production in the Cape Colony, 1686–1829** [with Jacques Theron]{.with} · [Working paper](files/wp/JF_JT_ThePoorFund_v1.pdf) [(md)](files/wp/JF_JT_ThePoorFund_v1.md)
+-   [Submitted]{.pill .pill-submitted} **Protest from Above: Elite Decoupling and Public Petitioning in the VOC Cape Colony** [with Jonathan Schoots]{.with} · [Working paper](files/wp/JS_JF_ProtestFromAbove_v2.pdf) [(md)](files/wp/JS_JF_ProtestFromAbove_v2.md) \| [Supplementary file](files/wp/JS_JF_ProtestFromAbove_sup_v2.pdf) [(md)](files/wp/JS_JF_ProtestFromAbove_sup_v2.md)
 :::
 
 <details class="pubs">
@@ -124,7 +125,6 @@ Tax censuses, auction rolls and probate inventories reveal who prospered in the 
 The economics of segregation and apartheid: who paid, who benefited, and what persisted.
 
 ::: {.papers}
--   [Submitted]{.pill .pill-submitted} **When Do Colonial Institutions Persist? Evidence from Two School Systems in South Africa** [with Sarah Ferber and Gabriel Brown]{.with} · [Working paper](files/wp/SF_EtAl_WhenDoColonial_v1.pdf) [(md)](files/wp/SF_EtAl_WhenDoColonial_v1.md)
 -   [Submitted]{.pill .pill-submitted} **Unequal Terms: Ethnic Discrimination in Contract Allocation** [with Kris Inwood and Martine Mariotti]{.with}
 :::
 
@@ -148,7 +148,9 @@ The economics of segregation and apartheid: who paid, who benefited, and what pe
 Epidemics and their economic afterlives, from the 1713 smallpox at the Cape to the 1918 influenza.
 
 ::: {.papers}
--   [Submitted]{.pill .pill-submitted} **A Disease Never Seen Here: Measuring the Severity of the 1713 Smallpox Epidemic at the Cape**
+-   [R&R]{.pill .pill-rr} **A Disease Never Seen Here: Measuring the Severity of the 1713 Smallpox Epidemic at the Cape** · *The History of the Family* · [Working paper](files/wp/JF_ADiseaseNever_v1.pdf) [(md)](files/wp/JF_ADiseaseNever_v1.md) \| [Supplementary file](files/wp/JF_ADiseaseNever_sup_v1.pdf) [(md)](files/wp/JF_ADiseaseNever_sup_v1.md)
+-   [Submitted]{.pill .pill-submitted} **The Unequal Visibility of Epidemic Death: Smallpox at the Cape, 1713** · [Working paper](files/wp/JF_TheUnequalVisibility_v1.pdf) [(md)](files/wp/JF_TheUnequalVisibility_v1.md) \| [Supplementary file](files/wp/JF_TheUnequalVisibility_sup_v1.pdf) [(md)](files/wp/JF_TheUnequalVisibility_sup_v1.md)
+-   [Submitted]{.pill .pill-submitted} **Selective Sanitation and Racial Health Inequality** [with Kelsey Lemon and Jan-Hendrik Pretorius]{.with} · [Working paper](files/wp/JF_EtAl_SelectiveSanitationAnd_v2.pdf) [(md)](files/wp/JF_EtAl_SelectiveSanitationAnd_v2.md)
 :::
 
 <details class="pubs">
@@ -174,10 +176,10 @@ Epidemics and their economic afterlives, from the 1713 smallpox at the Cape to t
 Cricket, mega-events and destination brands: what sport and travel reveal about how markets work.
 
 ::: {.papers}
--   [R&R]{.pill .pill-rr} **Invisible Handedness: The Myth of Left–Right Batting Partnerships** [with Krige Siebrits]{.with} · *Journal of Sports Economics* · featured in [Nature](https://www.nature.com/articles/d44148-026-00177-x)
--   [Submitted]{.pill .pill-submitted} **Revealed Comparative Advantage in Team Sport: Classifying Cricket's All-Rounders with the Balassa Index**
+-   [Accepted]{.pill .pill-accepted} **Invisible Handedness: The Myth of Left–Right Batting Partnerships** [with Krige Siebrits]{.with} · *Journal of Sports Economics* · featured in [Nature](https://www.nature.com/articles/d44148-026-00177-x)
+-   [R&R]{.pill .pill-rr} **Revealed Comparative Advantage in Team Sport: Classifying Cricket's All-Rounders with the Balassa Index** · *Journal of Sports Analytics*
 -   [Submitted]{.pill .pill-submitted} **Faster, Higher, Stronger? Political Selection and the Olympic Host Contract**
--   [Submitted]{.pill .pill-submitted} **The Decline of the Follow-On in 125 Years of First-Class Cricket** · [Working paper](files/wp/JF_TheDeclineOf_v1.pdf) [(md)](files/wp/JF_TheDeclineOf_v1.md) \| [Supplementary file](files/wp/JF_TheDeclineOf_sup_v1.pdf) [(md)](files/wp/JF_TheDeclineOf_sup_v1.md)
+-   [Submitted]{.pill .pill-submitted} **Do Cricket Captains Maximise Winning? Evidence from 125 Years of the Follow-On Rule** · [Working paper](files/wp/JF_TheDeclineOf_v1.pdf) [(md)](files/wp/JF_TheDeclineOf_v1.md) \| [Supplementary file](files/wp/JF_TheDeclineOf_sup_v1.pdf) [(md)](files/wp/JF_TheDeclineOf_sup_v1.md)
 -   [Submitted]{.pill .pill-submitted} **Hunting in Pairs: Testing for Coworker Effects in Professional Cricket** · [Working paper](files/wp/JF_HuntingInPairs_v2.pdf) [(md)](files/wp/JF_HuntingInPairs_v2.md)
 :::
 
@@ -201,9 +203,9 @@ How economic history is made and used: applied history, and what the discipline 
 
 ::: {.papers}
 -   [Accepted]{.pill .pill-accepted} **Path Dependence in Economic History Publications** · *Cliometrica* · [Working paper](files/wp/JF_TestingForPath_v2.pdf) [(md)](files/wp/JF_TestingForPath_v2.md)
--   [R&R]{.pill .pill-rr} **Through the Prism of the Past: Principles for Applied Economic History** [with Chris Colvin]{.with} · *Explorations in Economic History* · [Working paper](https://www.quceh.org.uk/working-papers-2026.html)
--   [Submitted]{.pill .pill-submitted} **LLMs and Economic History: A Comment on Ferrara (2026)**
--   [Submitted]{.pill .pill-submitted} **The Dismal State of the Dismal Science in South Africa** · [Working paper](files/wp/JF_TheDismalState_v2.pdf) [(md)](files/wp/JF_TheDismalState_v2.md)
+-   [R&R]{.pill .pill-rr} **Through the Prism of the Past: Principles for Applied Economic History** [with Chris Colvin]{.with} · *European Review of Economic History* · [Working paper](https://www.quceh.org.uk/working-papers-2026.html)
+-   [R&R]{.pill .pill-rr} **Large Language Models and Economic History: A Comment on Ferrara (2026)** · *Explorations in Economic History*
+-   [R&R]{.pill .pill-rr} **The Dismal State of the Dismal Science in South Africa** · *South African Journal of Economics* · [Working paper](files/wp/JF_TheDismalState_v2.pdf) [(md)](files/wp/JF_TheDismalState_v2.md)
 :::
 
 <details class="pubs">
@@ -230,7 +232,6 @@ How research gets produced, certified and rewarded, and what AI is doing to all 
 -   [R&R]{.pill .pill-rr} **When Everyone Writes Well: The Economics of Writing with AI** · *Kyklos* · [Working paper](files/wp/JF_WhenEveryoneWrites_v1.pdf) [(md)](files/wp/JF_WhenEveryoneWrites_v1.md) \| [Supplementary file](files/wp/JF_WhenEveryoneWrites_sup_v1.pdf) [(md)](files/wp/JF_WhenEveryoneWrites_sup_v1.md)
 -   [Submitted]{.pill .pill-submitted} **The Value of Peer Review and the Reward to Reputation** · [Working paper](files/wp/JF_ValueOfPeer_v5.pdf) [(md)](files/wp/JF_ValueOfPeer_v5.md)
 -   [Submitted]{.pill .pill-submitted} **The Price of Submission** · [Working paper](files/wp/JF_ThePriceOf_v1.pdf) [(md)](files/wp/JF_ThePriceOf_v1.md)
--   [Submitted]{.pill .pill-submitted} **The Scientist in the Machine Age** · [Working paper](files/wp/JF_TheScientistIn_v2.pdf) [(md)](files/wp/JF_TheScientistIn_v2.md)
 :::
 :::
 
