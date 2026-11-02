@@ -45,7 +45,7 @@ AUTHORING RULES (for future updates):
 -->
 
 ::: {.pipeline-glance}
-**23 papers in the pipeline:** [11 submitted]{.pill .pill-submitted} [9 R&R]{.pill .pill-rr} [3 accepted]{.pill .pill-accepted}
+**23 papers in the pipeline:** [11 submitted]{.pill .pill-submitted} [8 R&R]{.pill .pill-rr} [4 accepted]{.pill .pill-accepted}
 :::
 
 Each working paper is also available as a Markdown file, which is easier for AI assistants and other automated readers to process than a PDF.
@@ -203,8 +203,8 @@ How economic history is made and used: applied history, and what the discipline 
 
 ::: {.papers}
 -   [Accepted]{.pill .pill-accepted} **Path Dependence in Economic History Publications** · *Cliometrica* · [Working paper](files/wp/JF_TestingForPath_v2.pdf) [(md)](files/wp/JF_TestingForPath_v2.md)
+-   [Accepted]{.pill .pill-accepted} **Large Language Models and Economic History: A Comment on Ferrara (2026)** · *Explorations in Economic History*
 -   [R&R]{.pill .pill-rr} **Through the Prism of the Past: Principles for Applied Economic History** [with Chris Colvin]{.with} · *European Review of Economic History* · [Working paper](https://www.quceh.org.uk/working-papers-2026.html)
--   [R&R]{.pill .pill-rr} **Large Language Models and Economic History: A Comment on Ferrara (2026)** · *Explorations in Economic History*
 -   [R&R]{.pill .pill-rr} **The Dismal State of the Dismal Science in South Africa** · *South African Journal of Economics* · [Working paper](files/wp/JF_TheDismalState_v2.pdf) [(md)](files/wp/JF_TheDismalState_v2.md)
 :::
 
