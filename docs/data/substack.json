@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-02T06:19:24+00:00",
+  "updated": "2026-11-05T06:56:55+00:00",
   "posts": [
+    {
+      "title": "The #econhist class of 26/27",
+      "link": "https://www.ourlongwalk.com/p/the-econhist-class-of-2627",
+      "description": "What missionaries, middlemen, mills, museums, malaria, mass media, military procurement, medical research, male sterilisations, and Mexican repatriation can teach us about the…",
+      "date": "2026-11-05",
+      "image": "https://substackcdn.com/image/fetch/$s_!o_Oq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8b77593d-ab5d-46b8-9b40-201b20341ce0_1456x816.png"
+    },
     {
       "title": "The price of a year",
       "link": "https://www.ourlongwalk.com/p/the-price-of-a-year",
@@ -35,13 +42,6 @@
       "description": "I asked two AI models to replicate thirty of my own papers",
       "date": "2026-10-19",
       "image": "https://substackcdn.com/image/fetch/$s_!6JOo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9f42d65f-7b05-4ebc-93b9-4ef744027fe5_1456x816.png"
-    },
-    {
-      "title": "Resolutely human?",
-      "link": "https://www.ourlongwalk.com/p/resolutely-human",
-      "description": "South African universities punch above their weight. AI can make them better.",
-      "date": "2026-10-15",
-      "image": "https://substackcdn.com/image/fetch/$s_!gZbc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F54d09339-8d6e-4ac5-8cab-f42621817740_1456x816.png"
     }
   ]
 }
