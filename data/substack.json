@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-05T06:56:55+00:00",
+  "updated": "2026-11-09T06:46:36+00:00",
   "posts": [
+    {
+      "title": "King of your own dunghill",
+      "link": "https://www.ourlongwalk.com/p/king-of-your-own-dunghill",
+      "description": "Technology creates more small groups where we can stand out – until artificial intelligence changes what is scarce.",
+      "date": "2026-11-09",
+      "image": "https://substackcdn.com/image/fetch/$s_!g5bo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c30c3be-0e16-489a-af9a-b241292cbde1_1456x816.png"
+    },
     {
       "title": "The #econhist class of 26/27",
       "link": "https://www.ourlongwalk.com/p/the-econhist-class-of-2627",
@@ -35,13 +42,6 @@
       "description": "Why you should attend more conferences in the age of agentic AI",
       "date": "2026-10-22",
       "image": "https://substackcdn.com/image/fetch/$s_!O84h!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44c814d2-09f0-45d5-87d1-166b1c547888_1456x816.png"
-    },
-    {
-      "title": "Table turners",
-      "link": "https://www.ourlongwalk.com/p/table-turners",
-      "description": "I asked two AI models to replicate thirty of my own papers",
-      "date": "2026-10-19",
-      "image": "https://substackcdn.com/image/fetch/$s_!6JOo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9f42d65f-7b05-4ebc-93b9-4ef744027fe5_1456x816.png"
     }
   ]
 }
