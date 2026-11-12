@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-09T06:46:36+00:00",
+  "updated": "2026-11-12T07:20:54+00:00",
   "posts": [
+    {
+      "title": "How I use AI (third edition)",
+      "link": "https://www.ourlongwalk.com/p/how-i-use-ai-november-2026-edition",
+      "description": "It’s all Claude, Codex and Antigravity now",
+      "date": "2026-11-12",
+      "image": "https://substackcdn.com/image/fetch/$s_!yfTM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb374cffc-9848-4902-b6b0-f52d04c47024_1456x816.png"
+    },
     {
       "title": "King of your own dunghill",
       "link": "https://www.ourlongwalk.com/p/king-of-your-own-dunghill",
@@ -35,13 +42,6 @@
       "description": "South Africa’s local elections will be most important for the poorest",
       "date": "2026-10-26",
       "image": "https://substackcdn.com/image/fetch/$s_!4lx7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2cd3272-a889-444e-be2c-5cfe1c51458b_1456x816.png"
-    },
-    {
-      "title": "To whom it may concern",
-      "link": "https://www.ourlongwalk.com/p/to-whom-it-may-concern",
-      "description": "Why you should attend more conferences in the age of agentic AI",
-      "date": "2026-10-22",
-      "image": "https://substackcdn.com/image/fetch/$s_!O84h!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44c814d2-09f0-45d5-87d1-166b1c547888_1456x816.png"
     }
   ]
 }
