@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-12T07:20:54+00:00",
+  "updated": "2026-11-16T06:42:36+00:00",
   "posts": [
+    {
+      "title": "How to fund South African science",
+      "link": "https://www.ourlongwalk.com/p/how-to-fund-south-african-science",
+      "description": "As artificial intelligence makes papers and proposals cheap to write, we should stop spending academics' time on status ratings and build well-funded research centres around our…",
+      "date": "2026-11-16",
+      "image": "https://substackcdn.com/image/fetch/$s_!llKo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff092c9b6-c0bb-411c-bf4f-32df4b3e1b76_1456x816.png"
+    },
     {
       "title": "How I use AI (third edition)",
       "link": "https://www.ourlongwalk.com/p/how-i-use-ai-november-2026-edition",
@@ -35,13 +42,6 @@
       "description": "A dinner question in Stellenbosch, a Salvadoran president's thread, and what PISA 2025 says about what AI can teach and what only effort can",
       "date": "2026-10-29",
       "image": "https://substackcdn.com/image/fetch/$s_!ebqf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F122e18bd-9a3b-46ab-ad12-b219925c98f2_1456x816.png"
-    },
-    {
-      "title": "A local Parliament",
-      "link": "https://www.ourlongwalk.com/p/a-local-parliament",
-      "description": "South Africa’s local elections will be most important for the poorest",
-      "date": "2026-10-26",
-      "image": "https://substackcdn.com/image/fetch/$s_!4lx7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2cd3272-a889-444e-be2c-5cfe1c51458b_1456x816.png"
     }
   ]
 }
