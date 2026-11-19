@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-16T06:42:36+00:00",
+  "updated": "2026-11-19T07:34:46+00:00",
   "posts": [
+    {
+      "title": "Reading about robots",
+      "link": "https://www.ourlongwalk.com/p/reading-about-robots",
+      "description": "Nine books on AI I’d recommend",
+      "date": "2026-11-19",
+      "image": "https://substackcdn.com/image/fetch/$s_!CEFn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc1e7244b-b9f4-4388-9113-a07511b77563_1456x816.png"
+    },
     {
       "title": "How to fund South African science",
       "link": "https://www.ourlongwalk.com/p/how-to-fund-south-african-science",
@@ -35,13 +42,6 @@
       "description": "The cost of losing AGOA may not be as high as many, myself included, predicted",
       "date": "2026-11-02",
       "image": "https://substackcdn.com/image/fetch/$s_!Kerk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09ae41a1-b789-4bb1-9808-c0d6e5ab7d3f_1456x816.png"
-    },
-    {
-      "title": "STEM for everyone",
-      "link": "https://www.ourlongwalk.com/p/stem-for-everyone",
-      "description": "A dinner question in Stellenbosch, a Salvadoran president's thread, and what PISA 2025 says about what AI can teach and what only effort can",
-      "date": "2026-10-29",
-      "image": "https://substackcdn.com/image/fetch/$s_!ebqf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F122e18bd-9a3b-46ab-ad12-b219925c98f2_1456x816.png"
     }
   ]
 }
