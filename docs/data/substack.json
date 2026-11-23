@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-19T07:34:46+00:00",
+  "updated": "2026-11-23T07:49:27+00:00",
   "posts": [
+    {
+      "title": "The tractor went to school",
+      "link": "https://www.ourlongwalk.com/p/the-tractor-went-to-school",
+      "description": "How farm machines raised the return to schooling, from twentieth-century America to South Africa today",
+      "date": "2026-11-23",
+      "image": "https://substackcdn.com/image/fetch/$s_!tMnS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25901222-7486-475f-a942-4ea184dc2af0_1456x816.png"
+    },
     {
       "title": "Reading about robots",
       "link": "https://www.ourlongwalk.com/p/reading-about-robots",
@@ -35,13 +42,6 @@
       "description": "What missionaries, middlemen, mills, museums, malaria, mass media, military procurement, medical research, male sterilisations, and Mexican repatriation can teach us about the…",
       "date": "2026-11-05",
       "image": "https://substackcdn.com/image/fetch/$s_!o_Oq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8b77593d-ab5d-46b8-9b40-201b20341ce0_1456x816.png"
-    },
-    {
-      "title": "The price of a year",
-      "link": "https://www.ourlongwalk.com/p/the-price-of-a-year",
-      "description": "The cost of losing AGOA may not be as high as many, myself included, predicted",
-      "date": "2026-11-02",
-      "image": "https://substackcdn.com/image/fetch/$s_!Kerk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09ae41a1-b789-4bb1-9808-c0d6e5ab7d3f_1456x816.png"
     }
   ]
 }
